@@ -2,7 +2,7 @@
 title: Jose Kattukkaran
 summary: Congress leader from Aranattukara who became the first Mayor of Thrissur Corporation in 2000.
 role: First Mayor of Thrissur Corporation (2000) and Congress leader from Aranattukara
-photo: ph-jose-kattukkaran-portrait
+photo: jose-kattukkaran-2011
 consent: public
 places: []
 themes: [politics]
@@ -10,8 +10,6 @@ sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16"
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
-needs:
-  - { name: ph-jose-kattukkaran-portrait, brief: "Jose Kattukkaran — portrait taken or supplied only with his consent (public-role page); upright, neutral background" }
 ---
 
 In 2000 Thrissur stopped being a municipality and became a city corporation. The old municipality was joined with the panchayats of Vilvattom, Ayyanthole, Koorkkenchery, Ollukkara and Ollur, and part of Nadathara. The first person to lead the new city as Mayor was Jose Kattukkaran of Aranattukara, known locally as *Josettan*.

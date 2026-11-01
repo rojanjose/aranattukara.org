@@ -3,7 +3,7 @@ title: Mathrubhumi Study Circle, Aranattukara
 summary: An independent forum of young writers and readers in Aranattukara, remembered for the plays its members wrote and staged.
 type: cultural
 themes: [arts]
-photos: [ph-mathrubhumi-study-circle]
+photos: [mathrubhumi-study-circle-logo, ph-mathrubhumi-study-circle]
 sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16"
 needs:

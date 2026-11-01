@@ -3,7 +3,7 @@ title: Aranattukara in 10 Minutes
 summary: The whole story of Aranattukara in one short read — from a landing on the edge of the kol wetlands to a busy ward of Thrissur city.
 kind: explainer
 date: 2026-10-30
-author: Rojan Jose
+author: aranattukara.org
 era: [pre-1800, sakthan-thampuran, 1805-1947, 1947-1980, 1980-2000, 2000-today]
 themes: [waterways, trade, faith, education, industry, politics, environment]
 places: [warehouse-landing, toll-gate, tharakan-house, st-thomas-church, lalur-karthyayani-temple, tharakans-school, lalur-trenching-ground, john-matthai-centre]

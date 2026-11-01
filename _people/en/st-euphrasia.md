@@ -3,14 +3,12 @@ title: St. Euphrasia
 summary: The Carmelite nun of Ollur known as "the praying mother", whose mother came from Aranattukara and who was baptised in its parish.
 years: "1877–1952"
 role: Carmelite nun of Ollur, "the praying mother", counted by Aranattukara parish as one of its daughters
-photo: ph-st-euphrasia-portrait
+photo: st-euphrasia-portrait
 consent: historical
 places: [st-thomas-church]
 themes: [faith]
 sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
-needs:
-  - { name: ph-st-euphrasia-portrait, brief: "St. Euphrasia — a public-domain or Church-approved portrait (for example the image in St. Thomas Church, photographed with permission); upright" }
 ---
 
 Rosa Eluvathingal was born on 17 October 1877 at Kattoor, in what is now the Irinjalakuda diocese. Her mother, Kunjethi, came from the Chalissery family of Aranattukara. The book records that Rosa was baptised in the Aranattukara parish, which proudly counts her as one of its daughters.

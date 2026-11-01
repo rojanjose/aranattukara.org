@@ -3,7 +3,7 @@ title: ഫാ. ആന്റണി തച്ചുപറമ്പിൽ
 summary: 1928–1933 കാലത്ത് അരണാട്ടുകര കിഴക്കേ പള്ളി വികാരിയായിരുന്ന ദൈവദാസൻ; ഗാഗുൽത്താ മലയുടെയും ആത്മീയ നവോത്ഥാനത്തിന്റെയും പേരിൽ ഓർമ്മിക്കപ്പെടുന്നു.
 years: "1894–1963"
 role: ദൈവദാസൻ; അരണാട്ടുകര കിഴക്കേ പള്ളി വികാരി (1928–1933), പിന്നീട് "ചേലക്കരയുടെ അപ്പസ്തോലൻ"
-photo: ph-fr-antony-thachuparambil-portrait
+photo: fr-antony-thachuparambil-mural
 consent: historical
 places: [st-thomas-church, tharakans-school]
 themes: [faith, festivals]

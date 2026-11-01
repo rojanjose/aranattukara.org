@@ -3,7 +3,7 @@ title: മാർ ആന്റണി ചിറയത്ത്
 summary: സാഗർ രൂപതയുടെ മൂന്നാമത്തെ മെത്രാൻ (2006–2018); അരണാട്ടുകര ഇടവകയിൽ നിന്നുള്ള രണ്ടാമത്തെ മെത്രാൻ.
 years: "1941–"
 role: സാഗർ രൂപതയുടെ മൂന്നാമത്തെ മെത്രാൻ (2006–2018); അരണാട്ടുകര ഇടവകയിൽ നിന്നുള്ള രണ്ടാമത്തെ മെത്രാൻ
-photo: ph-bishop-antony-chirayath-portrait
+photo: bishop-chirayath-portrait
 consent: public
 places: [tharakans-school, st-aloysius-college, st-thomas-church]
 themes: [faith, education]

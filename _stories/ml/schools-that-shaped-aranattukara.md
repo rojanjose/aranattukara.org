@@ -5,7 +5,7 @@ kind: chapter
 series: story-of-aranattukara
 order: 6
 date: 2026-10-30
-author: Rojan Jose
+author: aranattukara.org
 era: [1805-1947, 1947-1980, 2000-today]
 themes: [education, faith]
 places: [tharakans-school, infant-jesus-girls-high-school, infant-jesus-convent, st-annes-girls-high-school, john-matthai-centre, elthuruth-ashram, st-aloysius-college, gups-aranattukara]

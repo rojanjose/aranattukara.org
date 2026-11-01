@@ -3,7 +3,7 @@ title: St. Vincent de Paul Society, Aranattukara
 summary: The parish charity started in Aranattukara by Chakkoru Master, which helps the poor and once built ten houses for families in need.
 type: religious
 themes: [faith]
-photos: [ph-st-vincent-de-paul-society]
+photos: [vincent-de-paul-portrait, ph-st-vincent-de-paul-society]
 sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 11"
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"

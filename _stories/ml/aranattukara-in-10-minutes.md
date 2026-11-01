@@ -3,7 +3,7 @@ title: പത്തു മിനിറ്റിൽ അരണാട്ടുക�
 summary: അരണാട്ടുകരയുടെ മുഴുവൻ കഥ ഒറ്റ ചെറുവായനയിൽ — കോൾനിലങ്ങളുടെ അരികിലെ ഒരു കടവിൽ നിന്ന് തൃശ്ശൂർ നഗരത്തിലെ തിരക്കേറിയ ഒരു ഡിവിഷനിലേക്ക്.
 kind: explainer
 date: 2026-10-30
-author: Rojan Jose
+author: aranattukara.org
 era: [pre-1800, sakthan-thampuran, 1805-1947, 1947-1980, 1980-2000, 2000-today]
 themes: [waterways, trade, faith, education, industry, politics, environment]
 places: [warehouse-landing, toll-gate, tharakan-house, st-thomas-church, lalur-karthyayani-temple, tharakans-school, lalur-trenching-ground, john-matthai-centre]

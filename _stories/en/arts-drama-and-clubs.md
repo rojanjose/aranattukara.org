@@ -5,7 +5,7 @@ kind: chapter
 series: story-of-aranattukara
 order: 9
 date: 2026-10-30
-author: Rojan Jose
+author: aranattukara.org
 era: [1805-1947, 1947-1980, 1980-2000]
 themes: [arts]
 places: [john-matthai-centre, calvary-ashram, st-thomas-church, st-aloysius-college, tharakans-school, netaji-ground]

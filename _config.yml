@@ -5,13 +5,14 @@ tagline_ml: ഒരിക്കൽ തൃശ്ശൂരിന്റെ തുറ
 description: The story, people and everyday life of Aranattukara, Thrissur, Kerala.
 description_ml: തൃശ്ശൂരിലെ അരണാട്ടുകരയുടെ ചരിത്രം, ആളുകൾ, ദൈനംദിന ജീവിതം.
 url: "https://aranattukara.org"
+logo: /assets/img/logo-512.png        # site logo for search engines (jekyll-seo-tag); made by tools/build-logo.py
 baseurl: ""
 languages: [en, ml]
 default_lang: en
 timezone: Asia/Kolkata
 permalink: pretty
 sample_content: true      # draft mode: "first draft" banner + noindex on every page; set false at launch
-author: Rojan Jose
+author: aranattukara.org
 whatsapp_channel: ""        # e.g. https://whatsapp.com/channel/XXXX — the join button hides while empty
 newsletter_url: ""          # Buttondown / Mailchimp signup URL — the form hides while empty
 contribute_form: ""         # Google Form URL for memories, photos, corrections

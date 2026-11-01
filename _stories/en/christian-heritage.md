@@ -5,7 +5,7 @@ kind: chapter
 series: story-of-aranattukara
 order: 4
 date: 2026-10-30
-author: Rojan Jose
+author: aranattukara.org
 era: [sakthan-thampuran, 1805-1947, 1947-1980, 2000-today]
 themes: [faith]
 places: [st-thomas-church, st-marys-chapel, elthuruth-ashram, tharakans-school, infant-jesus-girls-high-school]

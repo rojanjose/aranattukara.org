@@ -10,7 +10,7 @@ layout: default
   </div>
   <div class="entity-grid">
     <div class="prose entity-body">
-      {%- if page.photos %}<figure class="inline-hero">{% include img.html name=page.photos.first alt=page.title %}<figcaption>{% include credit.html name=page.photos.first %}</figcaption></figure>{% endif %}
+      {%- if page.photos %}<figure class="inline-hero">{% assign _alt = site.data.credits[page.photos.first].title | default: page.title %}{% include img.html name=page.photos.first alt=_alt %}<figcaption>{% include credit.html name=page.photos.first %}</figcaption></figure>{% endif %}
 {{ content }}
       {% include share.html %}
       {% include know-more.html %}

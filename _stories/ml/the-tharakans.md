@@ -5,7 +5,7 @@ kind: chapter
 series: story-of-aranattukara
 order: 3
 date: 2026-10-30
-author: Rojan Jose
+author: aranattukara.org
 era: [pre-1800, sakthan-thampuran, 1805-1947]
 themes: [trade, faith, education]
 places: [tharakan-house, warehouse-landing, tharakans-school, st-thomas-church]

@@ -5,7 +5,7 @@ kind: chapter
 series: story-of-aranattukara
 order: 5
 date: 2026-10-30
-author: Rojan Jose
+author: aranattukara.org
 era: [pre-1800, sakthan-thampuran, 1805-1947, 1980-2000]
 themes: [faith, environment, festivals]
 places: [lalur-karthyayani-temple, lalur-subrahmanya-temple, kizhakkeppuram-ayyappa-temple, elthuruth-ashram, john-matthai-centre]

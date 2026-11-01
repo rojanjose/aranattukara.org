@@ -35,7 +35,7 @@ gould-plan-1816:
   license: "Public domain"
   license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
   source: "https://commons.wikimedia.org/wiki/File:Plan_of_the_Hindu_temple_at_Trichur.jpg"
-  note: "Upscaled 4× with AI super-resolution (EDSR)."
+  note: ""
 
 gould-plan-1816-aranaat:
   title: "Plan of Trichur, 1816 — detail of “Aranaat”"
@@ -44,7 +44,7 @@ gould-plan-1816-aranaat:
   license: "Public domain"
   license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
   source: "https://commons.wikimedia.org/wiki/File:Plan_of_the_Hindu_temple_at_Trichur.jpg"
-  note: "Detail, upscaled 4× with AI super-resolution (EDSR)."
+  note: "Detail."
 
 map-travancore-cochin-1862:
   title: "Map of Travancore and Cochin, Church Missionary Atlas, 1862"
@@ -107,7 +107,7 @@ adolph-medlycott-1890:
   license: "Public domain"
   license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
   source: "https://commons.wikimedia.org/wiki/File:Adolph_Edwin_Medleycott_2.jpg"
-  note: "Upscaled 4× with AI super-resolution (EDSR)."
+  note: ""
 
 john-mathai-1949:
   title: "John Mathai (portrait crop)"
@@ -134,7 +134,88 @@ first-cabinet-1950:
   license: "Public domain"
   license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
   source: "https://commons.wikimedia.org/wiki/File:The_first_Cabinet_of_independent_India.jpg"
-  note: "Upscaled 3× with AI super-resolution (EDSR)."
+  note: ""
+
+jose-kattukkaran-2011:
+  title: "Mayor Jose Kattukkaran speaking in Thrissur, 2011"
+  author: "Kaitha Poo Manam"
+  date: "2011-07-21"
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+  source: "https://commons.wikimedia.org/wiki/File:Mayor_Jose_Kattukkaran_speaks_in_chess_tournament_of_Thrissur.jpg"
+  note: "Cropped."
+
+fr-antony-thachuparambil-mural:
+  title: "Mural of Fr. Antony Thachuparambil, Kottat Church, Chalakudy"
+  author: "Jojo Anthony"
+  date: "2014-05-25"
+  license: "CC BY-SA 3.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+  source: "https://commons.wikimedia.org/wiki/File:Antony_Thachuparambil.jpg"
+  note: "Cropped."
+
+chavara-stamp-1987:
+  title: "St. Kuriakose Elias Chavara on a 1987 Indian stamp"
+  author: "India Post, Government of India"
+  date: "1987"
+  license: "GODL-India"
+  license_url: "https://www.data.gov.in/Godl"
+  source: "https://commons.wikimedia.org/wiki/File:Kuriakose_Elias_Chavara_1987_stamp_of_India.jpg"
+  note: ""
+
+bishop-neelankavil-portrait:
+  title: "Bishop Joseph Pastor Neelankavil CMI"
+  author: "Syro-Malabar Church"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: "https://www.syromalabarchurch.in/"
+  note: "Cropped."
+
+bishop-chirayath-portrait:
+  title: "Mar Antony Chirayath"
+  author: "Owner unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Cropped. Credit to be confirmed."
+
+st-euphrasia-portrait:
+  title: "St. Euphrasia Eluvathingal"
+  author: "Artist unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: "https://saintscatholic.blogspot.com/"
+  note: "Devotional painting; frame cropped. Credit to be confirmed."
+
+mathrubhumi-study-circle-logo:
+  title: "Mathrubhumi Study Circle logo"
+  author: "Mathrubhumi"
+  date: ""
+  license: "Trademark of Mathrubhumi"
+  license_url: ""
+  source: ""
+  note: ""
+
+vincent-de-paul-portrait:
+  title: "St. Vincent de Paul, portrait by Simon François de Tours"
+  author: "Simon François de Tours (1606–1671)"
+  date: "c. 1650"
+  license: "Public domain"
+  license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
+  source: "https://commons.wikimedia.org/wiki/File:Simon_Fran%C3%A7ois_de_Tours_-_Portrait_Vincent_de_Paul.jpeg"
+  note: "Cropped."
+
+aranattukara-logo:
+  title: "The aranattukara.org logo"
+  author: "aranattukara.org"
+  date: "2026-11-01"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
 
 st-aloysius-college:
   title: "St. Aloysius College, Elthuruth"
@@ -307,26 +388,8 @@ st-thomas-church-palms:
   source: ""
   note: ""
 
-st-thomas-church-back:
-  title: "The spires of St. Thomas Church from behind"
-  author: "aranattukara.org"
-  date: "2026-10-31"
-  license: "All rights reserved"
-  license_url: ""
-  source: ""
-  note: ""
-
 st-thomas-church-interior:
   title: "Inside St. Thomas Church, looking towards the altar"
-  author: "aranattukara.org"
-  date: "2026-10-31"
-  license: "All rights reserved"
-  license_url: ""
-  source: ""
-  note: ""
-
-st-thomas-church-nave:
-  title: "The nave of St. Thomas Church"
   author: "aranattukara.org"
   date: "2026-10-31"
   license: "All rights reserved"

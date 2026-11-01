@@ -3,7 +3,7 @@ title: മാതൃഭൂമി സ്റ്റഡി സർക്കിൾ, അ
 summary: അംഗങ്ങൾ എഴുതി അരങ്ങിലെത്തിച്ച നാടകങ്ങളിലൂടെ ഓർമ്മിക്കപ്പെടുന്ന, അരണാട്ടുകരയിലെ യുവ എഴുത്തുകാരുടെയും വായനക്കാരുടെയും സ്വതന്ത്ര കൂട്ടായ്മ.
 type: cultural
 themes: [arts]
-photos: [ph-mathrubhumi-study-circle]
+photos: [mathrubhumi-study-circle-logo, ph-mathrubhumi-study-circle]
 sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16"
 ---

@@ -5,7 +5,7 @@ kind: chapter
 series: story-of-aranattukara
 order: 1
 date: 2026-10-30
-author: Rojan Jose
+author: aranattukara.org
 era: [pre-1800, 1805-1947]
 themes: [waterways, trade]
 places: [warehouse-landing]

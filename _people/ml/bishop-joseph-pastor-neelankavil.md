@@ -3,7 +3,7 @@ title: ബിഷപ്പ് ജോസഫ് പാസ്റ്റർ നീല�
 summary: സാഗർ രൂപതയുടെ രണ്ടാമത്തെ മെത്രാനായ (1987–2006), അരണാട്ടുകരക്കാരനായ സി.എം.ഐ. വൈദികനും കാനൻ നിയമ പണ്ഡിതനും.
 years: "1930–2021"
 role: അരണാട്ടുകരക്കാരനായ സി.എം.ഐ. വൈദികൻ; സാഗർ രൂപതയുടെ രണ്ടാമത്തെ മെത്രാൻ (1987–2006)
-photo: ph-bishop-joseph-pastor-neelankavil-portrait
+photo: bishop-neelankavil-portrait
 consent: historical
 places: [tharakans-school, st-thomas-church]
 themes: [faith, education]

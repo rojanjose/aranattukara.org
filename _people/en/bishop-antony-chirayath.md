@@ -3,15 +3,13 @@ title: Mar Antony Chirayath
 summary: Priest of the Sagar diocese who became its third bishop (2006–2018), the second bishop from Aranattukara parish.
 years: "1941–"
 role: Third Bishop of Sagar (2006–2018), the second bishop from Aranattukara parish
-photo: ph-bishop-antony-chirayath-portrait
+photo: bishop-chirayath-portrait
 consent: public
 places: [tharakans-school, st-aloysius-college, st-thomas-church]
 themes: [faith, education]
 sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17 (citing the St. Thomas Church jubilee souvenir, 225 years)"
-needs:
-  - { name: ph-bishop-antony-chirayath-portrait, brief: "Mar Antony Chirayath — official portrait from the Diocese of Sagar, used only with his or the diocese's permission; upright" }
 ---
 
 Mar Antony Chirayath was born in 1941 into the Chirayath family of Aranattukara. The family is an old one in the parish. The book lists it among the households that stayed loyal to Rome during the troubles of the 1870s, and among those that promised help to St. Chavara for the Elthuruth monastery.

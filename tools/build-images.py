@@ -36,9 +36,7 @@ OWN_PHOTOS = [
     ("st-thomas-church/front-with-gate.jpg",         "st-thomas-church-gate",        "St. Thomas Church from the gate, with the churchyard cross"),
     ("st-thomas-church/side-view.jpg",               "st-thomas-church-side",        "St. Thomas Church from the side"),
     ("st-thomas-church/side-with-coconut-trees.jpg", "st-thomas-church-palms",       "The spires of St. Thomas Church among coconut palms"),
-    ("st-thomas-church/back-side.jpg",               "st-thomas-church-back",        "The spires of St. Thomas Church from behind"),
     ("st-thomas-church/inside-view2.jpg",            "st-thomas-church-interior",    "Inside St. Thomas Church, looking towards the altar"),
-    ("st-thomas-church/inside-view.jpg",             "st-thomas-church-nave",        "The nave of St. Thomas Church"),
     ("st-thomas-church/bell-tower.jpg",              "st-thomas-church-bell-tower",  "The bell tower of St. Thomas Church"),
     ("st-thomas-church/flag-post.jpg",               "st-thomas-church-flagpole",    "The flagpole in the church square, where the feast flag is raised"),
     ("st-thomas-church/mother-mary.jpg",             "st-thomas-church-grotto",      "The Marian grotto at St. Thomas Church"),
@@ -69,9 +67,9 @@ ITEMS = {
     "kol-wetland-bund":          (f"{N}/kol-wetlands/thrissur-kole-wetland-3.jpg", None, {}),
     "kol-wetland-path":          (f"{N}/kol-wetlands/thrissur-kole-wetland-8.jpg", None, {}),
     "gould-plan-1816":           (f"{H}/upscaled/1816-plan-of-trichur-temple-and-environs-john-gould-x4.jpg", None,
-                                  {"meta_from": f"{H}/maps/1816-plan-of-trichur-temple-and-environs-john-gould.jpg", "author": "John Gould (British Library)", "date": "1816", "note": "Upscaled 4× with AI super-resolution (EDSR)."}),
+                                  {"meta_from": f"{H}/maps/1816-plan-of-trichur-temple-and-environs-john-gould.jpg", "author": "John Gould (British Library)", "date": "1816"}),
     "gould-plan-1816-aranaat":   (f"{H}/upscaled/1816-gould-plan-detail-aranaat-warehouses-x4.jpg", None,
-                                  {"meta_from": f"{H}/maps/1816-plan-of-trichur-temple-and-environs-john-gould.jpg", "author": "John Gould (British Library)", "date": "1816", "note": "Detail, upscaled 4× with AI super-resolution (EDSR)."}),
+                                  {"meta_from": f"{H}/maps/1816-plan-of-trichur-temple-and-environs-john-gould.jpg", "author": "John Gould (British Library)", "date": "1816", "note": "Detail."}),
     "map-travancore-cochin-1862": (f"{H}/maps/1862-map-of-travancore-and-cochin-church-missionary-atlas.jpg", None, {"author": "Church Missionary Society", "date": "1862"}),
     "map-cochin-state-1941":     (f"{H}/maps/1941-map-of-cochin-state-census.jpg", None, {}),
     "ams-map-1955-aranattukara": (f"{H}/maps/1955-us-army-map-detail-aranattukara-and-kol-wetlands.jpg", None,
@@ -80,11 +78,31 @@ ITEMS = {
     "sakthan-thampuran-palace":  (f"{H}/places/sakthan-thampuran-palace-built-1795-photo-2018.jpg", None, {}),
     "sakthan-thampuran-tomb":    (f"{H}/places/tomb-of-sakthan-thampuran-photo-2018.jpg", None, {}),
     "adolph-medlycott-1890":     (f"{H}/upscaled/1890-adolph-medlycott-vicar-apostolic-of-trichur-x4.jpg", None,
-                                  {"meta_from": f"{H}/people/1890-adolph-medlycott-vicar-apostolic-of-trichur.jpg", "note": "Upscaled 4× with AI super-resolution (EDSR)."}),
+                                  {"meta_from": f"{H}/people/1890-adolph-medlycott-vicar-apostolic-of-trichur.jpg"}),
     "john-mathai-1949":          (f"{H}/people/1949-john-mathai-budget-day.jpg", (160, 0, 1600, 1800), {"note": "Cropped from the budget-day photograph."}),
     "john-mathai-budget-1949":   (f"{H}/people/1949-john-mathai-budget-day.jpg", None, {}),
     "first-cabinet-1950":        (f"{H}/upscaled/1950-first-cabinet-of-india-with-john-mathai-x3.jpg", None,
-                                  {"meta_from": f"{H}/people/1950-first-cabinet-of-india-with-john-mathai.jpg", "note": "Upscaled 3× with AI super-resolution (EDSR)."}),
+                                  {"meta_from": f"{H}/people/1950-first-cabinet-of-india-with-john-mathai.jpg"}),
+    "jose-kattukkaran-2011":     (f"{H}/people/2011-jose-kattukkaran-mayor-speaks-chess-tournament.jpg", (600, 180, 1240, 980), {"note": "Cropped."}),
+    "fr-antony-thachuparambil-mural": (f"{H}/people/2014-fr-antony-thachuparambil-mural-kottat-church.jpg", (120, 250, 1720, 2250), {"note": "Cropped."}),
+    "chavara-stamp-1987":        (f"{H}/people/1987-kuriakose-elias-chavara-stamp-of-india.jpg", None, {}),
+    # Downloaded from other websites, used at the owner's (site owner's) decision of 1 Nov 2026; permission not yet given.
+    "bishop-neelankavil-portrait": (f"{H}/people/mar-joseph-pastor-neelankavil-cmi-1690800077.jpeg", (52, 0, 448, 495),
+                                  {"title": "Bishop Joseph Pastor Neelankavil CMI", "author": "Syro-Malabar Church", "date": "",
+                                   "license": "All rights reserved", "page": "https://www.syromalabarchurch.in/", "note": "Cropped."}),
+    "bishop-chirayath-portrait": (f"{H}/people/Mar-Antony-Chirayath.jpeg", (20, 0, 180, 200),
+                                  {"title": "Mar Antony Chirayath", "author": "Owner unknown", "date": "",
+                                   "license": "All rights reserved", "note": "Cropped. Credit to be confirmed."}),
+    "st-euphrasia-portrait":     (f"{H}/people/St-Euphrasia-Eluvathingal.webp", (20, 18, 216, 298),
+                                  {"title": "St. Euphrasia Eluvathingal", "author": "Artist unknown", "date": "",
+                                   "license": "All rights reserved", "page": "https://saintscatholic.blogspot.com/", "note": "Devotional painting; frame cropped. Credit to be confirmed."}),
+    "mathrubhumi-study-circle-logo": (f"{H}/communites/mathrubhumi-study-circle.jpeg", None,
+                                  {"title": "Mathrubhumi Study Circle logo", "author": "Mathrubhumi", "date": "",
+                                   "license": "Trademark of Mathrubhumi", "pad": (1200, 600, "white")}),
+    "vincent-de-paul-portrait":  (f"{H}/communites/1650-vincent-de-paul-portrait-simon-francois-de-tours.jpg", (0, 220, 1395, 1120),
+                                  {"note": "Cropped."}),
+    "aranattukara-logo":       (f"{P}/logo/aka-logo.jpeg", (178, 18, 1038, 878),
+                                  dict(OWN, title="The aranattukara.org logo", date="2026-11-01")),
     "st-aloysius-college":       (f"{N}/places/st-aloysius-college/st-aloysius-college-elthuruth-2019.jpg", None, {}),
     "lalur-trenching-ground-2010": (f"{N}/lalur/2010-lalur-trenching-ground-through-broken-wall.jpg", None, {}),
     "lalur-waste-dump-2012":     (f"{N}/lalur/2012-lalur-waste-dump.jpg", None, {}),
@@ -127,6 +145,10 @@ LABELS = {  # short, readable titles for the credits page
     "john-mathai-1949": "John Mathai (portrait crop)",
     "john-mathai-budget-1949": "John Mathai before his budget speech, 1949",
     "first-cabinet-1950": "India's first cabinet with President Rajendra Prasad, 1950",
+    "jose-kattukkaran-2011": "Mayor Jose Kattukkaran speaking in Thrissur, 2011",
+    "fr-antony-thachuparambil-mural": "Mural of Fr. Antony Thachuparambil, Kottat Church, Chalakudy",
+    "chavara-stamp-1987": "St. Kuriakose Elias Chavara on a 1987 Indian stamp",
+    "vincent-de-paul-portrait": "St. Vincent de Paul, portrait by Simon François de Tours",
     "st-aloysius-college": "St. Aloysius College, Elthuruth",
     "lalur-trenching-ground-2010": "Lalur trenching ground",
     "lalur-waste-dump-2012": "Waste beside houses at Lalur",
@@ -151,10 +173,17 @@ for name, (src, box, extra) in ITEMS.items():
     if not only or name in only:
         work = src
         im = Image.open(src)
-        if box or im.getexif().get(274, 1) != 1:
+        if box or extra.get("pad") or im.getexif().get(274, 1) != 1:
             work = os.path.join(TMP, name + ".jpg")
             im = ImageOps.exif_transpose(im).convert("RGB")
-            (im.crop(box) if box else im).save(work, quality=95)
+            im = im.crop(box) if box else im
+            if extra.get("pad"):        # (width, height, colour): centre a logo on a wide canvas
+                w, h, colour = extra["pad"]
+                im.thumbnail((w, int(h * .85)))
+                canvas = Image.new("RGB", (w, h), colour)
+                canvas.paste(im, ((w - im.width) // 2, (h - im.height) // 2))
+                im = canvas
+            im.save(work, quality=95)
         subprocess.run([os.path.join(SITE, "tools", "optimize-images.sh"), work, name], check=True)
     lic = extra.get("license") or m.get("license", "")
     page = extra.get("page") or m.get("page", "")

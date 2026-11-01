@@ -3,7 +3,7 @@ title: വിശുദ്ധ ചാവറ കുര്യാക്കോസ് �
 summary: അരണാട്ടുകര ഇടവകയുടെ പിന്തുണയോടെ 1858-ൽ എൽത്തുരുത്ത് ആശ്രമം സ്ഥാപിച്ച കർമ്മലീത്താ നവോത്ഥാന നായകനും വിശുദ്ധനും.
 years: "1805–1871"
 role: അരണാട്ടുകരയുടെ സഹായത്തോടെ എൽത്തുരുത്ത് ആശ്രമം സ്ഥാപിച്ച കർമ്മലീത്താ വൈദികൻ, സഭാനവീകരണ നായകൻ, വിശുദ്ധൻ
-photo: ph-st-kuriakose-elias-chavara-portrait
+photo: chavara-stamp-1987
 consent: historical
 places: [elthuruth-ashram, st-aloysius-college, st-thomas-church]
 themes: [faith, education]

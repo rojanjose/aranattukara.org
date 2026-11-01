@@ -3,15 +3,13 @@ title: Bishop Joseph Pastor Neelankavil
 summary: CMI priest and canon lawyer from Aranattukara who became the second Bishop of Sagar (1987–2006).
 years: "1930–2021"
 role: CMI priest from Aranattukara and the second Bishop of Sagar (1987–2006)
-photo: ph-bishop-joseph-pastor-neelankavil-portrait
+photo: bishop-neelankavil-portrait
 consent: historical
 places: [tharakans-school, st-thomas-church]
 themes: [faith, education]
 sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
-needs:
-  - { name: ph-bishop-joseph-pastor-neelankavil-portrait, brief: "Bishop Joseph Pastor Neelankavil — official portrait (from the Diocese of Sagar or the CMI congregation, with permission); upright" }
 ---
 
 Joseph Neelankavil was born in Aranattukara on 19 March 1930, the feast of St. Joseph. He was the eldest son of Neelankavil Lazar and Palathinkal Kunjannam. The Neelankavil family had been among those who promised help to St. Chavara when he founded the Elthuruth monastery in 1856.

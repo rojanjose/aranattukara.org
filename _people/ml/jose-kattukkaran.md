@@ -2,7 +2,7 @@
 title: ജോസ് കാട്ടുക്കാരൻ
 summary: 2000-ൽ തൃശ്ശൂർ കോർപ്പറേഷന്റെ ആദ്യ മേയറായ, അരണാട്ടുകരയിൽ നിന്നുള്ള കോൺഗ്രസ് നേതാവ്.
 role: തൃശ്ശൂർ കോർപ്പറേഷന്റെ ആദ്യ മേയർ (2000); അരണാട്ടുകരയിൽ നിന്നുള്ള കോൺഗ്രസ് നേതാവ്
-photo: ph-jose-kattukkaran-portrait
+photo: jose-kattukkaran-2011
 consent: public
 places: []
 themes: [politics]

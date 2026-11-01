@@ -5,7 +5,7 @@ kind: chapter
 series: story-of-aranattukara
 order: 8
 date: 2026-10-30
-author: Rojan Jose
+author: aranattukara.org
 era: [1805-1947, 1947-1980, 1980-2000, 2000-today]
 themes: [politics, environment]
 places: [lalur-trenching-ground, john-matthai-centre]

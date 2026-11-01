@@ -7,14 +7,7 @@
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="{{ _root | append: '/' | relative_url }}" aria-label="{% include t.html key='site_name' %} — {% include t.html key='home' %}">
-      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
-        <circle cx="20" cy="20" r="19" fill="var(--green)"/>
-        <path d="M6 27c4-2 8-2 14 0s10 2 14 0" stroke="var(--paper)" stroke-width="2" fill="none" stroke-linecap="round"/>
-        <path d="M9 31c4-1.6 7.4-1.6 11 0s7.4 1.6 11 0" stroke="var(--water-light)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-        <path d="M14 24V15l6-5 6 5v9" fill="var(--paper)"/>
-        <path d="M20 6v6M18 8h4" stroke="var(--gold)" stroke-width="1.6" stroke-linecap="round"/>
-        <rect x="18.4" y="18" width="3.2" height="6" fill="var(--terracotta)"/>
-      </svg>
+      <img class="brand-mark" src="{{ '/assets/img/logo-mark-128.png' | relative_url }}" srcset="{{ '/assets/img/logo-mark-128.png' | relative_url }} 1x, {{ '/assets/img/logo-mark-256.png' | relative_url }} 2x" width="64" height="64" alt="">
       <span class="brand-text">
         <span class="brand-en" lang="en">Aranattukara</span>
         <span class="brand-ml" lang="ml">അരണാട്ടുകര</span>

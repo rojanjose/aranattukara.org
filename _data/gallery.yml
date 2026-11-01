@@ -1,4 +1,8 @@
 # Gallery: real, licensed pictures only (credits come from _data/credits.yml).
+- image: aranattukara-logo
+  theme: waterways
+  year: "2026"
+  caption: { en: "The aranattukara.org logo: unloading a cargo boat at the Aranattukara landing", ml: "aranattukara.org ലോഗോ: അരണാട്ടുകര കടവിൽ ചരക്കുവള്ളത്തിൽ നിന്ന് ചരക്കിറക്കുന്നു" }
 - image: gould-plan-1816
   theme: maps
   year: "1816"

@@ -3,7 +3,7 @@ title: Fr. Antony Thachuparambil
 summary: Servant of God and vicar of Aranattukara's East Church in 1928–1933, remembered for its Golgotha hill and for a season of spiritual renewal.
 years: "1894–1963"
 role: Servant of God; vicar of Aranattukara East Church (1928–1933), later known as "the Apostle of Chelakkara"
-photo: ph-fr-antony-thachuparambil-portrait
+photo: fr-antony-thachuparambil-mural
 consent: historical
 places: [st-thomas-church, tharakans-school]
 themes: [faith, festivals]
@@ -11,8 +11,6 @@ sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
   - "Archdiocese of Thrissur, *Glorified Souls* (trichurarchdiocese.org)"
-needs:
-  - { name: ph-fr-antony-thachuparambil-portrait, brief: "Fr. Antony Thachuparambil — a photograph of his official portrait (Archdiocese of Thrissur or Chelakkara parish, with permission); upright" }
 ---
 
 Fr. Antony Thachuparambil was vicar of Aranattukara's East Church from 1928 to 1933. The book remembers those years as a time of spiritual renewal in the parish.

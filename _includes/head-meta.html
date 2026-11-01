@@ -11,7 +11,9 @@
 <title>{% if page.title and page.layout != "home" %}{{ page.title }} — {{ _site_title }}, Thrissur{% else %}{{ _site_title }}, Thrissur — {% if _l == "ml" %}{{ site.tagline_ml }}{% else %}{{ site.tagline }}{% endif %}{% endif %}</title>
 <meta name="description" content="{{ _desc | strip_html | strip_newlines | truncate: 160 }}">
 <meta name="theme-color" content="#2F5D3A">
+<link rel="icon" href="{{ '/assets/img/favicon-32.png' | relative_url }}" sizes="32x32" type="image/png">
 <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/assets/img/logo-180.png' | relative_url }}">
 <link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
 
 {%- comment -%} hreflang alternates for the pages that exist {%- endcomment -%}
@@ -27,8 +29,10 @@
 {%- if _ml %}
 <link rel="alternate" hreflang="ml" href="{{ _ml_url | absolute_url }}">{% endif %}
 
-{%- if page.og_image %}
-<meta property="og:image" content="{{ page.og_image | absolute_url }}">{% endif %}
+{%- assign _og = page.og_image | default: "/assets/img/logo-share.jpg" %}
+<meta property="og:image" content="{{ _og | absolute_url }}">{% if _og contains "logo-share" %}
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">{% endif %}
 <meta property="og:locale" content="{% if _l == 'ml' %}ml_IN{% else %}en_IN{% endif %}">
 {% seo title=false %}
 {%- if site.sample_content %}
@@ -39,4 +43,4 @@
 {%- if _l == "ml" %}
 <link rel="preload" href="{{ '/assets/fonts/manjari-malayalam-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 {%- endif %}
-<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">

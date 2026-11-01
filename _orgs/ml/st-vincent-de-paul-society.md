@@ -3,7 +3,7 @@ title: സെന്റ് വിൻസെന്റ് ഡി പോൾ സംഘ
 summary: ചാക്കോരു മാസ്റ്റർ അരണാട്ടുകരയിൽ തുടങ്ങിയ, പാവങ്ങളെ സഹായിക്കുന്ന, ഒരിക്കൽ നിർധന കുടുംബങ്ങൾക്ക് പത്തു വീടുകൾ പണിതുനൽകിയ ഇടവക ഉപവിസംഘം.
 type: religious
 themes: [faith]
-photos: [ph-st-vincent-de-paul-society]
+photos: [vincent-de-paul-portrait, ph-st-vincent-de-paul-society]
 sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 11"
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"

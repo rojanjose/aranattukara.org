@@ -3,7 +3,7 @@ title: St. Kuriakose Elias Chavara
 summary: Carmelite reformer and saint who founded the Elthuruth monastery in 1858 with the support of Aranattukara parish.
 years: "1805–1871"
 role: Carmelite priest, Church reformer and saint, who founded the Elthuruth monastery with Aranattukara's help
-photo: ph-st-kuriakose-elias-chavara-portrait
+photo: chavara-stamp-1987
 consent: historical
 places: [elthuruth-ashram, st-aloysius-college, st-thomas-church]
 themes: [faith, education]
@@ -11,8 +11,6 @@ sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
-needs:
-  - { name: ph-st-kuriakose-elias-chavara-portrait, brief: "St. Kuriakose Elias Chavara — a public-domain portrait, or the portrait at the Elthuruth monastery photographed with permission; upright" }
 ---
 
 Kuriakose Elias Chavara was born at Kainakary in Kuttanad in 1805. He became one of the great reformers of the Syrian Catholic Church in Kerala. He helped found the congregation of Carmelite priests now known as the CMI. The book also credits him with starting the CMC and CTC congregations of sisters. His call for a school beside every church led Christian communities all over Kerala to open schools.
