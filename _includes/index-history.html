@@ -1,0 +1,27 @@
+{%- comment -%} History index: the chapter series, then planned chapters not yet written (page.planned). {%- endcomment -%}
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _chapters = site.stories | where: "lang", "en" | where: "kind", "chapter" | sort: "order" -%}
+<ol class="chapter-list">
+  {%- for en in _chapters %}
+  {%- assign _tr = en.url | replace_first: "/en/", "/" | prepend: _l | prepend: "/" %}
+  {%- assign c = site.stories | where: "url", _tr | first | default: en %}
+  <li><a href="{{ c.url | relative_url }}">
+    <span class="card-img">{% include img.html name=c.hero alt="" sizes="200px" %}</span>
+    <span class="ch-text">
+      <span class="ch-num">{% include t.html key="chapter" %} {{ c.order }}{% if c.lang != _l %} · <span lang="en">{% include t.html key="in_english" %}</span>{% endif %}</span>
+      <h2>{{ c.title }}</h2>
+      <p>{{ c.summary }}</p>
+    </span>
+  </a></li>
+  {%- endfor %}
+  {%- for p in page.planned %}
+  <li class="soon"><a href="#" tabindex="-1" aria-disabled="true">
+    <span class="card-img"></span>
+    <span class="ch-text">
+      <span class="ch-num">{% include t.html key="chapter" %} {{ p.order }} · {{ page.coming_label }}</span>
+      <h2>{{ p.title }}</h2>
+    </span>
+  </a></li>
+  {%- endfor %}
+</ol>
+<p style="margin-top:28px"><a class="btn btn-ghost" href="{{ '/' | append: _l | append: '/history/timeline/' | relative_url }}">{% include t.html key="section_timeline" %} →</a></p>

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{%- assign _l = page.lang | default: site.default_lang -%}
+<article class="entity">
+  <div class="page-head">
+    <p class="kicker"><a href="{{ '/' | append: _l | append: '/community/' | relative_url }}">{% include t.html key="section_community" %}</a></p>
+    <h1>{{ page.title }}</h1>
+    {%- if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+  </div>
+  <div class="entity-grid">
+    <div class="prose entity-body">
+      {%- if page.photos %}<figure class="inline-hero">{% include img.html name=page.photos.first alt=page.title %}<figcaption>{% include credit.html name=page.photos.first %}</figcaption></figure>{% endif %}
+{{ content }}
+      {% include share.html %}
+      {% include know-more.html %}
+    </div>
+    <aside class="entity-side">{% include fact-box.html %}</aside>
+  </div>
+</article>

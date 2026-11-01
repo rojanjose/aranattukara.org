@@ -1,0 +1,17 @@
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _places = site.places | where: "lang", _l | sort: "title" -%}
+{%- assign _types = _places | map: "type" | uniq -%}
+<ul class="chips" data-filter=".map-list li">
+  <li><button class="chip" type="button" data-value="all" aria-pressed="true">{% include t.html key="all" %}</button></li>
+  <li><button class="chip" type="button" data-value="walk" aria-pressed="false">{% include t.html key="take_the_walk" %}</button></li>
+  {%- for t in _types %}{% assign _tk = "type_" | append: t %}
+  <li><button class="chip" type="button" data-value="{{ t }}" aria-pressed="false">{% include t.html key=_tk %}</button></li>
+  {%- endfor %}
+</ul>
+<div id="map-full" class="map-full" data-places="{{ '/places.json' | relative_url }}" data-wards="{{ '/assets/data/wards.geojson' | relative_url }}"></div>
+{%- comment -%} The list doubles as the no-JavaScript fallback. {%- endcomment -%}
+<ul class="map-list">
+  {%- for p in _places %}
+  <li data-cat="{{ p.type }}{% if p.walk_stop %} walk{% endif %}"><a href="{{ p.url | relative_url }}">{{ p.title }}</a>{% if p.walk_stop %} <span class="muted">· #{{ p.walk_stop }}</span>{% endif %}</li>
+  {%- endfor %}
+</ul>

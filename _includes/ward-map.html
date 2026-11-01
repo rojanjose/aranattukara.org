@@ -1,0 +1,14 @@
+{%- comment -%}
+  Ward boundary map: Aranattukara (51) and Laloor (50) filled, neighbouring wards dashed.
+  Data: assets/data/wards.geojson (OpenStreetMap, ODbL). Needs `needs_map: true` on the page.
+{%- endcomment -%}
+{%- assign _l = page.lang | default: site.default_lang -%}
+<ul class="map-key">
+  <li><span style="background:rgba(94,140,90,.45);border:2px solid #2F5D3A"></span>{% if _l == "ml" %}അരണാട്ടുകര വാർഡ് (2025 മുതൽ 48; മുമ്പ് 51){% else %}Aranattukara ward (no. 48 since 2025; 51 before){% endif %}</li>
+  <li><span style="background:rgba(201,154,46,.4);border:2px solid #B5532E"></span>{% if _l == "ml" %}ലാലൂർ വാർഡ് (2025 മുതൽ 47; മുമ്പ് 50) — പള്ളിയും അങ്ങാടിയും{% else %}Laloor ward (no. 47 since 2025; 50 before) — church and market{% endif %}</li>
+  <li><span style="border:2px dashed #6E695F"></span>{% if _l == "ml" %}അയൽ വാർഡുകൾ{% else %}Neighbouring wards{% endif %}</li>
+</ul>
+<div class="map-wards" data-map-wards="{{ '/assets/data/wards.geojson' | relative_url }}">
+  <a href="https://www.openstreetmap.org/relation/12813243" target="_blank" rel="noopener">{% include t.html key="open_map" %} ↗</a>
+</div>
+<p class="muted" style="font-size:.85rem">{% if _l == "ml" %}വാർഡ് അതിരുകൾ: <a href="https://www.openstreetmap.org/relation/12813243">OpenStreetMap</a> (ODbL), 2015-ലെ വാർഡ് വിഭജനം. 2025-ൽ വാർഡുകൾ പുനർനിർണയിച്ചു; പുതിയ അതിരുകൾ ലഭിക്കുമ്പോൾ മാപ്പ് പുതുക്കും.{% else %}Ward boundaries: <a href="https://www.openstreetmap.org/relation/12813243">OpenStreetMap</a> contributors (ODbL), from the 2015 ward division. Wards were redrawn in 2025; the map will be updated when the new boundaries are available.{% endif %}</p>

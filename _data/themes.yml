@@ -1,0 +1,13 @@
+# Theme tags (website-plan §4.3) with display names.
+waterways:   { en: "Waterways",   ml: "ജലപാതകൾ" }
+trade:       { en: "Trade",       ml: "വ്യാപാരം" }
+faith:       { en: "Faith",       ml: "വിശ്വാസം" }
+education:   { en: "Education",   ml: "വിദ്യാഭ്യാസം" }
+industry:    { en: "Industry",    ml: "വ്യവസായം" }
+politics:    { en: "Politics",    ml: "രാഷ്ട്രീയം" }
+arts:        { en: "Arts",        ml: "കലകൾ" }
+environment: { en: "Environment", ml: "പരിസ്ഥിതി" }
+festivals:   { en: "Festivals",   ml: "ആഘോഷങ്ങൾ" }
+maps:        { en: "Maps",        ml: "ഭൂപടങ്ങൾ" }
+documents:   { en: "Records",     ml: "രേഖകൾ" }
+people:      { en: "People",      ml: "ആളുകൾ" }

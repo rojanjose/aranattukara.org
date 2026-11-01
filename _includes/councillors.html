@@ -1,0 +1,52 @@
+{%- comment -%}
+  Councillors page body (en/people/councillors.md, ml/people/councillors.md).
+  Data: _data/councillors.yml. Headings and notes come from the page; names from the data.
+{%- endcomment -%}
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _c = site.data.councillors -%}
+{%- capture _ward %}{% if _l == "ml" %}വാർഡ്{% else %}Ward{% endif %}{% endcapture -%}
+
+{%- assign _t = _c[include.part] %}
+{%- if _t.terms %}
+<div class="table-scroll">
+<table class="data-table">
+  <thead><tr>
+    <th>{% if _l == "ml" %}തിരഞ്ഞെടുപ്പ്{% else %}Election{% endif %}</th>
+    {%- for w in _t.wards %}<th>{{ w.label[_l] | default: w.label.en }}</th>{% endfor %}
+  </tr></thead>
+  <tbody>
+  {%- for term in _t.terms %}
+  <tr>
+    <th scope="row">{{ term.year }}</th>
+    {%- for w in _t.wards %}{% assign _m = term[w.id] %}
+    <td>{% if _m %}{% if _m.person %}<a href="{{ '/' | append: _l | append: '/people/' | append: _m.person | append: '/' | relative_url }}">{{ _m.name[_l] | default: _m.name.en }}</a>{% else %}{{ _m.name[_l] | default: _m.name.en }}{% endif %}{% if _m.party %} <span class="muted">({{ _m.party }})</span>{% endif %}{% if _m.ward %}<br><span class="muted">{{ _ward }} {{ _m.ward }}{% if _m.ward_name %} · {{ _m.ward_name[_l] | default: _m.ward_name.en }}{% endif %}</span>{% endif %}{% if _m.note %}<br><span class="muted">{{ _m.note[_l] | default: _m.note.en }}</span>{% endif %}{% else %}<span class="muted">—</span>{% endif %}</td>
+    {%- endfor %}
+  </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+</div>
+
+{%- elsif _t.rows %}
+<div class="table-scroll">
+<table class="data-table">
+  <thead><tr><th>{% if _l == "ml" %}വാർഡ്{% else %}Ward{% endif %}</th>{% for y in _t.years %}<th>{{ y }}</th>{% endfor %}</tr></thead>
+  <tbody>
+  {%- for r in _t.rows %}
+  <tr><th scope="row">{{ r.ward[_l] | default: r.ward.en }}</th>{% for y in _t.years %}<td>{{ r[y] | default: "—" }}</td>{% endfor %}</tr>
+  {%- endfor %}
+  </tbody>
+</table>
+</div>
+
+{%- else %}
+<ul class="councillor-list">
+  {%- for m in _t %}
+  <li>
+    <strong>{% if m.person %}<a href="{{ '/' | append: _l | append: '/people/' | append: m.person | append: '/' | relative_url }}">{{ m.name[_l] | default: m.name.en }}</a>{% else %}{{ m.name[_l] | default: m.name.en }}{% endif %}</strong>
+    {%- if m.years and m.years != "" %} <span class="muted">· {{ m.years }}</span>{% endif %}
+    {%- if m.note %}<br><span class="muted">{{ m.note[_l] | default: m.note.en }}</span>{% endif %}
+  </li>
+  {%- endfor %}
+</ul>
+{%- endif %}

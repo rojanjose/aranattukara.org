@@ -1,0 +1,11 @@
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _root = "/" | append: _l -%}
+<p class="timeline-legend"><span class="legend-local">{{ page.lane_local }}</span><span class="legend-kerala">{{ page.lane_kerala }}</span></p>
+<ol class="timeline">
+  {%- for t in site.data.timeline %}
+  <li class="lane-{{ t.lane }}">
+    <span class="year">{{ t.year }}</span>
+    {%- if t.link %}{% assign _u = _root | append: t.link %}{% assign _hit = site.documents | where: "url", _u | first %}{% unless _hit %}{% assign _u = "/en" | append: t.link %}{% endunless %}<a href="{{ _u | relative_url }}">{{ t.text[_l] }}</a>{% else %}{{ t.text[_l] }}{% endif %}
+  </li>
+  {%- endfor %}
+</ol>

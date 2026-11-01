@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _place = site.places | where: "lang", _l | where: "slug", page.place | first -%}
+{%- assign _end = page.end_date | default: page.date -%}
+<article class="entity event-page" data-event data-end="{{ _end | date: '%Y-%m-%d' }}">
+  <div class="page-head">
+    <p class="kicker"><a href="{{ '/' | append: _l | append: '/events/' | relative_url }}">{% include t.html key="section_events" %}</a></p>
+    <h1>{{ page.title }}</h1>
+    {%- if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+    <p class="event-past-note" hidden>{% include t.html key="past_event" %}</p>
+  </div>
+  <div class="entity-grid">
+    <div class="prose entity-body">
+      {%- if page.poster %}<figure class="inline-hero">{% include img.html name=page.poster alt=page.title %}</figure>{% endif %}
+{{ content }}
+      {% include share.html %}
+    </div>
+    <aside class="entity-side">
+      <div class="date-badge" aria-hidden="true">
+        <span class="date-badge-month">{{ page.date | date: "%b" }}</span>
+        <span class="date-badge-day">{{ page.date | date: "%-d" }}</span>
+      </div>
+      <dl class="fact-box">
+        <div><dt>{% include t.html key="when" %}</dt><dd>{{ page.date | date: "%A, %-d %B %Y" }}{% if page.end_date %} – {{ page.end_date | date: "%A, %-d %B %Y" }}{% endif %}{% if page.time %}<br>{{ page.time }}{% endif %}</dd></div>
+        {%- if _place %}
+        <div><dt>{% include t.html key="where" %}</dt><dd><a href="{{ _place.url | relative_url }}">{{ _place.title }}</a></dd></div>
+        {%- endif %}
+        {%- if page.organiser %}
+        <div><dt>{% include t.html key="organiser" %}</dt><dd>{{ page.organiser }}</dd></div>
+        {%- endif %}
+      </dl>
+      <a class="btn btn-block" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ page.title | url_encode }}&dates={{ page.date | date: '%Y%m%d' }}/{{ _end | date: '%s' | plus: 86400 | date: '%Y%m%d' }}&location={{ _place.title | default: 'Aranattukara, Thrissur' | url_encode }}" target="_blank" rel="noopener">{% include t.html key="add_to_calendar" %}</a>
+    </aside>
+  </div>
+</article>

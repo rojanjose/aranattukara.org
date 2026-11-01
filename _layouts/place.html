@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _tk = "type_" | append: page.type -%}
+<article class="entity">
+  <header class="entity-hero">
+    {%- if page.photos %}
+    {% include img.html name=page.photos.first alt=page.title eager=true sizes="100vw" class="entity-hero-img" %}
+    {%- endif %}
+    <div class="entity-hero-text">
+      <p class="kicker"><a href="{{ '/' | append: _l | append: '/places/' | relative_url }}">{% include t.html key="section_places" %}</a> · {% include t.html key=_tk %}</p>
+      <h1>{{ page.title }}</h1>
+      {%- if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+    </div>
+    {%- if page.photos %}<p class="hero-credit">{% include credit.html name=page.photos.first %}</p>{% endif %}
+  </header>
+
+  <div class="entity-grid">
+    <div class="prose entity-body">
+{{ content }}
+      {%- if page.photos.size > 1 %}
+      <div class="photo-strip">
+        {%- for p in page.photos offset: 1 %}
+        {%- assign _pc = site.data.credits[p] %}{% assign _alt = _pc.title | default: page.title %}
+        <figure>
+          {%- if _pc %}<a class="photo-strip-img" href="{{ '/assets/img/' | append: p | append: '-1600.webp' | relative_url }}" target="_blank" rel="noopener">{% else %}<div class="photo-strip-img">{% endif %}
+          {%- include img.html name=p alt=_alt sizes="(min-width: 640px) 33vw, 50vw" %}
+          {%- if _pc %}</a>{% else %}</div>{% endif %}
+          <figcaption>{% if _pc %}<span class="photo-strip-title">{{ _pc.title }}</span>{% endif %}{% include credit.html name=p %}</figcaption>
+        </figure>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+      {% include share.html %}
+      {% include know-more.html %}
+    </div>
+    <aside class="entity-side">
+      {% include fact-box.html %}
+      {% include map-mini.html %}
+    </aside>
+  </div>
+  {% include related.html %}
+</article>

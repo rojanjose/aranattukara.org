@@ -1,0 +1,74 @@
+# People who have represented Aranattukara in local government.
+# Read by en/people/councillors.md and ml/people/councillors.md — edit here, both pages update.
+#   person: slug of a page in _people (adds a link)
+#   years:  leave "" when unknown; the book gives few dates
+# Source unless noted: Joy Chiramel, Arranadu – Aranadu – Orunadu (2024), ch. 16.
+
+municipality:
+  - { name: { en: "Poothokkaran Rappayi", ml: "പൂത്തോക്കാരൻ റപ്പായി" }, years: "", note: { en: "The first councillor from Aranattukara, remembered as Rappayi chettan. A Burmah Shell agent at Valiyangadi, he was nominated to the council to represent the traders.", ml: "അരണാട്ടുകരയിൽ നിന്നുള്ള ആദ്യ കൗൺസിലർ — റപ്പായിച്ചേട്ടൻ. ബർമ്മാഷെൽ ഏജന്റായിരുന്ന അദ്ദേഹത്തെ കച്ചവടക്കാരുടെ പ്രതിനിധിയായി കൗൺസിലിൽ നോമിനേറ്റ് ചെയ്തു." } }
+  - { name: { en: "Therattil J. Antony", ml: "തേറാട്ടിൽ ജെ. ആന്റണി" }, person: therattil-j-antony, years: "from 1962", note: { en: "Elected in 1962 and a councillor for about thirty years; chairman of the municipality for about fifteen.", ml: "1962-ൽ തിരഞ്ഞെടുക്കപ്പെട്ടു; ഏകദേശം മുപ്പതു വർഷം കൗൺസിലർ, പതിനഞ്ചോളം വർഷം ചെയർമാൻ." } }
+  - { name: { en: "Thazhath J. Antony", ml: "താഴത്ത് ജെ. ആന്റണി" }, years: "from 1962", note: { en: "Elected in 1962 with Therattil J. Antony; a councillor for many years.", ml: "1962-ൽ തേറാട്ടിൽ ജെ. ആന്റണിക്കൊപ്പം തിരഞ്ഞെടുക്കപ്പെട്ടു; വർഷങ്ങളോളം കൗൺസിലർ." } }
+  - { name: { en: "T.P. Yohannan", ml: "ടി.പി. യോഹന്നാൻ" }, years: "" }
+  - { name: { en: "C.P. Mary", ml: "സി.പി. മേരി" }, years: "" }
+  - { name: { en: "C.J. Varunni", ml: "സി.ജെ. വാറുണ്ണി" }, years: "" }
+  - { name: { en: "Surendran", ml: "സുരേന്ദ്രൻ" }, years: "" }
+  - { name: { en: "Chacko Poothokkaran", ml: "ചാക്കോ പൂത്തോക്കാരൻ" }, years: "" }
+  - { name: { en: "Lissy Anto Tharakan", ml: "ലിസ്സി ആന്റോ തരകൻ" }, years: "" }
+  - { name: { en: "Francis Therattil", ml: "ഫ്രാൻസീസ് തേറാട്ടിൽ" }, years: "" }
+  - { name: { en: "U.J. Thomas", ml: "യു.ജെ. തോമാസ്" }, years: "" }
+  - { name: { en: "Lali James", ml: "ലാലി ജയിംസ്" }, years: "" }
+  - { name: { en: "Prof. Sudhakaran", ml: "പ്രൊഫ. സുധാകരൻ" }, years: "" }
+  - { name: { en: "T. Radha", ml: "ടി. രാധ" }, years: "" }
+  - { name: { en: "Francis Chalissery", ml: "ഫ്രാൻസീസ് ചാലിശ്ശേരി" }, years: "" }
+  - { name: { en: "Princy Raju", ml: "പ്രിൻസി രാജു" }, years: "" }
+
+panchayat:
+  - { name: { en: "C.P. Jose", ml: "സി.പി. ജോസ്" } }
+  - { name: { en: "Prof. Sudhakaran", ml: "പ്രൊഫ. സുധാകരൻ" } }
+  - { name: { en: "Damodaran", ml: "ദാമോദരൻ" } }
+  - { name: { en: "T.K. Vasu", ml: "ടി.കെ. വാസു" } }
+  - { name: { en: "Lucy", ml: "ലൂസി" } }
+  - { name: { en: "John Kunjappu", ml: "ജോൺ കുഞ്ഞാപ്പു" } }
+
+# Thrissur Corporation (from 2000). One row per election; one column per ward.
+# Ward numbers changed with each redrawing: 52 wards in 2005, 55 in 2010–2020, 56 from 2025.
+# Sources: LSG Department, elected members 2005/2010/2015/2020
+#   (lsgkerala.gov.in/en/lbelection/electdmemberdet/<year>/170);
+#   State Election Commission, 2025 (sec.kerala.gov.in/public/wyr/view/<id>).
+# The 2000 ward-wise results are not online — ask residents / the Corporation office.
+core:
+  wards:
+    - { id: aranattukara, label: { en: "Aranattukara ward", ml: "അരണാട്ടുകര വാർഡ്" } }
+    - { id: laloor, label: { en: "Laloor ward (church and market)", ml: "ലാലൂർ വാർഡ് (പള്ളിയും അങ്ങാടിയും)" } }
+  terms:
+    - year: "2000"
+      aranattukara: { name: { en: "Not yet found", ml: "കണ്ടെത്താനുണ്ട്" }, note: { en: "The first Corporation council. Its first Mayor, Jose Kattukkaran, was from Aranattukara.", ml: "ആദ്യ കോർപ്പറേഷൻ കൗൺസിൽ. ആദ്യ മേയർ ജോസ് കാട്ടുക്കാരൻ അരണാട്ടുകരക്കാരനായിരുന്നു." } }
+    - year: "2005"
+      aranattukara: { name: { en: "Francis Therattil", ml: "ഫ്രാൻസീസ് തേറാട്ടിൽ" }, party: "INC", ward: "50", note: { en: "The 2005 list gives ward numbers only; ward 50 is probably Aranattukara.", ml: "2005-ലെ പട്ടികയിൽ വാർഡ് നമ്പർ മാത്രം; 50 മിക്കവാറും അരണാട്ടുകര." } }
+      laloor: { name: { en: "T.K. Radha", ml: "ടി.കെ. രാധ" }, party: "CPI(M)", ward: "49", note: { en: "Ward 49 is probably Laloor.", ml: "വാർഡ് 49 മിക്കവാറും ലാലൂർ." } }
+    - year: "2010"
+      aranattukara: { name: { en: "Francis Therattil", ml: "ഫ്രാൻസീസ് തേറാട്ടിൽ" }, party: "Independent", ward: "51" }
+      laloor: { name: { en: "Francis Chalissery", ml: "ഫ്രാൻസീസ് ചാലിശ്ശേരി" }, party: "INC", ward: "50" }
+    - year: "2015"
+      aranattukara: { name: { en: "Princy Raju", ml: "പ്രിൻസി രാജു" }, party: "INC", ward: "51" }
+      laloor: { name: { en: "Lali James", ml: "ലാലി ജയിംസ്" }, party: "INC", ward: "50" }
+    - year: "2020"
+      aranattukara: { name: { en: "Anoop Davis Kada", ml: "അനൂപ് ഡേവീസ് കാട" }, party: "CPI(M)", ward: "51" }
+      laloor: { name: { en: "P.K. Shajan", ml: "പി.കെ. ഷാജൻ" }, party: "CPI(M)", ward: "50" }
+    - year: "2025"
+      aranattukara: { name: { en: "Vibhitha Vasu", ml: "വിഭിത വാസു" }, party: "INC", ward: "48" }
+      laloor: { name: { en: "Lali James", ml: "ലാലി ജയിംസ്" }, party: "INC", ward: "47" }
+
+# Wards around Aranattukara: one row per ward, one cell per election ("name (party)").
+# 2010–2020 numbers in brackets after the name are not needed: the ward kept its number then.
+nearby:
+  years: ["2010", "2015", "2020", "2025"]
+  rows:
+    - { ward: { en: "Poothole", ml: "പൂത്തോൾ" },           "2010": "Saramma Robson (CPI)",          "2015": "P. Sukumaran (CMP)",        "2020": "Saramma Robson (CPI)",       "2025": "P. Sukumaran (CPI(M))" }
+    - { ward: { en: "Vadookara", ml: "വടൂക്കര" },           "2010": "Sadhanandhan Vazhappully (INC)", "2015": "Jyothilakshmi P.C. (CPI(M))", "2020": "P.V. Anilkumar (CPI(M))", "2025": "Sijith M.S. (CPI(M))" }
+    - { ward: { en: "Karyattukara", ml: "കാര്യാട്ടുകര" },   "2010": "Lali James (INC)",              "2015": "Francis Chalissery (INC)",  "2020": "Lali James (INC)",           "2025": "K. Sumesh (INC)" }
+    - { ward: { en: "Elthuruth", ml: "എൽത്തുരുത്ത്" },      "2010": "Reena Joy (KC(M))",             "2015": "Anoop Davis Kada (CPI(M))", "2020": "Sajitha Shibu (CPI(M))",     "2025": "Shaju Kundoly (LDF)" }
+    - { ward: { en: "Kanattukara", ml: "കാനാട്ടുകര" },      "2010": "C.S. Srinivas (INC)",           "2015": "Sunitha Vinod (CPI(M))",    "2020": "P. Sukumaran (CPI(M))",      "2025": "Sunitha Vinod (LDF)" }
+    - { ward: { en: "Ayyanthole", ml: "അയ്യന്തോൾ" },        "2010": "Adv. M.P. Srinivasan (CPI(M))", "2015": "Valsala Baburaj (INC)",     "2020": "N. Prasad (BJP)",            "2025": "Valsala Baburaj (UDF)" }
+    - { ward: { en: "Civil Station", ml: "സിവിൽ സ്റ്റേഷൻ" }, "2010": "Valsala Baburaj (INC)",         "2015": "A. Prasad (INC)",           "2020": "Sunitha Vinu (INC)",         "2025": "" }
+    - { ward: { en: "Olari", ml: "ഒളരി" },                  "2010": "Adv. M.K. Mukundhan (INC)",     "2015": "C.B. Geetha (INC)",         "2020": "Sreelal Sreedhar (INC)",     "2025": "Sajan C. George (INC)" }

@@ -1,0 +1,13 @@
+{%- comment -%}
+  Image card. [include card.html url=… image=… alt=… kicker=… title=… text=…]
+{%- endcomment -%}
+<a class="card{% if include.class %} {{ include.class }}{% endif %}" href="{{ include.url | relative_url }}">
+  {%- if include.image %}
+  <div class="card-img">{% include img.html name=include.image alt=include.alt sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw" %}</div>
+  {%- endif %}
+  <div class="card-body">
+    {%- if include.kicker %}<p class="kicker">{{ include.kicker }}</p>{% endif %}
+    <h3 class="card-title">{{ include.title }}</h3>
+    {%- if include.text %}<p class="card-text">{{ include.text }}</p>{% endif %}
+  </div>
+</a>

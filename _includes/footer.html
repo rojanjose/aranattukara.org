@@ -1,0 +1,53 @@
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _root = "/" | append: _l -%}
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-about">
+      <p class="footer-brand"><span lang="en">Aranattukara</span> · <span lang="ml">അരണാട്ടുകര</span></p>
+      <p>{% include t.html key="footer_about" %}</p>
+      <div class="footer-actions">
+        {%- if site.whatsapp_channel != "" %}
+        <a class="btn btn-whatsapp" href="{{ site.whatsapp_channel }}" target="_blank" rel="noopener">{% include t.html key="join_whatsapp" %}</a>
+        {%- endif %}
+        {%- if site.newsletter_url != "" %}
+        <a class="btn btn-ghost-light" href="{{ site.newsletter_url }}" target="_blank" rel="noopener">{% include t.html key="subscribe" %}</a>
+        {%- endif %}
+      </div>
+    </div>
+    {%- for col in site.data.nav.footer %}
+    <div class="footer-col">
+      <p class="footer-col-title">{% include t.html key=col.title %}</p>
+      <ul>
+        {%- for link in col.links %}
+        <li><a href="{{ _root | append: link.path | relative_url }}">{% include t.html key=link.key %}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    {%- endfor %}
+  </div>
+  <div class="footer-base">
+    <span>© {{ site.time | date: "%Y" }} aranattukara.org</span>
+    <span>{% include t.html key="site_place" %}</span>
+  </div>
+</footer>
+
+<nav class="tab-bar" aria-label="Quick links">
+  {%- for tab in site.data.nav.tabs %}
+  {%- if tab.path == "#search" %}
+  <button type="button" data-search-open class="tab">
+  {%- else %}
+  {%- assign _href = _root | append: tab.path %}
+  <a class="tab" href="{{ _href | relative_url }}"{% if page.url == _href or tab.path == "/" and page.layout == "home" %} aria-current="page"{% endif %}>
+  {%- endif %}
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      {%- case tab.icon -%}
+      {%- when "home" -%}<path d="M4 11 12 4l8 7v8a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      {%- when "calendar" -%}<rect x="4" y="5.5" width="16" height="14.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      {%- when "map" -%}<path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6 9 4Zm0 0v14m6-12v14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      {%- when "search" -%}<circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      {%- endcase -%}
+    </svg>
+    <span>{% include t.html key=tab.key %}</span>
+  {%- if tab.path == "#search" %}</button>{% else %}</a>{% endif %}
+  {%- endfor %}
+</nav>

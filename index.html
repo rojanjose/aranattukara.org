@@ -1,0 +1,29 @@
+---
+layout: null
+permalink: /
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aranattukara · അരണാട്ടുകര</title>
+<link rel="canonical" href="{{ '/en/' | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
+<link rel="alternate" hreflang="ml" href="{{ '/ml/' | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ '/en/' | absolute_url }}">
+<script>
+  // Root URL: go to the reader's remembered language, else their browser language (technical-spec §6.5)
+  (function () {
+    var l = null;
+    try { l = localStorage.getItem("ak-lang"); } catch (e) {}
+    if (l !== "en" && l !== "ml") l = /^ml\b/i.test(navigator.language || "") ? "ml" : "en";
+    location.replace("{{ '/' | relative_url }}" + l + "/");
+  })();
+</script>
+<style>body{font:18px/1.5 system-ui,sans-serif;background:#FAF7F0;color:#1E1E1E;display:grid;place-items:center;min-height:90vh;margin:0}a{color:#2F5D3A;margin:0 12px;font-weight:600}</style>
+</head>
+<body>
+<p><a href="{{ '/en/' | relative_url }}" hreflang="en">English</a> · <a href="{{ '/ml/' | relative_url }}" hreflang="ml" lang="ml">മലയാളം</a></p>
+</body>
+</html>

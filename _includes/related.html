@@ -1,0 +1,33 @@
+{%- comment -%}
+  "Places and people in this story" + related stories. Uses the slug lists in
+  front matter (places:, people:) and shared themes, within the same language.
+{%- endcomment -%}
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _items = "" | split: "" -%}
+{%- for slug in page.places -%}
+  {%- assign _d = site.places | where: "lang", _l | where: "slug", slug | first -%}
+  {%- if _d -%}{%- assign _items = _items | push: _d -%}{%- endif -%}
+{%- endfor -%}
+{%- for slug in page.people -%}
+  {%- assign _d = site.people | where: "lang", _l | where: "slug", slug | first -%}
+  {%- if _d -%}{%- assign _items = _items | push: _d -%}{%- endif -%}
+{%- endfor -%}
+{%- comment -%} reverse links: stories that mention this place/person {%- endcomment -%}
+{%- if page.collection == "places" or page.collection == "people" -%}
+  {%- for s in site.stories -%}
+    {%- if s.lang == _l -%}
+      {%- if s.places contains page.slug or s.people contains page.slug -%}{%- assign _items = _items | push: s -%}{%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- if _items.size > 0 %}
+<section class="related">
+  <h2 class="section-title">{% if page.collection == "stories" %}{% include t.html key="in_this_story" %}{% else %}{% include t.html key="related" %}{% endif %}</h2>
+  <div class="card-row">
+    {%- for d in _items limit: 6 %}
+    {%- assign _img = d.hero | default: d.photo | default: d.photos.first %}
+    {% include card.html url=d.url image=_img alt=d.title title=d.title text=d.summary class="card-compact" %}
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}

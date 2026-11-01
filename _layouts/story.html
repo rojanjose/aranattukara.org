@@ -1,0 +1,66 @@
+---
+layout: default
+---
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- if page.series -%}
+  {%- assign _series = site.stories | where: "lang", _l | where: "series", page.series | sort: "order" -%}
+  {%- for s in _series -%}{%- if s.url == page.url -%}{%- assign _idx = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- endif -%}
+<article class="story">
+  <header class="story-head">
+    {%- if page.hero %}
+    <figure class="story-hero">
+      {% include img.html name=page.hero alt=page.hero_alt eager=true sizes="100vw" %}
+      <figcaption>{{ page.hero_caption }} {% if page.hero_credit %}<span class="credit">{{ page.hero_credit }}</span>{% else %}{% include credit.html name=page.hero %}{% endif %}</figcaption>
+    </figure>
+    {%- endif %}
+    <div class="story-title">
+      <p class="kicker">
+        {%- if page.kind == "chapter" -%}
+          <a href="{{ '/' | append: _l | append: '/history/' | relative_url }}">{% include t.html key="section_history" %}</a> · {% include t.html key="chapter" %} {{ page.order }}{% if _series %} {% include t.html key="of" %} {{ _series.size }}{% endif %}
+        {%- elsif page.kind == "memory" -%}
+          {% include t.html key="memories" %}
+        {%- else -%}
+          {{ page.kind | capitalize }}
+        {%- endif -%}
+      </p>
+      <h1>{{ page.title }}</h1>
+      {%- if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+      <p class="byline">
+        {%- if page.author %}{% include t.html key="by" %} <strong>{{ page.author }}</strong> · {% endif -%}
+        {% include t.html key="published" %} <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+        {%- if page.updated %} · {% include t.html key="updated" %} <time datetime="{{ page.updated | date_to_xmlschema }}">{{ page.updated | date: "%-d %B %Y" }}</time>{% endif %}
+      </p>
+    </div>
+  </header>
+
+  <div class="prose story-body">
+{{ content }}
+  </div>
+
+  {%- if page.sources %}
+  <section class="prose sources">
+    <h2>{% include t.html key="sources" %}</h2>
+    <ol>{% for s in page.sources %}<li>{{ s | markdownify | remove: "<p>" | remove: "</p>" }}</li>{% endfor %}</ol>
+  </section>
+  {%- endif %}
+
+  <div class="prose">
+    {% include share.html %}
+    {% include know-more.html %}
+  </div>
+
+  {%- if _series and _series.size > 1 %}
+  {%- assign _prev_i = _idx | minus: 1 %}{% assign _next_i = _idx | plus: 1 %}
+  <nav class="chapter-nav" aria-label="{% include t.html key='chapter' %}">
+    {%- if _idx > 0 %}{% assign _p = _series[_prev_i] %}
+    <a class="chapter-prev" href="{{ _p.url | relative_url }}"><span>← {% include t.html key="previous" %}</span>{{ _p.title }}</a>
+    {%- else %}<span></span>{% endif %}
+    {%- if _next_i < _series.size %}{% assign _n = _series[_next_i] %}
+    <a class="chapter-next" href="{{ _n.url | relative_url }}"><span>{% include t.html key="next" %} →</span>{{ _n.title }}</a>
+    {%- endif %}
+  </nav>
+  {%- endif %}
+
+  {% include related.html %}
+</article>

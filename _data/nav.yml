@@ -1,0 +1,41 @@
+# Main navigation (seven items) and footer columns. Paths are without the language
+# prefix; layouts prepend /en or /ml. `key` is an i18n.yml key; `nav` matches page.nav.
+main:
+  - { key: section_history,   path: /history/,   nav: history }
+  - { key: section_places,    path: /places/,    nav: places }
+  - { key: section_people,    path: /people/,    nav: people }
+  - { key: section_community, path: /community/, nav: community }
+  - { key: section_events,    path: /events/,    nav: events }
+  - { key: section_gallery,   path: /gallery/,   nav: gallery }
+  - { key: section_diaspora,  path: /diaspora/,  nav: diaspora }
+
+# Bottom tab bar on phones
+tabs:
+  - { key: home,             path: /,          icon: home }
+  - { key: section_events,   path: /events/,   icon: calendar }
+  - { key: section_map,      path: /map/,      icon: map }
+  - { key: search,           path: "#search",  icon: search }
+
+footer:
+  - title: section_history
+    links:
+      - { key: section_history,   path: /history/ }
+      - { key: section_timeline,  path: /history/timeline/ }
+      - { key: section_learn,     path: /learn/ }
+  - title: section_places
+    links:
+      - { key: section_worship,   path: /places/ }
+      - { key: section_map,       path: /map/ }
+      - { key: section_business,  path: /business/ }
+  - title: section_community
+    links:
+      - { key: section_people,    path: /people/ }
+      - { key: section_community, path: /community/ }
+      - { key: section_events,    path: /events/ }
+      - { key: section_diaspora,  path: /diaspora/ }
+  - title: section_about
+    links:
+      - { key: section_about,      path: /about/ }
+      - { key: section_contribute, path: /contribute/ }
+      - { key: section_gallery,    path: /gallery/ }
+      - { key: section_credits,    path: /credits/ }

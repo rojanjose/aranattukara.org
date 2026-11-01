@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{%- assign _l = page.lang | default: site.default_lang -%}
+<article class="entity person">
+  <header class="person-head">
+    {%- if page.photo %}
+    <figure class="portrait-wrap"><div class="portrait">{% include img.html name=page.photo alt=page.title eager=true width=600 height=750 sizes="(min-width: 640px) 280px, 60vw" %}</div><figcaption>{% include credit.html name=page.photo %}</figcaption></figure>
+    {%- endif %}
+    <div>
+      <p class="kicker"><a href="{{ '/' | append: _l | append: '/people/' | relative_url }}">{% include t.html key="section_people" %}</a></p>
+      <h1>{{ page.title }}</h1>
+      {%- if page.years %}<p class="person-years">{{ page.years }}</p>{% endif %}
+      {%- if page.role %}<p class="lede">{{ page.role }}</p>{% endif %}
+    </div>
+  </header>
+  <div class="prose">
+{{ content }}
+    {% include share.html %}
+    {% include know-more.html %}
+  </div>
+  {% include related.html %}
+</article>

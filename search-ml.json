@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /search-ml.json
+search_lang: ml
+---
+{%- comment -%} Search index for one language (technical-spec §8.4). Rebuilt on every push. {%- endcomment -%}
+{%- assign _docs = site.documents | concat: site.pages | where: "lang", page.search_lang -%}
+[
+{%- assign _first = true -%}
+{%- for d in _docs -%}
+  {%- if d.title and d.url and d.search != false -%}
+  {%- unless _first %},{% endunless -%}{%- assign _first = false %}
+  {"title": {{ d.title | jsonify }}, "url": {{ d.url | relative_url | jsonify }}, "summary": {{ d.summary | default: d.role | strip_html | truncate: 140 | jsonify }}, "kind": {{ d.kind | default: d.type | default: d.collection | default: "page" | jsonify }}, "keywords": {{ d.keywords | default: "" | jsonify }}}
+  {%- endif -%}
+{%- endfor %}
+]

@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /manifest.webmanifest
+---
+{
+  "name": "Aranattukara · അരണാട്ടുകര",
+  "short_name": "Aranattukara",
+  "start_url": "{{ '/' | relative_url }}",
+  "display": "standalone",
+  "background_color": "#FAF7F0",
+  "theme_color": "#2F5D3A",
+  "icons": [{ "src": "{{ '/assets/img/favicon.svg' | relative_url }}", "sizes": "any", "type": "image/svg+xml" }]
+}

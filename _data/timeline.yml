@@ -1,0 +1,149 @@
+# Two-lane timeline: `local` (Aranattukara) and `kerala` (Thrissur / Kerala / India).
+# `link` is without the language prefix. `month`/`day` are optional and feed "On this day".
+# Local dates come from Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024); events whose
+# date the book gives inconsistently (e.g. Gandhiji's visit, the Tharakan title) are left out.
+# Draft — verify before publishing.
+- year: 1790
+  lane: kerala
+  text: { en: "Sakthan Thampuran becomes ruler of Cochin and makes Thrissur his capital.", ml: "ശക്തൻ തമ്പുരാൻ കൊച്ചി രാജാവാകുന്നു; തൃശ്ശൂർ ആസ്ഥാനമാക്കുന്നു." }
+  link: /people/sakthan-thampuran/
+- year: 1796
+  lane: local
+  text: { en: "Aranattukara's first church, of Our Lady of the Holy Rosary, is consecrated on land given by Sakthan Thampuran's decree.", ml: "ശക്തൻ തമ്പുരാന്റെ തിട്ടൂരപ്രകാരം ലഭിച്ച സ്ഥലത്ത് ജപമാല രാജ്ഞിയുടെ നാമത്തിൽ അരണാട്ടുകരയിലെ ആദ്യ പള്ളി കൂദാശ ചെയ്യുന്നു." }
+  link: /stories/christian-heritage/
+- year: 1805
+  lane: kerala
+  month: 9
+  day: 26
+  text: { en: "Death of Sakthan Thampuran.", ml: "ശക്തൻ തമ്പുരാൻ അന്തരിക്കുന്നു." }
+  link: /people/sakthan-thampuran/
+- year: 1819
+  lane: local
+  month: 11
+  day: 8
+  text: { en: "A traveller, B.S. Ward, sets out by boat from Aranattukara at 8 a.m. and reaches Kochi that night.", ml: "ബി.എസ്. വാർഡ് എന്ന സഞ്ചാരി രാവിലെ എട്ടിന് അരണാട്ടുകരയിൽ നിന്ന് വള്ളത്തിൽ പുറപ്പെട്ട് അന്നു രാത്രി കൊച്ചിയിലെത്തുന്നു." }
+  link: /stories/port-of-thrissivaperur/
+- year: 1858
+  lane: local
+  text: { en: "Fr. Kuriakose Elias Chavara founds the Carmelite monastery at Elthuruth, with the backing of Aranattukara parish.", ml: "അരണാട്ടുകര ഇടവകയുടെ പിന്തുണയോടെ ചാവറ കുര്യാക്കോസ് ഏലിയാസച്ചൻ എൽത്തുരുത്തിൽ കർമ്മലീത്താ ആശ്രമം സ്ഥാപിക്കുന്നു." }
+  link: /places/elthuruth-ashram/
+- year: 1886
+  lane: local
+  month: 1
+  day: 10
+  text: { en: "Birth of John Mathai, economist and later India's first Railway Minister, who made his home at Lalur.", ml: "പിന്നീട് ഇന്ത്യയുടെ ആദ്യ റെയിൽവേ മന്ത്രിയായ, ലാലൂരിൽ താമസമാക്കിയ സാമ്പത്തിക ശാസ്ത്രജ്ഞൻ ജോൺ മത്തായിയുടെ ജനനം." }
+  link: /people/john-mathai/
+- year: 1886
+  lane: local
+  text: { en: "English is first taught at the Valiyangadi writing school, the seed of Aranattukara's schools.", ml: "വലിയങ്ങാടിയിലെ എഴുത്തുപള്ളിക്കൂടത്തിൽ ആദ്യമായി ഇംഗ്ലീഷ് പഠനം തുടങ്ങുന്നു." }
+  link: /stories/schools-that-shaped-aranattukara/
+- year: 1887
+  lane: kerala
+  text: { en: "Pope Leo XIII creates the Vicariate of Thrissur; Adolph Medlycott, its first Vicar Apostolic, first lives at Elthuruth.", ml: "ലിയോ പതിമൂന്നാമൻ മാർപാപ്പ തൃശ്ശൂർ വികാരിയാത്ത് സ്ഥാപിക്കുന്നു; ആദ്യ വികാരി അപ്പസ്തോലിക്ക അഡോൾഫ് മെഡ്ലിക്കോട്ട് ആദ്യം എൽത്തുരുത്തിൽ താമസിക്കുന്നു." }
+  link: /people/adolph-medlycott/
+- year: 1896
+  lane: local
+  text: { en: "St. Sebastian's (West) Church is completed; the parish is split in two.", ml: "സെന്റ് സെബാസ്റ്റ്യൻസ് (പടിഞ്ഞാറേ) പള്ളി പൂർത്തിയാകുന്നു; ഇടവക രണ്ടായി പിരിയുന്നു." }
+  link: /stories/christian-heritage/
+- year: 1902
+  lane: kerala
+  text: { en: "The Shoranur–Cochin railway reaches Thrissur; trade begins to leave the waterways.", ml: "ഷൊർണൂർ–കൊച്ചി റെയിൽപ്പാത തൃശ്ശൂരിലെത്തുന്നു; വ്യാപാരം ജലപാതകളിൽ നിന്ന് മാറിത്തുടങ്ങുന്നു." }
+  link: /stories/port-of-thrissivaperur/
+- year: 1907
+  lane: local
+  text: { en: "St. John's School opens in a new building raised at Antony Tharakan's initiative.", ml: "ആന്റണി തരകന്റെ മുൻകൈയിൽ പണിത പുതിയ കെട്ടിടത്തിൽ സെന്റ് ജോൺസ് സ്കൂൾ പ്രവർത്തനം തുടങ്ങുന്നു." }
+  link: /stories/schools-that-shaped-aranattukara/
+- year: 1911
+  lane: local
+  text: { en: "Pope Pius X makes Antony Tharakan a papal knight — the first such honour in the Thrissur diocese.", ml: "പീയൂസ് പത്താമൻ മാർപാപ്പ ആന്റണി തരകന് നൈറ്റ് ബഹുമതി നൽകുന്നു — തൃശ്ശൂർ രൂപതയിൽ ആദ്യം." }
+  link: /people/antony-tharakan/
+- year: 1922
+  lane: local
+  month: 5
+  text: { en: "A new English school opens with classes 1–3 and free admission: the beginning of Tharakans School.", ml: "ഒന്നു മുതൽ മൂന്നു വരെ ക്ലാസുകളുമായി ഫീസില്ലാതെ പുതിയ ഇംഗ്ലീഷ് സ്കൂൾ തുടങ്ങുന്നു — തരകൻസ് സ്കൂളിന്റെ തുടക്കം." }
+  link: /places/tharakans-school/
+- year: 1936
+  lane: local
+  text: { en: "The electricity agitation against handing Thrissur's power supply to private companies.", ml: "തൃശ്ശൂരിലെ വൈദ്യുതി വിതരണം സ്വകാര്യ കമ്പനികൾക്ക് നൽകുന്നതിനെതിരെ വൈദ്യുതി സമരം." }
+  link: /stories/struggles-and-movements/
+- year: 1941
+  lane: local
+  month: 3
+  day: 3
+  text: { en: "At the height of the parish dispute, the Bishop of Thrissur is kept out of the East Church; a disputed wedding goes ahead under court order.", ml: "ഇടവകത്തർക്കം രൂക്ഷമായപ്പോൾ തൃശ്ശൂർ മെത്രാനെ കിഴക്കേ പള്ളിയിൽ കയറ്റാതെ തടയുന്നു; കോടതി ഉത്തരവോടെ തർക്കത്തിലായിരുന്ന വിവാഹം നടക്കുന്നു." }
+  link: /stories/christian-heritage/
+- year: 1947
+  lane: local
+  month: 5
+  day: 26
+  text: { en: "The Holy Family sisters open a convent at Padinjare Angadi to start high-school classes for girls.", ml: "പെൺകുട്ടികൾക്കായി ഹൈസ്കൂൾ ക്ലാസുകൾ തുടങ്ങാൻ ഹോളി ഫാമിലി സന്യാസിനികൾ പടിഞ്ഞാറേ അങ്ങാടിയിൽ മഠം ആരംഭിക്കുന്നു." }
+  link: /places/infant-jesus-convent/
+- year: 1947
+  lane: kerala
+  month: 8
+  day: 15
+  text: { en: "Indian independence. John Mathai joins Nehru's first cabinet as Railway Minister.", ml: "ഇന്ത്യൻ സ്വാതന്ത്ര്യം. ജോൺ മത്തായി നെഹ്റുവിന്റെ ആദ്യ മന്ത്രിസഭയിൽ റെയിൽവേ മന്ത്രിയാകുന്നു." }
+  link: /people/john-mathai/
+- year: 1950
+  lane: local
+  text: { en: "Infant Jesus Girls' High School becomes a separate school under the convent.", ml: "ഇൻഫന്റ് ജീസസ് ഗേൾസ് ഹൈസ്കൂൾ മഠത്തിനു കീഴിൽ പ്രത്യേക സ്കൂളാകുന്നു." }
+  link: /places/infant-jesus-girls-high-school/
+- year: 1954
+  lane: local
+  text: { en: "The Capuchins come to Thrissur district and found Calvary Ashram at Poothole.", ml: "കപ്പൂച്ചിൻ സന്യാസികൾ തൃശ്ശൂർ ജില്ലയിലെത്തി പൂത്തോളിൽ കാൽവരി ആശ്രമം സ്ഥാപിക്കുന്നു." }
+  link: /places/calvary-ashram/
+- year: 1956
+  lane: kerala
+  month: 11
+  day: 1
+  text: { en: "The state of Kerala is formed.", ml: "കേരള സംസ്ഥാനം രൂപീകരിക്കുന്നു." }
+- year: 1959
+  lane: local
+  text: { en: "Death of John Mathai, honoured the same year with the Padma Vibhushan.", ml: "ജോൺ മത്തായി അന്തരിക്കുന്നു; അതേ വർഷം പത്മവിഭൂഷൺ ബഹുമതി." }
+  link: /people/john-mathai/
+- year: 1964
+  lane: local
+  month: 7
+  day: 3
+  text: { en: "By Bishop George Alappatt's decree, the two Aranattukara parishes are reunited.", ml: "മാർ ജോർജ് ആലപ്പാട്ടിന്റെ കല്പനപ്രകാരം അരണാട്ടുകരയിലെ രണ്ട് ഇടവകകൾ വീണ്ടും ഒന്നാകുന്നു." }
+  link: /stories/christian-heritage/
+- year: 1973
+  lane: local
+  month: 1
+  day: 6
+  text: { en: "The new St. Thomas Church, built after the reunion, is blessed and dedicated.", ml: "പുനരൈക്യത്തിനു ശേഷം പണിത പുതിയ സെന്റ് തോമസ് പള്ളി ആശീർവദിച്ച് സമർപ്പിക്കുന്നു." }
+  link: /places/st-thomas-church/
+- year: 1976
+  lane: local
+  text: { en: "The University of Calicut's Department of Economics opens at the Dr John Matthai Centre, Lalur.", ml: "കാലിക്കറ്റ് സർവകലാശാലയുടെ സാമ്പത്തിക ശാസ്ത്ര വിഭാഗം ലാലൂരിലെ ഡോ. ജോൺ മത്തായി സെന്ററിൽ പ്രവർത്തനം തുടങ്ങുന്നു." }
+  link: /places/john-matthai-centre/
+- year: 1977
+  lane: local
+  text: { en: "The School of Drama begins at the Dr John Matthai Centre, with G. Sankara Pillai as its first director.", ml: "ജി. ശങ്കരപ്പിള്ള ആദ്യ ഡയറക്ടറായി ഡോ. ജോൺ മത്തായി സെന്ററിൽ സ്കൂൾ ഓഫ് ഡ്രാമ തുടങ്ങുന്നു." }
+  link: /places/john-matthai-centre/
+- year: 1985
+  lane: local
+  text: { en: "The Lalur waste problem first reaches the High Court, which orders the dump to be covered with earth.", ml: "ലാലൂർ മാലിന്യപ്രശ്നം ആദ്യമായി ഹൈക്കോടതിയിലെത്തുന്നു; മാലിന്യം മണ്ണിട്ടു മൂടാൻ കോടതി നിർദ്ദേശിക്കുന്നു." }
+  link: /places/lalur-trenching-ground/
+- year: 2000
+  lane: kerala
+  text: { en: "Thrissur becomes a city corporation; Jose Kattukkaran of Aranattukara is its first Mayor.", ml: "തൃശ്ശൂർ കോർപ്പറേഷനാകുന്നു; അരണാട്ടുകരക്കാരനായ ജോസ് കാട്ടുക്കാരൻ ആദ്യ മേയർ." }
+  link: /people/jose-kattukkaran/
+- year: 2000
+  lane: local
+  month: 6
+  day: 5
+  text: { en: "The environmental group PLANT is founded in Aranattukara on World Environment Day.", ml: "ലോക പരിസ്ഥിതി ദിനത്തിൽ അരണാട്ടുകരയിൽ പരിസ്ഥിതി സംഘടനയായ പ്ലാന്റ് (PLANT) രൂപം കൊള്ളുന്നു." }
+  link: /community/plant/
+- year: 2014
+  lane: kerala
+  month: 11
+  day: 23
+  text: { en: "Kuriakose Elias Chavara and Euphrasia, whose mother came from Aranattukara, are declared saints in Rome.", ml: "ചാവറ കുര്യാക്കോസ് ഏലിയാസും, അരണാട്ടുകരക്കാരിയുടെ മകളായ എവുപ്രാസ്യയും റോമിൽ വിശുദ്ധരായി പ്രഖ്യാപിക്കപ്പെടുന്നു." }
+  link: /people/st-euphrasia/
+- year: 2015
+  lane: local
+  month: 5
+  day: 1
+  text: { en: "The renovated St. Thomas Church, with its new Gothic-style front, is blessed by Mar Andrews Thazhath.", ml: "ഗോഥിക് ശൈലിയിലുള്ള പുതിയ മുഖപ്പോടെ നവീകരിച്ച സെന്റ് തോമസ് പള്ളി മാർ ആൻഡ്രൂസ് താഴത്ത് ആശീർവദിക്കുന്നു." }
+  link: /places/st-thomas-church/

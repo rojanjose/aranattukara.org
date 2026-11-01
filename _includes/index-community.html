@@ -1,0 +1,9 @@
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _orgs = site.orgs | where: "lang", _l | sort: "title" -%}
+<div class="card-grid">
+  {%- for o in _orgs %}
+  {% include card.html url=o.url image=o.photos.first alt=o.title kicker=o.founded title=o.title text=o.summary %}
+  {%- endfor %}
+  {%- capture _biz %}{% include t.html key="section_business" %}{% endcapture %}
+  {% include card.html url=page.business_url image="ph-aranattukara-bazaar-today" alt="" title=_biz text=page.business_text %}
+</div>

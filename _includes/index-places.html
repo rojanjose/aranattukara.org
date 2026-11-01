@@ -1,0 +1,18 @@
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _places = site.places | where: "lang", _l | sort: "title" -%}
+{%- assign _types = _places | map: "type" | uniq -%}
+<ul class="chips" data-filter=".places-grid > .card">
+  <li><button class="chip" type="button" data-value="all" aria-pressed="true">{% include t.html key="all" %}</button></li>
+  {%- for t in _types %}{% assign _tk = "type_" | append: t %}
+  <li><button class="chip" type="button" data-value="{{ t }}" aria-pressed="false">{% include t.html key=_tk %}</button></li>
+  {%- endfor %}
+</ul>
+<div class="card-grid places-grid">
+  {%- for p in _places %}{% assign _tk = "type_" | append: p.type %}{% capture _kicker %}{% include t.html key=_tk %}{% endcapture %}
+  <a class="card" data-cat="{{ p.type }}" href="{{ p.url | relative_url }}">
+    <div class="card-img">{% include img.html name=p.photos.first alt=p.title sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw" %}</div>
+    <div class="card-body"><p class="kicker">{{ _kicker }}</p><h3 class="card-title">{{ p.title }}</h3><p class="card-text">{{ p.summary }}</p></div>
+  </a>
+  {%- endfor %}
+</div>
+<p style="margin-top:28px"><a class="btn btn-ghost" href="{{ '/' | append: _l | append: '/map/' | relative_url }}">{% include t.html key="open_map" %} →</a></p>

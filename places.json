@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /places.json
+---
+{%- comment -%} Map data for map.js: English places, with the Malayalam title/URL when a translation exists. {%- endcomment -%}
+{%- assign _en = site.places | where: "lang", "en" -%}
+[
+{%- for p in _en -%}
+  {%- assign _mlurl = p.url | replace_first: "/en/", "/ml/" -%}
+  {%- assign _ml = site.places | where: "url", _mlurl | first %}
+  {"slug": {{ p.slug | jsonify }}, "title": {{ p.title | jsonify }}, "title_ml": {{ _ml.title | jsonify }}, "url": {{ p.url | relative_url | jsonify }}, "url_ml": {% if _ml %}{{ _ml.url | relative_url | jsonify }}{% else %}null{% endif %}, "type": {{ p.type | jsonify }}, "coords": {{ p.coords | jsonify }}, "walk_stop": {{ p.walk_stop | default: nil | jsonify }}}{% unless forloop.last %},{% endunless %}
+{%- endfor %}
+]

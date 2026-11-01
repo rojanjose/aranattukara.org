@@ -1,0 +1,10 @@
+{%- comment -%} "Do you know more?" prompt — links to the contribution form, or the contribute page until a form exists. {%- endcomment -%}
+{%- assign _l = page.lang | default: site.default_lang -%}
+<aside class="know-more">
+  <p class="know-more-q">{% include t.html key="do_you_know_more" %}</p>
+  {%- if site.contribute_form != "" %}
+  <a class="btn" href="{{ site.contribute_form }}?usp=pp_url&entry.page={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener">{% include t.html key="tell_us" %}</a>
+  {%- else %}
+  <a class="btn" href="{{ '/' | append: _l | append: '/contribute/' | relative_url }}">{% include t.html key="tell_us" %}</a>
+  {%- endif %}
+</aside>

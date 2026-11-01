@@ -1,0 +1,42 @@
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- if _l == "ml" -%}
+  {%- assign _site_title = site.title_ml -%}
+  {%- assign _desc = page.summary | default: page.description | default: site.description_ml -%}
+{%- else -%}
+  {%- assign _site_title = site.title -%}
+  {%- assign _desc = page.summary | default: page.description | default: site.description -%}
+{%- endif -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% if page.title and page.layout != "home" %}{{ page.title }} — {{ _site_title }}, Thrissur{% else %}{{ _site_title }}, Thrissur — {% if _l == "ml" %}{{ site.tagline_ml }}{% else %}{{ site.tagline }}{% endif %}{% endif %}</title>
+<meta name="description" content="{{ _desc | strip_html | strip_newlines | truncate: 160 }}">
+<meta name="theme-color" content="#2F5D3A">
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
+
+{%- comment -%} hreflang alternates for the pages that exist {%- endcomment -%}
+{%- assign _from = "/" | append: _l | append: "/" -%}
+{%- assign _en_url = page.url | replace_first: _from, "/en/" -%}
+{%- assign _ml_url = page.url | replace_first: _from, "/ml/" -%}
+{%- assign _all = site.documents | concat: site.pages -%}
+{%- assign _en = _all | where: "url", _en_url | first -%}
+{%- assign _ml = _all | where: "url", _ml_url | first -%}
+{%- if _en %}
+<link rel="alternate" hreflang="en" href="{{ _en_url | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ _en_url | absolute_url }}">{% endif %}
+{%- if _ml %}
+<link rel="alternate" hreflang="ml" href="{{ _ml_url | absolute_url }}">{% endif %}
+
+{%- if page.og_image %}
+<meta property="og:image" content="{{ page.og_image | absolute_url }}">{% endif %}
+<meta property="og:locale" content="{% if _l == 'ml' %}ml_IN{% else %}en_IN{% endif %}">
+{% seo title=false %}
+{%- if site.sample_content %}
+<meta name="robots" content="noindex, nofollow">{% comment %} draft: keep out of search engines until launch {% endcomment %}
+{%- endif %}
+
+<link rel="preload" href="{{ '/assets/fonts/source-sans-3-latin-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+{%- if _l == "ml" %}
+<link rel="preload" href="{{ '/assets/fonts/manjari-malayalam-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+{%- endif %}
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">

@@ -1,0 +1,20 @@
+{%- comment -%} Gallery from _data/gallery.yml, filterable by theme. {%- endcomment -%}
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _items = site.data.gallery -%}
+{%- assign _themes = _items | map: "theme" | uniq -%}
+<ul class="chips" data-filter=".gallery > figure">
+  <li><button class="chip" type="button" data-value="all" aria-pressed="true">{% include t.html key="all" %}</button></li>
+  {%- for t in _themes %}
+  <li><button class="chip" type="button" data-value="{{ t }}" aria-pressed="false">{{ site.data.themes[t][_l] | default: t }}</button></li>
+  {%- endfor %}
+</ul>
+<div class="gallery">
+  {%- for g in _items %}
+  {%- assign _cap = g.caption[_l] | default: g.caption.en %}
+  <figure data-cat="{{ g.theme }}">
+    {% include img.html name=g.image alt=_cap sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw" %}
+    <figcaption><strong>{{ g.caption[_l] | default: g.caption.en }}</strong>{{ g.year }}<br>{% include credit.html name=g.image %}</figcaption>
+  </figure>
+  {%- endfor %}
+</div>
+{% include know-more.html %}

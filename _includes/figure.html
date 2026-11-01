@@ -1,0 +1,8 @@
+{%- comment -%}
+  A picture inside story text, with caption and credit:
+  [include figure.html name="council-1943-tharakans-school" caption="…"]
+{%- endcomment -%}
+<figure class="figure">
+  {% include img.html name=include.name alt=include.caption sizes="(min-width: 760px) 680px, 100vw" %}
+  <figcaption>{{ include.caption }} {% include credit.html name=include.name %}</figcaption>
+</figure>

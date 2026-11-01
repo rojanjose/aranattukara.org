@@ -1,0 +1,32 @@
+{%- comment -%} Business directory from _data/businesses.yml (one record, both languages). {%- endcomment -%}
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _biz = site.data.businesses | sort: "since" -%}
+{%- assign _cats = _biz | map: "category" | uniq -%}
+{%- if _biz.size == 0 %}
+<div class="know-more">
+  <p class="know-more-q">{% include t.html key="biz_empty" %}</p>
+  <a class="btn" href="{{ '/' | append: _l | append: '/contribute/' | relative_url }}">{% include t.html key="biz_add" %}</a>
+</div>
+{%- else %}
+<ul class="chips" data-filter=".biz-grid > .biz">
+  <li><button class="chip" type="button" data-value="all" aria-pressed="true">{% include t.html key="all" %}</button></li>
+  {%- for c in _cats %}{% assign _ck = "cat_" | append: c %}
+  <li><button class="chip" type="button" data-value="{{ c }}" aria-pressed="false">{% include t.html key=_ck %}</button></li>
+  {%- endfor %}
+</ul>
+<div class="biz-grid">
+  {%- for b in _biz %}
+  <article class="biz" data-cat="{{ b.category }}">
+    {%- if b.since %}<span class="since">{% include t.html key="since" %} {{ b.since }}</span>{% endif %}
+    <h3>{{ b.name[_l] | default: b.name.en }}</h3>
+    <p>{{ b.address[_l] | default: b.address.en }}</p>
+    {%- if b.hours %}<p>{{ b.hours[_l] | default: b.hours.en }}</p>{% endif %}
+    <div class="biz-actions">
+      {%- if b.phone %}<a class="btn btn-ghost" href="tel:{{ b.phone }}">{% include t.html key="call" %}</a>{% endif %}
+      {%- if b.whatsapp %}<a class="btn btn-whatsapp" href="https://wa.me/{{ b.whatsapp | remove: '+' }}" target="_blank" rel="noopener">{% include t.html key="whatsapp" %}</a>{% endif %}
+      {%- if b.coords %}<a class="btn btn-ghost" href="https://www.openstreetmap.org/?mlat={{ b.coords[0] }}&mlon={{ b.coords[1] }}#map=18/{{ b.coords[0] }}/{{ b.coords[1] }}" target="_blank" rel="noopener">{% include t.html key="directions" %}</a>{% endif %}
+    </div>
+  </article>
+  {%- endfor %}
+</div>
+{%- endif %}

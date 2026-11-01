@@ -1,0 +1,7 @@
+{%- comment -%}
+  Translated interface string. Usage: [include t.html key="read_more"]
+  Falls back to English when the Malayalam string is missing.
+{%- endcomment -%}
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _s = site.data.i18n[include.key] -%}
+{%- if _s -%}{{ _s[_l] | default: _s.en }}{%- else -%}{{ include.key }}{%- endif -%}

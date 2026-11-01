@@ -1,0 +1,18 @@
+# Private source material — never commit (the repo is public).
+aka-book/
+originals/
+*.pdf
+.image-tmp/
+
+# Jekyll / Ruby
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+.bundle/
+Gemfile.lock
+
+# OS / editor
+.DS_Store
+.claude/

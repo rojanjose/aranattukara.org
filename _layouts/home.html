@@ -1,0 +1,126 @@
+---
+layout: default
+---
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _root = "/" | append: _l -%}
+{%- assign _chapters = site.stories | where: "lang", _l | where: "kind", "chapter" | sort: "order" -%}
+{%- assign _memories = site.stories | where: "lang", _l | where: "kind", "memory" -%}
+{%- assign _events = site.events | where: "lang", _l | sort: "date" -%}
+
+<section class="hero">
+  {% include img.html name=page.hero alt=page.hero_alt eager=true class="hero-img" %}
+  <div class="hero-text">
+    <p class="hero-kicker">{% include t.html key="site_place" %}</p>
+    <h1 class="hero-title">{% if _l == "ml" %}{{ site.tagline_ml }}{% else %}Once the port of Thrissur.<br><em>Still home.</em>{% endif %}</h1>
+    <p class="hero-sub">{{ page.intro }}</p>
+    <div class="hero-actions">
+      <a class="btn btn-light" href="{{ _root | append: '/history/' | relative_url }}">{% include t.html key="read_the_story" %}</a>
+      <a class="btn btn-ghost-light" href="{{ _root | append: '/map/' | relative_url }}">{% include t.html key="take_the_walk" %}</a>
+    </div>
+  </div>
+  <p class="hero-credit">{% include credit.html name=page.hero %}</p>
+</section>
+
+<section class="home-section coming-up" data-upcoming data-limit="3">
+  <div class="section-head">
+    <h2 class="section-title">{% include t.html key="this_week" %}</h2>
+    <a class="see-all" href="{{ _root | append: '/events/' | relative_url }}">{% include t.html key="see_all" %} →</a>
+  </div>
+  <ol class="event-list">
+    {%- for e in _events %}
+    {%- assign _end = e.end_date | default: e.date %}
+    <li class="event-item" data-event data-end="{{ _end | date: '%Y-%m-%d' }}">
+      <a href="{{ e.url | relative_url }}">
+        <span class="date-chip"><span>{{ e.date | date: "%b" }}</span><strong>{{ e.date | date: "%-d" }}</strong></span>
+        <span class="event-item-text"><strong>{{ e.title }}</strong><span>{{ e.summary }}</span></span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ol>
+  <p class="empty-note" data-empty hidden>{% include t.html key="no_events" %} <a href="{{ _root | append: '/events/' | relative_url }}">{% include t.html key="yearly_festivals" %} →</a></p>
+</section>
+
+<section class="home-section">
+  <div class="section-head"><h2 class="section-title">{% include t.html key="explore" %}</h2></div>
+  <div class="card-grid">
+    {%- for c in page.explore %}
+    {% include card.html url=c.url image=c.image alt=c.alt title=c.title text=c.text %}
+    {%- endfor %}
+  </div>
+</section>
+
+{%- assign _feature = _chapters | where: "slug", page.feature | first | default: _chapters.first %}
+{%- if _feature %}
+<section class="home-section feature">
+  <div class="feature-img">{% include img.html name=_feature.hero alt=_feature.hero_alt sizes="(min-width: 1024px) 55vw, 100vw" %}</div>
+  <div class="feature-text">
+    <p class="kicker">{% include t.html key="from_the_story" %} · {% include t.html key="chapter" %} {{ _feature.order }}</p>
+    <h2>{{ _feature.title }}</h2>
+    <p>{{ _feature.summary }}</p>
+    <a class="btn" href="{{ _feature.url | relative_url }}">{% include t.html key="read_more" %}</a>
+  </div>
+</section>
+{%- endif %}
+
+<section class="home-section split">
+  <div class="then-now">
+    <h2 class="section-title">{% include t.html key="then_and_now" %}</h2>
+    <div class="compare" data-compare>
+      <div class="compare-now">{% include img.html name=page.now_image alt=page.then_now_alt_now %}</div>
+      <div class="compare-then">{% include img.html name=page.then_image alt=page.then_now_alt_then %}</div>
+      <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="{% include t.html key='then_and_now' %}">
+      <span class="compare-label compare-label-then">{{ page.then_label }}</span>
+      <span class="compare-label compare-label-now">{{ page.now_label }}</span>
+    </div>
+    <p class="caption">{{ page.then_now_caption }}</p>
+  </div>
+  <div class="on-this-day" data-on-this-day>
+    <h2 class="section-title">{% include t.html key="section_timeline" %}</h2>
+    <ol class="mini-timeline">
+      {%- for t in site.data.timeline %}
+      <li class="lane-{{ t.lane }}"{% if t.month %} data-md="{{ t.month }}-{{ t.day }}"{% endif %}><span class="year">{{ t.year }}</span>
+        {%- if t.link %}{% assign _u = _root | append: t.link %}{% assign _hit = site.documents | where: "url", _u | first %}{% unless _hit %}{% assign _u = "/en" | append: t.link %}{% endunless %}<a href="{{ _u | relative_url }}">{{ t.text[_l] }}</a>{% else %}<span>{{ t.text[_l] }}</span>{% endif %}</li>
+      {%- endfor %}
+    </ol>
+    <a class="see-all" href="{{ _root | append: '/history/timeline/' | relative_url }}">{% include t.html key="see_all" %} →</a>
+  </div>
+</section>
+
+{%- if _memories.size > 0 %}
+<section class="home-section memories">
+  <div class="section-head">
+    <h2 class="section-title">{% include t.html key="memories" %}</h2>
+  </div>
+  <div class="quote-row">
+    {%- for m in _memories limit: 3 %}
+    <figure class="memory-quote">
+      <blockquote><a href="{{ m.url | relative_url }}">“{{ m.quote | default: m.summary }}”</a></blockquote>
+      <figcaption>{{ m.author }}</figcaption>
+    </figure>
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}
+
+<section class="home-section map-teaser">
+  <a href="{{ _root | append: '/map/' | relative_url }}" class="map-teaser-link">
+    {% include img.html name=page.map_image alt="" sizes="100vw" %}
+    <span class="map-teaser-text">
+      <strong>{% include t.html key="map_teaser" %}</strong>
+      <span class="btn btn-light">{% include t.html key="open_map" %}</span>
+    </span>
+  </a>
+</section>
+
+<section class="diaspora-strip">
+  <div class="diaspora-inner">
+    <div>
+      <h2>{% include t.html key="far_from_home" %}</h2>
+      <p>{% include t.html key="far_from_home_text" %}</p>
+    </div>
+    <div class="diaspora-actions">
+      <a class="btn btn-whatsapp" href="{% if site.whatsapp_channel != '' %}{{ site.whatsapp_channel }}{% else %}{{ _root | append: '/diaspora/' | relative_url }}{% endif %}">{% include t.html key="join_whatsapp" %}</a>
+      <a class="btn btn-ghost-light" href="{% if site.newsletter_url != '' %}{{ site.newsletter_url }}{% else %}{{ _root | append: '/diaspora/' | relative_url }}{% endif %}">{% include t.html key="subscribe" %}</a>
+    </div>
+  </div>
+</section>

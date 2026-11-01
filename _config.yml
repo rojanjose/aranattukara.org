@@ -1,0 +1,73 @@
+title: Aranattukara
+title_ml: അരണാട്ടുകര
+tagline: Once the port of Thrissur. Still home.
+tagline_ml: ഒരിക്കൽ തൃശ്ശൂരിന്റെ തുറമുഖം. ഇന്നും നമ്മുടെ വീട്.
+description: The story, people and everyday life of Aranattukara, Thrissur, Kerala.
+description_ml: തൃശ്ശൂരിലെ അരണാട്ടുകരയുടെ ചരിത്രം, ആളുകൾ, ദൈനംദിന ജീവിതം.
+url: "https://aranattukara.org"
+baseurl: ""
+languages: [en, ml]
+default_lang: en
+timezone: Asia/Kolkata
+permalink: pretty
+sample_content: true      # draft mode: "first draft" banner + noindex on every page; set false at launch
+author: Rojan Jose
+whatsapp_channel: ""        # e.g. https://whatsapp.com/channel/XXXX — the join button hides while empty
+newsletter_url: ""          # Buttondown / Mailchimp signup URL — the form hides while empty
+contribute_form: ""         # Google Form URL for memories, photos, corrections
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+future: true                # publish future-dated events; events.js hides past ones in the browser
+
+collections:
+  stories: { output: true }
+  places:  { output: true }
+  people:  { output: true }
+  orgs:    { output: true }
+  events:  { output: true }
+
+defaults:
+  - scope: { path: "_stories/en" }
+    values: { lang: en, layout: story, permalink: "/en/stories/:name/" }
+  - scope: { path: "_stories/ml" }
+    values: { lang: ml, layout: story, permalink: "/ml/stories/:name/" }
+  - scope: { path: "_places/en" }
+    values: { lang: en, layout: place, permalink: "/en/places/:name/" }
+  - scope: { path: "_places/ml" }
+    values: { lang: ml, layout: place, permalink: "/ml/places/:name/" }
+  - scope: { path: "_people/en" }
+    values: { lang: en, layout: person, permalink: "/en/people/:name/" }
+  - scope: { path: "_people/ml" }
+    values: { lang: ml, layout: person, permalink: "/ml/people/:name/" }
+  - scope: { path: "_orgs/en" }
+    values: { lang: en, layout: organisation, permalink: "/en/community/:name/" }
+  - scope: { path: "_orgs/ml" }
+    values: { lang: ml, layout: organisation, permalink: "/ml/community/:name/" }
+  - scope: { path: "_events/en" }
+    values: { lang: en, layout: event, permalink: "/en/events/:name/" }
+  - scope: { path: "_events/ml" }
+    values: { lang: ml, layout: event, permalink: "/ml/events/:name/" }
+  - scope: { path: "en" }
+    values: { lang: en, layout: page }
+  - scope: { path: "ml" }
+    values: { lang: ml, layout: page }
+
+exclude:
+  - docs/
+  - tools/
+  - README.md
+  - .image-tmp/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - originals/
+  - .bundle/

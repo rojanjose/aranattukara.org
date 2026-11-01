@@ -1,0 +1,27 @@
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _events = site.events | where: "lang", _l | sort: "date" -%}
+<section data-upcoming>
+  <h2 class="section-title" style="margin-bottom:18px">{% include t.html key="upcoming" %}</h2>
+  <ol class="event-list">
+    {%- for e in _events %}
+    {%- assign _end = e.end_date | default: e.date %}
+    <li class="event-item" data-event data-end="{{ _end | date: '%Y-%m-%d' }}">
+      <a href="{{ e.url | relative_url }}">
+        <span class="date-chip"><span>{{ e.date | date: "%b" }}</span><strong>{{ e.date | date: "%-d" }}</strong></span>
+        <span class="event-item-text"><strong>{{ e.title }}</strong><span>{{ e.summary }}</span></span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ol>
+  <p class="empty-note" data-empty hidden>{% include t.html key="no_events" %}</p>
+</section>
+<section style="margin-top:48px">
+  <h2 class="section-title" style="margin-bottom:18px">{% include t.html key="yearly_festivals" %}</h2>
+  <ul class="festival-list">
+    {%- assign _fests = site.data.festivals | sort: "month" %}
+    {%- for f in _fests %}
+    {%- assign _pl = site.places | where: "lang", _l | where: "slug", f.place | first %}
+    <li><strong>{% if _pl %}<a href="{{ _pl.url | relative_url }}">{{ f.name[_l] }}</a>{% else %}{{ f.name[_l] }}{% endif %}</strong><span>{{ f.rule[_l] }}</span></li>
+    {%- endfor %}
+  </ul>
+</section>

@@ -1,0 +1,134 @@
+# Gallery: real, licensed pictures only (credits come from _data/credits.yml).
+- image: gould-plan-1816
+  theme: maps
+  year: "1816"
+  caption: { en: "John Gould's plan of Trichur and its environs", ml: "ജോൺ ഗൂൾഡ് വരച്ച തൃശ്ശൂരിന്റെയും പരിസരത്തിന്റെയും ഭൂപടം" }
+- image: gould-plan-1816-aranaat
+  theme: maps
+  year: "1816"
+  caption: { en: "“Aranaat” — buildings at the head of a backwater inlet (detail)", ml: "“Aranaat” — കായൽത്തലയ്ക്കലെ കെട്ടിടങ്ങൾ (വിശദാംശം)" }
+- image: map-travancore-cochin-1862
+  theme: maps
+  year: "1862"
+  caption: { en: "Travancore and Cochin, from the Church Missionary Atlas", ml: "ചർച്ച് മിഷനറി അറ്റ്‌ലസിലെ തിരുവിതാംകൂർ–കൊച്ചി ഭൂപടം" }
+- image: map-cochin-state-1941
+  theme: maps
+  year: "1941"
+  caption: { en: "Map of Cochin State, Census of India 1941", ml: "കൊച്ചി സംസ്ഥാനത്തിന്റെ ഭൂപടം, 1941 സെൻസസ്" }
+- image: ams-map-1955-aranattukara
+  theme: maps
+  year: "1955"
+  caption: { en: "Trichur, Aranattukara and the kol wetlands on a US Army map", ml: "അമേരിക്കൻ സൈനിക ഭൂപടത്തിൽ തൃശ്ശൂരും അരണാട്ടുകരയും കോൾനിലങ്ങളും" }
+- image: council-1943-tharakans-school
+  theme: documents
+  year: "1943"
+  caption: { en: "Cochin Legislative Council: a question about Tharakan's school", ml: "കൊച്ചി നിയമസഭ: തരകൻസ് സ്കൂളിനെക്കുറിച്ചുള്ള ചോദ്യം" }
+- image: council-1939-bazaar-road
+  theme: documents
+  year: "1939"
+  caption: { en: "Council record: the road from the toll gate to Aranattukara Bazaar", ml: "നിയമസഭാ രേഖ: ടോൾ ഗേറ്റിൽ നിന്ന് അരണാട്ടുകര ബസാറിലേക്കുള്ള റോഡ്" }
+- image: council-1935-trenching-ground
+  theme: documents
+  year: "1935"
+  caption: { en: "Council record: the trenching ground at Laloor", ml: "നിയമസഭാ രേഖ: ലാലൂരിലെ ട്രെഞ്ചിംഗ് ഗ്രൗണ്ട്" }
+- image: adolph-medlycott-1890
+  theme: people
+  year: "c. 1890"
+  caption: { en: "Bishop Adolph Medlycott, Vicar Apostolic of Trichur", ml: "തൃശ്ശൂർ വികാരി അപ്പസ്തോലിക്ക ബിഷപ്പ് അഡോൾഫ് മെഡ്ലിക്കോട്ട്" }
+- image: john-mathai-budget-1949
+  theme: people
+  year: "1949"
+  caption: { en: "John Mathai before his budget speech", ml: "ബജറ്റ് പ്രസംഗത്തിനു മുമ്പ് ജോൺ മത്തായി" }
+- image: first-cabinet-1950
+  theme: people
+  year: "1950"
+  caption: { en: "India's first cabinet, John Mathai among them", ml: "ഇന്ത്യയുടെ ആദ്യ മന്ത്രിസഭ — ജോൺ മത്തായി ഉൾപ്പെടെ" }
+- image: st-thomas-church-feast-2025
+  theme: faith
+  year: "2025"
+  caption: { en: "St. Thomas Church lit up for the feast", ml: "പെരുന്നാളിന് ദീപാലംകൃതമായ സെന്റ് തോമസ് പള്ളി" }
+- image: st-aloysius-college
+  theme: education
+  year: "2019"
+  caption: { en: "St. Aloysius College, Elthuruth", ml: "സെന്റ് അലോഷ്യസ് കോളേജ്, എൽത്തുരുത്ത്" }
+- image: kol-wetland-sunset
+  theme: environment
+  year: "2024"
+  caption: { en: "Kol wetland at sunset", ml: "അസ്തമയത്തിലെ കോൾനിലം" }
+- image: kol-wetland-path
+  theme: environment
+  year: "2024"
+  caption: { en: "A bund path through the kol paddy", ml: "കോൾ പാടത്തിലൂടെയുള്ള വരമ്പ്" }
+- image: lalur-waste-dump-2012
+  theme: environment
+  year: "2012"
+  caption: { en: "Houses beside the Lalur dump", ml: "ലാലൂരിലെ മാലിന്യക്കൂമ്പാരത്തിനരികിലെ വീടുകൾ" }
+- image: lalur-strike-2010
+  theme: politics
+  year: "2010"
+  caption: { en: "The Lalur strike against the city's waste", ml: "നഗരമാലിന്യത്തിനെതിരായ ലാലൂർ സമരം" }
+- image: lalur-support-march-2012
+  theme: politics
+  year: "2012"
+  caption: { en: "March around Thrissur Round in support of the Lalur struggle", ml: "ലാലൂർ സമരത്തിന് പിന്തുണയുമായി തൃശ്ശൂർ റൗണ്ടിൽ പ്രകടനം" }
+- image: sakthan-thampuran-palace
+  theme: trade
+  year: "2018"
+  caption: { en: "Sakthan Thampuran Palace, Thrissur", ml: "ശക്തൻ തമ്പുരാൻ കൊട്ടാരം, തൃശ്ശൂർ" }
+# Photos taken for the site, 31 October 2026
+- image: st-thomas-church-front
+  theme: faith
+  year: "2026"
+  caption: { en: "St. Thomas Church, Aranattukara, from the church square", ml: "പള്ളിമുറ്റത്തു നിന്ന് അരണാട്ടുകര സെന്റ് തോമസ് പള്ളി" }
+- image: st-thomas-church-gate
+  theme: faith
+  year: "2026"
+  caption: { en: "The church from the gate, with the churchyard cross", ml: "ഗേറ്റിൽ നിന്നുള്ള പള്ളിയുടെ കാഴ്ച, മുറ്റത്തെ കുരിശും" }
+- image: st-thomas-church-interior
+  theme: faith
+  year: "2026"
+  caption: { en: "Inside St. Thomas Church, looking towards the altar", ml: "സെന്റ് തോമസ് പള്ളിയുടെ അകം, അൾത്താരയിലേക്ക്" }
+- image: st-thomas-church-palms
+  theme: faith
+  year: "2026"
+  caption: { en: "The spires among the coconut palms", ml: "തെങ്ങുകൾക്കിടയിൽ പള്ളിഗോപുരങ്ങൾ" }
+- image: st-thomas-church-grotto
+  theme: faith
+  year: "2026"
+  caption: { en: "The Marian grotto at St. Thomas Church", ml: "സെന്റ് തോമസ് പള്ളിയിലെ മാതാവിന്റെ ഗ്രോട്ടോ" }
+- image: tharakans-school-front
+  theme: education
+  year: "2026"
+  caption: { en: "Tharakan's High School from the road", ml: "റോഡിൽ നിന്ന് തരകൻസ് ഹൈസ്കൂൾ" }
+- image: tharakans-school-building
+  theme: education
+  year: "2026"
+  caption: { en: "Tharakan's High School: the main building and assembly ground", ml: "തരകൻസ് ഹൈസ്കൂൾ: പ്രധാന കെട്ടിടവും അസംബ്ലി മൈതാനവും" }
+- image: tharakans-school-courtyard
+  theme: education
+  year: "2026"
+  caption: { en: "The big tree in the school courtyard", ml: "സ്കൂൾ മുറ്റത്തെ വലിയ മരം" }
+- image: john-matthai-centre
+  theme: education
+  year: "2026"
+  caption: { en: "Dr John Matthai Centre, Lalur, among its trees", ml: "മരങ്ങൾക്കിടയിൽ ലാലൂരിലെ ഡോ. ജോൺ മത്തായി സെന്റർ" }
+- image: john-mathai-bust
+  theme: people
+  year: "2026"
+  caption: { en: "John Mathai's bust at the centre named after him", ml: "തന്റെ പേരിലുള്ള സെന്ററിലെ ജോൺ മത്തായിയുടെ പ്രതിമ" }
+- image: school-of-drama
+  theme: arts
+  year: "2026"
+  caption: { en: "The School of Drama and Fine Arts, Lalur", ml: "ലാലൂരിലെ സ്കൂൾ ഓഫ് ഡ്രാമ ആൻഡ് ഫൈൻ ആർട്സ്" }
+- image: kol-padam-canal
+  theme: environment
+  year: "2026"
+  caption: { en: "A canal through the kol fields near Aranattukara", ml: "അരണാട്ടുകരയ്ക്കടുത്ത കോൾപ്പാടത്തിലൂടെ ഒരു തോട്" }
+- image: kol-padam-pond
+  theme: waterways
+  year: "2026"
+  caption: { en: "A pond at the edge of the kol fields", ml: "കോൾപ്പാടത്തിന്റെ അരികിലെ ഒരു കുളം" }
+- image: kol-padam-pump
+  theme: environment
+  year: "2026"
+  caption: { en: "A pump moving water in the kol fields", ml: "കോൾപ്പാടത്ത് വെള്ളം നീക്കുന്ന ഒരു പമ്പ്" }

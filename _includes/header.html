@@ -1,0 +1,56 @@
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _root = "/" | append: _l -%}
+<a class="skip-link" href="#main">{% include t.html key="skip_to_content" %}</a>
+{%- if site.sample_content %}
+<div class="sample-bar" role="note">{% include t.html key="sample_notice" %}</div>
+{%- endif %}
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="{{ _root | append: '/' | relative_url }}" aria-label="{% include t.html key='site_name' %} — {% include t.html key='home' %}">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="19" fill="var(--green)"/>
+        <path d="M6 27c4-2 8-2 14 0s10 2 14 0" stroke="var(--paper)" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M9 31c4-1.6 7.4-1.6 11 0s7.4 1.6 11 0" stroke="var(--water-light)" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+        <path d="M14 24V15l6-5 6 5v9" fill="var(--paper)"/>
+        <path d="M20 6v6M18 8h4" stroke="var(--gold)" stroke-width="1.6" stroke-linecap="round"/>
+        <rect x="18.4" y="18" width="3.2" height="6" fill="var(--terracotta)"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-en" lang="en">Aranattukara</span>
+        <span class="brand-ml" lang="ml">അരണാട്ടുകര</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="{% include t.html key='menu' %}">
+      <ul>
+        {%- for item in site.data.nav.main %}
+        {%- assign _href = _root | append: item.path %}
+        <li><a href="{{ _href | relative_url }}"{% if page.nav == item.nav %} aria-current="page"{% endif %}>{% include t.html key=item.key %}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+
+    <div class="header-tools">
+      {% include lang-switch.html %}
+      <button class="icon-btn" type="button" data-search-open aria-label="{% include t.html key='search' %}">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" type="button" aria-controls="main-nav" aria-expanded="false" data-menu-toggle aria-label="{% include t.html key='menu' %}">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="search-dialog" id="search" role="dialog" aria-modal="true" aria-label="{% include t.html key='search' %}" hidden>
+  <div class="search-panel">
+    <div class="search-row">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input type="search" id="search-input" placeholder="{% include t.html key='search_placeholder' %}" autocomplete="off" data-index="{{ '/search-' | append: _l | append: '.json' | relative_url }}" data-none="{% include t.html key='search_none' %}">
+      <button class="icon-btn" type="button" data-search-close aria-label="{% include t.html key='close' %}">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <ol class="search-results" id="search-results" aria-live="polite"></ol>
+  </div>
+</div>

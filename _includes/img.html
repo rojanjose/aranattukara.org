@@ -1,0 +1,19 @@
+{%- comment -%}
+  Responsive image from a base name (see tools/optimize-images.sh).
+    [include img.html name="st-thomas-front" alt="…" sizes="(min-width: 1024px) 60vw, 100vw" eager=true class="…"]
+  If assets/img/<name>.svg exists (placeholder illustrations), that is used instead.
+  `alt` is required: a missing alt renders a visible warning so it gets fixed.
+{%- endcomment -%}
+{%- assign _svg_path = "/assets/img/" | append: include.name | append: ".svg" -%}
+{%- assign _svg = site.static_files | where: "path", _svg_path | first -%}
+{%- assign _base = "/assets/img/" | append: include.name | relative_url -%}
+{%- assign _sizes = include.sizes | default: "100vw" -%}
+{%- if include.alt == nil -%}<span class="alt-missing">alt text missing for “{{ include.name }}”</span>{%- endif -%}
+{%- if _svg -%}
+<img src="{{ _svg_path | relative_url }}" alt="{{ include.alt }}" class="{{ include.class }}" width="{{ include.width | default: 1600 }}" height="{{ include.height | default: 1000 }}"{% unless include.eager %} loading="lazy"{% endunless %} decoding="async">
+{%- else -%}
+<picture class="{{ include.class }}">
+  <source type="image/webp" srcset="{{ _base }}-480.webp 480w, {{ _base }}-960.webp 960w, {{ _base }}-1600.webp 1600w" sizes="{{ _sizes }}">
+  <img src="{{ _base }}-960.jpg" alt="{{ include.alt }}" width="{{ include.width | default: 1600 }}" height="{{ include.height | default: 1000 }}"{% unless include.eager %} loading="lazy"{% endunless %} decoding="async">
+</picture>
+{%- endif -%}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" preserveAspectRatio="xMidYMid slice" width="600" height="750"><defs></defs><rect width="600" height="750" fill="#E6DCC8"/><rect x="30" y="30" width="540" height="690" fill="none" stroke="#B5532E" stroke-width="6" opacity=".5"/><circle cx="300" cy="300" r="120" fill="#B8A98E"/><path d="M90,720 C110,500 490,500 510,720 Z" fill="#B8A98E"/><text x="300" y="660" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#7d6f58" text-anchor="middle">Photo to come</text><g transform="translate(343,677)">
+  <rect width="239" height="55" rx="28" fill="#FAF7F0" fill-opacity=".92"/>
+  <g transform="translate(16,27)" fill="none" stroke="#2F5D3A" stroke-width="1.9" stroke-linejoin="round">
+    <rect x="0" y="-10.9" width="31.2" height="21.8" rx="4.2"/>
+    <circle cx="15.6" cy="0" r="6.2"/>
+  </g>
+  <text x="58" y="36" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#2F5D3A">Photo to come</text>
+</g>
+</svg>

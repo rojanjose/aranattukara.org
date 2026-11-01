@@ -1,0 +1,24 @@
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _people = site.people | where: "lang", _l | sort: "title" -%}
+<p class="people-links">
+  <a class="btn btn-ghost" href="{{ '/' | append: _l | append: '/people/councillors/' | relative_url }}">{% include t.html key="councillors_link" %} →</a>
+</p>
+<div class="card-grid people-grid">
+  {%- for p in _people %}
+  {% include card.html url=p.url image=p.photo alt=p.title kicker=p.years title=p.title text=p.role %}
+  {%- endfor %}
+</div>
+{%- assign _memories = site.stories | where: "lang", _l | where: "kind", "memory" -%}
+{%- if _memories.size > 0 %}
+<section class="home-section" style="padding:0">
+  <div class="section-head"><h2 class="section-title">{% include t.html key="memories" %}</h2></div>
+  <div class="quote-row">
+    {%- for m in _memories %}
+    <figure class="memory-quote">
+      <blockquote><a href="{{ m.url | relative_url }}">“{{ m.quote | default: m.summary }}”</a></blockquote>
+      <figcaption>{{ m.author }}</figcaption>
+    </figure>
+    {%- endfor %}
+  </div>
+</section>
+{%- endif %}

@@ -1,0 +1,23 @@
+<!doctype html>
+{%- assign _l = page.lang | default: site.default_lang %}
+<html lang="{{ _l }}">
+<head>
+{% include head-meta.html %}
+</head>
+<body class="layout-{{ page.layout }}{% if page.collection %} coll-{{ page.collection }}{% endif %}">
+{% include header.html %}
+<main id="main" tabindex="-1">
+{{ content }}
+</main>
+{% include footer.html %}
+<script>window.AK = { lang: "{{ _l }}", root: "{{ '/' | relative_url }}" };</script>
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/events.js' | relative_url }}" defer></script>
+{%- if page.needs_map or page.coords %}
+<link rel="stylesheet" href="{{ '/assets/vendor/leaflet/leaflet.css' | relative_url }}">
+<script src="{{ '/assets/vendor/leaflet/leaflet.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/map.js' | relative_url }}" defer></script>
+{%- endif %}
+</body>
+</html>

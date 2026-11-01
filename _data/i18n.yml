@@ -1,0 +1,132 @@
+# Interface text. Usage: {% include t.html key="read_more" %}
+# Malayalam strings are drafts — have a native speaker review before launch.
+
+site_name:            { en: "Aranattukara",                    ml: "അരണാട്ടുകര" }
+site_place:           { en: "Thrissur, Kerala",                ml: "തൃശ്ശൂർ, കേരളം" }
+skip_to_content:      { en: "Skip to content",                 ml: "ഉള്ളടക്കത്തിലേക്ക് പോകുക" }
+menu:                 { en: "Menu",                            ml: "മെനു" }
+close:                { en: "Close",                           ml: "അടയ്ക്കുക" }
+search:               { en: "Search",                          ml: "തിരയുക" }
+search_placeholder:   { en: "Search places, people, stories…", ml: "സ്ഥലങ്ങൾ, ആളുകൾ, കഥകൾ തിരയുക…" }
+search_none:          { en: "Nothing found. Try another word.", ml: "ഒന്നും കണ്ടെത്തിയില്ല. മറ്റൊരു വാക്ക് ശ്രമിക്കൂ." }
+read_more:            { en: "Read more",                       ml: "കൂടുതൽ വായിക്കുക" }
+read_the_story:       { en: "Read the story",                  ml: "കഥ വായിക്കുക" }
+take_the_walk:        { en: "Take the heritage walk",          ml: "പൈതൃക നടത്തം" }
+see_all:              { en: "See all",                         ml: "എല്ലാം കാണുക" }
+home:                 { en: "Home",                            ml: "ഹോം" }
+translation_pending:  { en: "Malayalam version coming soon",   ml: "ഇംഗ്ലീഷ് പതിപ്പ് ഉടൻ വരുന്നു" }
+sample_notice:        { en: "First draft — the text is still being checked, and pictures marked “Photo to come” are placeholders.", ml: "ആദ്യ കരട് — വാചകം പരിശോധിച്ചുകൊണ്ടിരിക്കുന്നു; “ചിത്രം ഉടൻ” എന്നു കാണുന്നവ താൽക്കാലിക ചിത്രങ്ങളാണ്." }
+
+# Home
+this_week:            { en: "Coming up",                       ml: "വരാനിരിക്കുന്നവ" }
+explore:              { en: "Explore",                         ml: "അറിയാം" }
+from_the_story:       { en: "From the story",                  ml: "ചരിത്രത്തിൽ നിന്ന്" }
+then_and_now:         { en: "Then & now",                      ml: "അന്നും ഇന്നും" }
+on_this_day:          { en: "On this day",                     ml: "ഈ ദിവസം" }
+memories:             { en: "Memories",                        ml: "ഓർമ്മകൾ" }
+all_memories:         { en: "All memories",                    ml: "എല്ലാ ഓർമ്മകളും" }
+map_teaser:           { en: "Find your way around Aranattukara", ml: "അരണാട്ടുകരയിലെ വഴികൾ" }
+open_map:             { en: "Open the map",                    ml: "ഭൂപടം തുറക്കുക" }
+far_from_home:        { en: "Far from home?",                  ml: "നാട്ടിൽ നിന്ന് ദൂരെയാണോ?" }
+far_from_home_text:   { en: "Get news, festival dates and stories from Aranattukara, wherever you are.", ml: "എവിടെയായിരുന്നാലും അരണാട്ടുകരയിലെ വാർത്തകളും പെരുന്നാൾ തീയതികളും കഥകളും അറിയാം." }
+join_whatsapp:        { en: "Join the WhatsApp channel",       ml: "വാട്ട്സ്ആപ്പ് ചാനലിൽ ചേരുക" }
+subscribe:            { en: "Get the monthly newsletter",      ml: "പ്രതിമാസ വാർത്താക്കുറിപ്പ്" }
+no_events:            { en: "No dated events listed yet.", ml: "തീയതിയുള്ള പരിപാടികൾ ഇതുവരെ ചേർത്തിട്ടില്ല." }
+
+# Sections
+section_history:      { en: "History",                         ml: "ചരിത്രം" }
+section_places:       { en: "Places",                          ml: "സ്ഥലങ്ങൾ" }
+section_worship:      { en: "Places of Worship",               ml: "ആരാധനാലയങ്ങൾ" }
+councillors_link:     { en: "Councillors of Aranattukara",      ml: "അരണാട്ടുകരയുടെ ജനപ്രതിനിധികൾ" }
+at_a_glance:          { en: "Aranattukara at a glance",        ml: "അരണാട്ടുകര ഒറ്റനോട്ടത്തിൽ" }
+section_people:       { en: "People",                          ml: "ആളുകൾ" }
+section_community:    { en: "Community",                       ml: "സമൂഹം" }
+section_business:     { en: "Business Directory",              ml: "സ്ഥാപനങ്ങൾ" }
+section_events:       { en: "Events",                          ml: "പരിപാടികൾ" }
+section_gallery:      { en: "Gallery",                         ml: "ചിത്രശാല" }
+section_diaspora:     { en: "Diaspora",                        ml: "പ്രവാസികൾ" }
+section_learn:        { en: "Learn",                           ml: "പഠിക്കാം" }
+section_map:          { en: "Map",                             ml: "ഭൂപടം" }
+section_timeline:     { en: "Timeline",                        ml: "കാലരേഖ" }
+section_about:        { en: "About",                           ml: "ഞങ്ങളെക്കുറിച്ച്" }
+section_contribute:   { en: "Contribute",                      ml: "പങ്കുചേരുക" }
+section_living:       { en: "Living Here",                     ml: "ഇവിടെ ജീവിക്കാൻ" }
+
+# Pages
+chapter:              { en: "Chapter",                         ml: "അധ്യായം" }
+of:                   { en: "of",                              ml: "/" }
+previous:             { en: "Previous",                        ml: "മുമ്പത്തേത്" }
+next:                 { en: "Next",                            ml: "അടുത്തത്" }
+sources:              { en: "Sources",                         ml: "സ്രോതസ്സുകൾ" }
+published:            { en: "Published",                       ml: "പ്രസിദ്ധീകരിച്ചത്" }
+updated:              { en: "Updated",                         ml: "പുതുക്കിയത്" }
+by:                   { en: "By",                              ml: "എഴുതിയത്" }
+related:              { en: "Related",                         ml: "ബന്ധപ്പെട്ടവ" }
+in_this_story:        { en: "Places and people in this story", ml: "ഈ കഥയിലെ സ്ഥലങ്ങളും ആളുകളും" }
+do_you_know_more:     { en: "Do you know more about this?",    ml: "ഇതിനെക്കുറിച്ച് കൂടുതൽ അറിയാമോ?" }
+tell_us:              { en: "Tell us",                         ml: "ഞങ്ങളെ അറിയിക്കൂ" }
+share:                { en: "Share",                           ml: "പങ്കിടുക" }
+share_whatsapp:       { en: "Share on WhatsApp",               ml: "വാട്ട്സ്ആപ്പിൽ പങ്കിടുക" }
+copy_link:            { en: "Copy link",                       ml: "ലിങ്ക് പകർത്തുക" }
+copied:               { en: "Link copied",                     ml: "ലിങ്ക് പകർത്തി" }
+
+# Fact box
+type:                 { en: "Type",                            ml: "തരം" }
+founded:              { en: "Founded",                         ml: "സ്ഥാപിതം" }
+timings:              { en: "Timings",                         ml: "സമയം" }
+festival:             { en: "Festival",                        ml: "പെരുന്നാൾ / ഉത്സവം" }
+address:              { en: "Address",                         ml: "വിലാസം" }
+phone:                { en: "Phone",                           ml: "ഫോൺ" }
+directions:           { en: "Directions",                      ml: "വഴി" }
+walk_stop:            { en: "Heritage walk stop",              ml: "പൈതൃക നടത്തത്തിലെ സ്റ്റോപ്പ്" }
+years:                { en: "Years",                           ml: "കാലം" }
+role:                 { en: "Known for",                       ml: "അറിയപ്പെടുന്നത്" }
+when:                 { en: "When",                            ml: "എപ്പോൾ" }
+where:                { en: "Where",                           ml: "എവിടെ" }
+organiser:            { en: "Organiser",                       ml: "സംഘാടകർ" }
+add_to_calendar:      { en: "Add to calendar",                 ml: "കലണ്ടറിൽ ചേർക്കുക" }
+since:                { en: "Since",                           ml: "മുതൽ" }
+call:                 { en: "Call",                            ml: "വിളിക്കുക" }
+whatsapp:             { en: "WhatsApp",                        ml: "വാട്ട്സ്ആപ്പ്" }
+all:                  { en: "All",                             ml: "എല്ലാം" }
+past_event:           { en: "This event has passed.",          ml: "ഈ പരിപാടി കഴിഞ്ഞു." }
+yearly_festivals:     { en: "Every year",                      ml: "എല്ലാ വർഷവും" }
+upcoming:             { en: "Upcoming",                        ml: "വരാനിരിക്കുന്നവ" }
+
+# Place types
+type_church:          { en: "Church",                          ml: "പള്ളി" }
+type_chapel:          { en: "Chapel",                          ml: "കപ്പേള" }
+type_temple:          { en: "Temple",                          ml: "ക്ഷേത്രം" }
+type_convent:         { en: "Convent / Ashram",                ml: "മഠം / ആശ്രമം" }
+type_school:          { en: "School",                          ml: "വിദ്യാലയം" }
+type_landmark:        { en: "Landmark",                        ml: "അടയാളസ്ഥലം" }
+type_lost-place:      { en: "Lost place",                      ml: "മറഞ്ഞ സ്ഥലം" }
+type_environment:     { en: "Environment group",               ml: "പരിസ്ഥിതി സംഘടന" }
+type_club:            { en: "Club",                            ml: "ക്ലബ്ബ്" }
+type_association:     { en: "Association",                     ml: "സംഘടന" }
+type_cultural:        { en: "Arts & culture",                  ml: "കലാ-സാംസ്കാരികം" }
+type_sports:          { en: "Sports",                          ml: "കായികം" }
+type_religious:       { en: "Religious society",               ml: "മതസംഘടന" }
+
+# Business categories
+cat_bakery:           { en: "Bakeries",                        ml: "ബേക്കറികൾ" }
+cat_restaurant:       { en: "Restaurants",                     ml: "ഭക്ഷണശാലകൾ" }
+cat_shop:             { en: "Shops",                           ml: "കടകൾ" }
+cat_services:         { en: "Services",                        ml: "സേവനങ്ങൾ" }
+cat_health:           { en: "Health",                          ml: "ആരോഗ്യം" }
+
+# Footer
+footer_about:         { en: "A community website about Aranattukara — its history, people and everyday life. Run by volunteers; corrections welcome.", ml: "അരണാട്ടുകരയുടെ ചരിത്രവും ആളുകളും ദൈനംദിന ജീവിതവും — ഒരു സാമൂഹിക വെബ്സൈറ്റ്. തിരുത്തലുകൾ സ്വാഗതം." }
+not_found_title:      { en: "Page not found",                  ml: "പേജ് കണ്ടെത്തിയില്ല" }
+not_found_text:       { en: "This page may have moved. Try the search, or start from the home page.", ml: "ഈ പേജ് മാറിയിരിക്കാം. തിരയുകയോ ഹോം പേജിൽ നിന്ന് തുടങ്ങുകയോ ചെയ്യുക." }
+
+# Pictures
+photo_to_come:        { en: "Photo to come",                   ml: "ചിത്രം ഉടൻ" }
+section_credits:      { en: "Picture credits",                 ml: "ചിത്രങ്ങൾക്ക് കടപ്പാട്" }
+credits_licence:      { en: "Licence",                         ml: "ലൈസൻസ്" }
+credits_by:           { en: "By",                              ml: "എടുത്തത്" }
+credits_source:       { en: "Source",                          ml: "ഉറവിടം" }
+type_explainer:       { en: "Explainer",                       ml: "ലഘുവിവരണം" }
+biz_empty:            { en: "The directory is being put together. Shops, bakeries, services and professionals in Aranattukara can be listed free of charge.", ml: "ഡയറക്ടറി തയ്യാറാക്കിക്കൊണ്ടിരിക്കുന്നു. അരണാട്ടുകരയിലെ കടകൾക്കും ബേക്കറികൾക്കും സേവനങ്ങൾക്കും സൗജന്യമായി ലിസ്റ്റ് ചെയ്യാം." }
+biz_add:              { en: "Add your business",               ml: "നിങ്ങളുടെ സ്ഥാപനം ചേർക്കൂ" }
+in_english:           { en: "in English", ml: "ഇംഗ്ലീഷിൽ" }

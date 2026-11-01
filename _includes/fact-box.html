@@ -1,0 +1,27 @@
+{%- comment -%} Fact box for places, people, organisations. Rows appear only when the field is set. {%- endcomment -%}
+{%- assign _l = page.lang | default: site.default_lang -%}
+<dl class="fact-box">
+  {%- if page.type %}{% assign _tk = "type_" | append: page.type %}
+  <div><dt>{% include t.html key="type" %}</dt><dd>{% include t.html key=_tk %}</dd></div>{% endif %}
+  {%- if page.years %}
+  <div><dt>{% include t.html key="years" %}</dt><dd>{{ page.years }}</dd></div>{% endif %}
+  {%- if page.role %}
+  <div><dt>{% include t.html key="role" %}</dt><dd>{{ page.role }}</dd></div>{% endif %}
+  {%- if page.founded %}
+  <div><dt>{% include t.html key="founded" %}</dt><dd>{{ page.founded }}</dd></div>{% endif %}
+  {%- if page.timings %}
+  <div><dt>{% include t.html key="timings" %}</dt><dd>{{ page.timings }}</dd></div>{% endif %}
+  {%- if page.festivals %}
+  <div><dt>{% include t.html key="festival" %}</dt><dd>
+    {%- for f in page.festivals -%}{%- assign fest = site.data.festivals | where: "id", f | first -%}
+    {%- if fest %}{{ fest.name[_l] }} <span class="muted">({{ fest.rule[_l] }})</span>{% unless forloop.last %}<br>{% endunless %}{% endif -%}
+    {%- endfor -%}</dd></div>{% endif %}
+  {%- if page.walk_stop %}
+  <div><dt>{% include t.html key="walk_stop" %}</dt><dd>#{{ page.walk_stop }}</dd></div>{% endif %}
+  {%- if page.address %}
+  <div><dt>{% include t.html key="address" %}</dt><dd>{{ page.address }}</dd></div>{% endif %}
+  {%- if page.phone %}
+  <div><dt>{% include t.html key="phone" %}</dt><dd><a href="tel:{{ page.phone | remove: ' ' }}">{{ page.phone }}</a></dd></div>{% endif %}
+  {%- if page.coords %}
+  <div><dt>{% include t.html key="directions" %}</dt><dd><a href="https://www.openstreetmap.org/?mlat={{ page.coords[0] }}&mlon={{ page.coords[1] }}#map=18/{{ page.coords[0] }}/{{ page.coords[1] }}" target="_blank" rel="noopener">OpenStreetMap ↗</a></dd></div>{% endif %}
+</dl>

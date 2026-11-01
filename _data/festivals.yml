@@ -1,0 +1,33 @@
+# Yearly festivals. `rule` is how the date is set (shown to readers); `month` sorts the list.
+# Only festivals whose timing is known are listed. Sources: Joy Chiramel, *Arranadu – Aranadu –
+# Orunadu* (2024), ch. 3, 11, 12, 17. The book also says St. Sebastian's feast has been kept every
+# January since the statue arrived (c. 1800–1805) — confirm locally whether this is the perunnal.
+# Draft — confirm every date and name locally before publishing.
+- id: perunnal
+  name: { en: "Parish feast (Perunnal)", ml: "ഇടവക പെരുന്നാൾ" }
+  rule: { en: "First Sunday of January", ml: "ജനുവരിയിലെ ആദ്യ ഞായറാഴ്ച" }
+  month: 1
+  place: st-thomas-church
+- id: nagari-kanikkal
+  name: { en: "Nagari Kanikkal", ml: "നഗരി കാണിക്കൽ" }
+  rule: { en: "Good Friday, March or April", ml: "ദുഃഖവെള്ളി, മാർച്ച് / ഏപ്രിൽ" }
+  month: 4
+  place: st-thomas-church
+- id: thrissur-pooram
+  name: { en: "Thrissur Pooram (Lalur Bhagavathy's procession)", ml: "തൃശ്ശൂർ പൂരം (ലാലൂർ ഭഗവതിയുടെ എഴുന്നള്ളിപ്പ്)" }
+  rule: { en: "Pooram day in the Malayalam month of Medam, April or May", ml: "മേടമാസത്തിലെ പൂരം നാൾ, ഏപ്രിൽ / മേയ്" }
+  month: 5
+  place: lalur-karthyayani-temple
+- id: vanakkamasam-closing
+  name: { en: "Close of the Marian month (Vanakkamasam)", ml: "വണക്കമാസ സമാപനം" }
+  rule: { en: "End of May", ml: "മേയ് മാസാവസാനം" }
+  month: 5
+  place: st-marys-chapel
+- id: onam
+  name: { en: "Onam", ml: "ഓണം" }
+  rule: { en: "Malayalam month of Chingam, August or September", ml: "ചിങ്ങമാസം, ഓഗസ്റ്റ് / സെപ്റ്റംബർ" }
+  month: 9
+- id: christmas
+  name: { en: "Christmas", ml: "ക്രിസ്മസ്" }
+  rule: { en: "25 December", ml: "ഡിസംബർ 25" }
+  month: 12

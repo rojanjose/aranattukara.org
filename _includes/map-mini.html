@@ -1,0 +1,6 @@
+{%- comment -%} Small map for a place page. Falls back to a plain OSM link with JS off. {%- endcomment -%}
+{%- if page.coords %}
+<div class="map-mini" data-map-mini data-lat="{{ page.coords[0] }}" data-lng="{{ page.coords[1] }}" data-title="{{ page.title | escape }}">
+  <a href="https://www.openstreetmap.org/?mlat={{ page.coords[0] }}&mlon={{ page.coords[1] }}#map=17/{{ page.coords[0] }}/{{ page.coords[1] }}" target="_blank" rel="noopener">{% include t.html key="open_map" %} ↗</a>
+</div>
+{%- endif %}

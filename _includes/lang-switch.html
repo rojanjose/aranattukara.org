@@ -1,0 +1,24 @@
+{%- comment -%}
+  Links to the same page in the other language. Pages pair by URL:
+  /en/places/x/ ↔ /ml/places/x/. If the counterpart doesn't exist yet, the
+  link is shown disabled with a "translation coming" note instead of a 404.
+{%- endcomment -%}
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- if _l == "ml" -%}{%- assign _o = "en" -%}{%- else -%}{%- assign _o = "ml" -%}{%- endif -%}
+{%- assign _from = "/" | append: _l | append: "/" -%}
+{%- assign _to = "/" | append: _o | append: "/" -%}
+{%- assign _other_url = page.url | replace_first: _from, _to -%}
+{%- assign _all = site.documents | concat: site.pages -%}
+{%- assign _match = _all | where: "url", _other_url | first -%}
+<div class="lang-switch" role="group" aria-label="Language / ഭാഷ">
+  {%- if _l == "en" -%}
+  <span class="lang-current" aria-current="true">EN</span>
+  {%- else -%}
+  {%- if _match -%}<a href="{{ _other_url | relative_url }}" hreflang="en" lang="en" data-lang="en">EN</a>{%- else -%}<span class="lang-missing" title="English version coming soon" lang="en">EN</span>{%- endif -%}
+  {%- endif -%}
+  {%- if _l == "ml" -%}
+  <span class="lang-current" aria-current="true" lang="ml">മല</span>
+  {%- else -%}
+  {%- if _match -%}<a href="{{ _other_url | relative_url }}" hreflang="ml" lang="ml" data-lang="ml">മല</a>{%- else -%}<span class="lang-missing" title="മലയാളം പതിപ്പ് ഉടൻ — Malayalam version coming soon" lang="ml">മല</span>{%- endif -%}
+  {%- endif -%}
+</div>

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{%- comment -%}
+  Generic page. Set `wide: true` for index pages (cards, maps, tables);
+  otherwise the body is set in the narrow reading column.
+{%- endcomment -%}
+<div class="page-head{% if page.wide %} wide{% endif %}">
+  {%- if page.kicker %}<p class="kicker">{{ page.kicker }}</p>{% endif %}
+  <h1>{{ page.title }}</h1>
+  {%- if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+</div>
+<div class="{% if page.wide %}wide{% else %}prose{% endif %}">
+{{ content }}
+</div>
+{%- if page.sources %}
+<section class="prose sources">
+  <h2>{% include t.html key="sources" %}</h2>
+  <ol>{% for s in page.sources %}<li>{{ s | markdownify | remove: "<p>" | remove: "</p>" }}</li>{% endfor %}</ol>
+</section>
+<div class="prose">{% include know-more.html %}</div>
+{%- endif %}
