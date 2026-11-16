@@ -12,6 +12,9 @@
         {%- if site.newsletter_url != "" %}
         <a class="btn btn-ghost-light" href="{{ site.newsletter_url }}" target="_blank" rel="noopener">{% include t.html key="subscribe" %}</a>
         {%- endif %}
+        {%- if site.contact_email != "" %}
+        <a class="btn btn-ghost-light" href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>
+        {%- endif %}
       </div>
     </div>
     {%- for col in site.data.nav.footer %}

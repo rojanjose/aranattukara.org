@@ -8,8 +8,7 @@ consent: historical
 places: [tharakans-school, st-thomas-church]
 themes: [faith, education]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 17"
 ---
 
 Joseph Neelankavil was born in Aranattukara on 19 March 1930, the feast of St. Joseph. He was the eldest son of Neelankavil Lazar and Palathinkal Kunjannam. The Neelankavil family had been among those who promised help to St. Chavara when he founded the Elthuruth monastery in 1856.

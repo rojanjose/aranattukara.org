@@ -3,12 +3,9 @@ title: Netaji Ground
 summary: Aranattukara's football ground — home of the Netaji Sports Club's tournaments, and the field where local players and the Cochin Malleables team made their names.
 type: landmark
 themes: [arts]
-photos: [ph-netaji-ground]
+photos: [netaji-ground, netaji-ground-west, netaji-ground-stand, netaji-ground-hall, netaji-ground-entrance]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 13"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16"
-needs:
-  - { name: ph-netaji-ground, brief: "The Netaji Ground, Aranattukara, with a football game or practice in progress. Wide landscape, late afternoon; avoid close-up faces of children." }
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 13, 16"
 ---
 If the church playgrounds belonged to tennis and basketball, football in Aranattukara belonged to the Netaji Ground. The book says plainly that most football matches were played here.
 
@@ -22,7 +19,7 @@ The book remembers a long line of local players. C.T. Raphael Chungath played un
 
 ## Beside the ground
 
-[Trinity Pharmaceuticals]({{ '/en/stories/work-and-industry/' | relative_url }}), one of the few Aranattukara factories still working, stands next to the Netaji Ground.
+[Trinity Pharmaceuticals]({{ '/en/stories/work-and-industry/' | relative_url }}), one of the few Aranattukara factories still working, stands next to the Netaji Ground. So does the [Tagore Centenary Hall]({{ '/en/places/tagore-centenary-hall/' | relative_url }}), which was being rebuilt in 2026.
 
 ## Help us complete this page
 

@@ -8,10 +8,7 @@ consent: historical
 places: [john-matthai-centre]
 themes: [politics, education, environment]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 12, 14, 17"
 ---
 
 1886-ൽ കോഴിക്കോട്ട് ജനിച്ച ജോൺ മത്തായി തന്റെ കാലത്തെ ഏറ്റവും പ്രശസ്തരായ ഇന്ത്യൻ സാമ്പത്തിക ശാസ്ത്രജ്ഞരിൽ ഒരാളായി. മദ്രാസ് ക്രിസ്ത്യൻ കോളേജിലും മദ്രാസ് ലോ കോളേജിലും പഠിച്ച അദ്ദേഹം മദ്രാസ് പ്രസിഡൻസി കോളേജിൽ സാമ്പത്തിക ശാസ്ത്രം പഠിപ്പിച്ചു. എന്നാൽ വീടായി അദ്ദേഹം തിരഞ്ഞെടുത്തത് അരണാട്ടുകരയിലെ ലാലൂരിൽ മരങ്ങൾക്കിടയിലെ ഒരു ശാന്തമായ ബംഗ്ലാവാണ്.

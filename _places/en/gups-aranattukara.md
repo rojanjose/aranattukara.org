@@ -4,13 +4,10 @@ summary: Aranattukara's government school near the Eastern Bazaar, which began a
 type: school
 coords: [10.51387, 76.19530]
 themes: [education]
-photos: [ph-gups-aranattukara]
+photos: [gups-aranattukara, gups-aranattukara-gate, gups-aranattukara-sign]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 14"
   - "OpenStreetMap, “Government Upper Primary School Aranattukara” (location)"
-needs:
-  - { name: ph-gups-aranattukara, brief: "Government UP School, Aranattukara — the school building and gate from the road, daylight, landscape; ask the headmaster's permission; no close-up faces of children" }
 ---
 Most of Aranattukara's early schools were started by the parish or by families such as the Tharakans. This one was started by the state. The Education Department opened it as a mixed school, for boys and girls together, so that the children of poor families in the area could study free of charge.
 

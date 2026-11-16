@@ -8,9 +8,7 @@ themes: [education]
 people: [st-kuriakose-elias-chavara, bishop-antony-chirayath]
 photos: [st-aloysius-college]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 16, 17"
 ---
 St. Aloysius College stands at Elthuruth, on the western edge of Aranattukara, next to the [Elthuruth Ashram]({{ '/en/places/elthuruth-ashram/' | relative_url }}) founded by St. Kuriakose Elias Chavara.
 

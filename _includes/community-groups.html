@@ -1,0 +1,21 @@
+{%- comment -%}
+  Community groups run by others, from _data/groups.yml (entries without a url are skipped).
+    [include community-groups.html]            heading included
+    [include community-groups.html heading=false]
+{%- endcomment -%}
+{%- assign _l = page.lang | default: site.default_lang -%}
+{%- assign _groups = site.data.groups | where_exp: "g", "g.url != ''" -%}
+{%- if _groups.size > 0 %}
+<section class="groups">
+  {%- unless include.heading == false %}<h2>{% include t.html key="community_groups" %}</h2>{% endunless %}
+  <p class="groups-intro">{% include t.html key="community_groups_intro" %}</p>
+  <ul class="groups-list">
+    {%- for g in _groups %}
+    <li class="group">
+      <div class="group-text"><strong>{{ g.name[_l] }}</strong><span>{{ g.text[_l] }}{% if g.approval %} {% include t.html key="group_approval" %}{% endif %}</span></div>
+      <a class="btn {% if g.kind == 'whatsapp' %}btn-whatsapp{% else %}btn-ghost{% endif %}" href="{{ g.url }}" target="_blank" rel="noopener">{% if g.kind == 'whatsapp' %}{% include t.html key="group_join" %}{% elsif g.kind == 'facebook' %}{% include t.html key="group_facebook" %}{% else %}{% include t.html key="group_open" %}{% endif %} ↗</a>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}

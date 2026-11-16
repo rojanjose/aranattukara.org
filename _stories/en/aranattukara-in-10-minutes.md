@@ -12,7 +12,7 @@ hero: kol-wetland-sunset
 hero_alt: Flooded kol paddy fields near Thrissur at sunset, the water reflecting an orange sky, with a line of coconut palms on the horizon.
 hero_caption: The kol wetlands west of Thrissur at sunset — the water country Aranattukara grew up beside.
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1, 3, 5, 10–15 and 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1, 3, 5, 10–15, 17"
 ---
 
 Aranattukara is a ward of Thrissur city, a few kilometres south-west of the Round. Today it looks like any busy neighbourhood. But it has a longer and stranger history than most: it was once Thrissur's port. Here is the story in short. Each section links to a fuller chapter.

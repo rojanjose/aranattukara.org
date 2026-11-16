@@ -16,7 +16,7 @@ municipality:
   - { name: { en: "Lissy Anto Tharakan", ml: "ലിസ്സി ആന്റോ തരകൻ" }, years: "" }
   - { name: { en: "Francis Therattil", ml: "ഫ്രാൻസീസ് തേറാട്ടിൽ" }, years: "" }
   - { name: { en: "U.J. Thomas", ml: "യു.ജെ. തോമാസ്" }, years: "" }
-  - { name: { en: "Lali James", ml: "ലാലി ജയിംസ്" }, years: "" }
+  - { name: { en: "Lali James", ml: "ലാലി ജയിംസ്" }, person: lali-james, years: "" }
   - { name: { en: "Prof. Sudhakaran", ml: "പ്രൊഫ. സുധാകരൻ" }, years: "" }
   - { name: { en: "T. Radha", ml: "ടി. രാധ" }, years: "" }
   - { name: { en: "Francis Chalissery", ml: "ഫ്രാൻസീസ് ചാലിശ്ശേരി" }, years: "" }
@@ -51,13 +51,13 @@ core:
       laloor: { name: { en: "Francis Chalissery", ml: "ഫ്രാൻസീസ് ചാലിശ്ശേരി" }, party: "INC", ward: "50" }
     - year: "2015"
       aranattukara: { name: { en: "Princy Raju", ml: "പ്രിൻസി രാജു" }, party: "INC", ward: "51" }
-      laloor: { name: { en: "Lali James", ml: "ലാലി ജയിംസ്" }, party: "INC", ward: "50" }
+      laloor: { name: { en: "Lali James", ml: "ലാലി ജയിംസ്" }, person: lali-james, party: "INC", ward: "50" }
     - year: "2020"
       aranattukara: { name: { en: "Anoop Davis Kada", ml: "അനൂപ് ഡേവീസ് കാട" }, party: "CPI(M)", ward: "51" }
       laloor: { name: { en: "P.K. Shajan", ml: "പി.കെ. ഷാജൻ" }, party: "CPI(M)", ward: "50" }
     - year: "2025"
       aranattukara: { name: { en: "Vibhitha Vasu", ml: "വിഭിത വാസു" }, party: "INC", ward: "48" }
-      laloor: { name: { en: "Lali James", ml: "ലാലി ജയിംസ്" }, party: "INC", ward: "47" }
+      laloor: { name: { en: "Lali James", ml: "ലാലി ജയിംസ്" }, person: lali-james, party: "INC", ward: "47" }
 
 # Wards around Aranattukara: one row per ward, one cell per election ("name (party)").
 # 2010–2020 numbers in brackets after the name are not needed: the ward kept its number then.

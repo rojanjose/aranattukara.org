@@ -6,8 +6,7 @@ walk_stop: 5
 themes: [trade]
 photos: [council-1939-bazaar-road, ph-chunkam-junction-today]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 15"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1, 15"
 needs:
   - { name: ph-chunkam-junction-today, brief: "Chunkam junction on Kanjani Road today, showing the road towards the Aranattukara markets, daylight, landscape" }
 ---

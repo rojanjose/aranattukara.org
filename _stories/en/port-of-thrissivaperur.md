@@ -14,9 +14,7 @@ hero: gould-plan-1816-aranaat
 hero_alt: Detail of a hand-drawn 1816 map showing a cluster of small red-roofed buildings at the head of a narrow backwater inlet, with the handwritten label "Aranaat".
 hero_caption: Detail of John Gould's 1816 plan of Trichur. We read the label as “Aranaat” — still to be confirmed against the British Library original.
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3 (salt boats from Kozhikode; the kol fields)"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 15 (the chunkams; trade)"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1, 3 (salt boats from Kozhikode; the kol fields), 15 (the chunkams; trade)"
   - "John Gould, plan of Trichur and its environs, 1816 (British Library)"
   - "U.S. Army Map Service, map of the Trichur area, 1955"
   - "Proceedings of the Cochin Legislative Council, 1939"
@@ -70,7 +68,7 @@ At these posts stood *chumaduthangis*, stone load-rests: two upright slabs with 
 
 ## The port falls quiet
 
-Railways ended the port's life. The book names the start of rail transport as the first blow; the line from Shoranur to Kochi reached Thrissur in 1902. Then the Puthenthodu canal was dug through to Kokkalai, and boat traffic moved to the area now called Vanchikkulam. Lorries and buses finished the job.
+Railways ended the port's life. The book names the start of rail transport as the first blow; the line from Shoranur to Kochi reached Thrissur in 1902. Then the Puthenthodu canal was dug through to Kokkalai, and boat traffic moved to the area now called [Vanchikkulam]({{ '/en/places/vanchikulam/' | relative_url }}). Lorries and buses finished the job.
 
 The landing found a second, humbler life as a sand depot: sand dug from the water, heaped on the bank, and carted away for building. In the evenings families came down for the breeze, children swam, and people sat on the sand watching steam trains in the distance and the cargo boats, on their new route, passing the church at Nedupuzha.
 

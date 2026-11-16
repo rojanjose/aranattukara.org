@@ -10,13 +10,11 @@ era: [pre-1800, sakthan-thampuran, 1805-1947, 1980-2000]
 themes: [faith, environment, festivals]
 places: [lalur-karthyayani-temple, lalur-subrahmanya-temple, kizhakkeppuram-ayyappa-temple, elthuruth-ashram, john-matthai-centre]
 people: [sakthan-thampuran, antony-tharakan, john-mathai, st-kuriakose-elias-chavara]
-hero: ph-lalur-karthyayani-temple
-hero_alt: The entrance of the Lalur Karthyayani Temple, Aranattukara, in daylight.
+hero: lalur-karthyayani-temple
+hero_alt: The sreekovil (shrine) of the Lalur Karthyayani Temple, with its carved walls and tiled two-tier roof.
 hero_caption: The Lalur Karthyayani Temple, one of the shrines that take part in the Thrissur Pooram.
-needs:
-  - { name: ph-lalur-karthyayani-temple, brief: "Lalur Karthyayani Temple — front entrance from the road, daylight, landscape; ask the temple committee's permission first" }
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3, ch. 7 and ch. 12"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3, 7, 12"
   - "V.V.K. Valath, *Keralathile Sthalacharithrangal: Thrissur Jilla* (as cited in Chiramel, ch. 3 and ch. 12)"
   - "Puthezhath Raman Menon, *Thrissur – Trichur* (as cited in Chiramel, ch. 12)"
 ---

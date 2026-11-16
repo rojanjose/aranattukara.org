@@ -8,10 +8,7 @@ consent: historical
 places: [tharakans-school, st-thomas-church]
 themes: [education, faith, politics]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3, 5, 14, 17"
 ---
 
 ഔദ്യോഗിക രേഖകളിൽ ജെ.സി. ചിറമ്മൽ; നാട്ടുകാർക്ക് ചാക്കോരു മാസ്റ്റർ. സ്കൂൾ അദ്ധ്യാപകനായിരുന്നെങ്കിലും അരണാട്ടുകര മുഴുവനുമായിരുന്നു അദ്ദേഹത്തിന്റെ യഥാർത്ഥ ക്ലാസ് മുറി. പാവങ്ങളുടെ സംരക്ഷകനും ആഴമായ വിശ്വാസിയുമായാണ് പുസ്തകം അദ്ദേഹത്തെ വിശേഷിപ്പിക്കുന്നത്; അദ്ദേഹം ചെയ്തതെല്ലാം ഏതാനും പേജുകളിൽ ഒതുക്കാനാവില്ലെന്നും സമ്മതിക്കുന്നു.

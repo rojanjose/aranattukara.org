@@ -5,10 +5,9 @@ type: convent
 founded: "26 May 1947"
 coords: [10.51368, 76.19330]
 themes: [faith, education]
-photos: [ph-infant-jesus-convent]
+photos: [infant-jesus-convent]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 10"
 ---
 ഹോളി ഫാമിലി (തിരുക്കുടുംബ) സന്യാസിനീ സമൂഹത്തിന്റേതാണ് ഇൻഫന്റ് ജീസസ് കോൺവെന്റ്. വ്യക്തമായ ഒരു ലക്ഷ്യത്തോടെയാണ് അത് തുടങ്ങിയത്: അരണാട്ടുകരയിലെ പെൺകുട്ടികൾക്ക് സ്വന്തമായി ഒരു ഹൈസ്കൂൾ.
 

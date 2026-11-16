@@ -14,8 +14,7 @@ hero: kol-padam-canal
 hero_alt: A narrow footpath runs beside tall grass and a canal through flat kol fields under a clear sky, with a line of trees on the horizon.
 hero_caption: A canal and footpath through the kol fields near Aranattukara — the low, wet land that surrounded the kara on several sides.
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 2 and ch. 12 (bamboo country, Pattalangadi, Lalur)"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1, 2, 12 (bamboo country, Pattalangadi, Lalur)"
 ---
 
 Ask an old resident what "Aranattukara" means and you may get three or four different answers, each told with complete confidence. That is fitting. The name has never been settled, and the arguments about it say a good deal about what kind of place this was: low land at the edge of the water, a landing for boats, a row of storehouses, and a busy market on the south-western side of Thrissivaperur, the old name of Thrissur.

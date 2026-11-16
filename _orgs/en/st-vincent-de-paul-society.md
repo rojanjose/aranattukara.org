@@ -5,8 +5,7 @@ type: religious
 themes: [faith]
 photos: [vincent-de-paul-portrait, ph-st-vincent-de-paul-society]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 11"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 11, 17"
 needs:
   - { name: ph-st-vincent-de-paul-society, brief: "Vincent de Paul Nagar — the row of houses built by the Society, with the chapel at the entrance, daylight, landscape" }
 ---

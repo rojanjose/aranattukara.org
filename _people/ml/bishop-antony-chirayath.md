@@ -8,8 +8,7 @@ consent: public
 places: [tharakans-school, st-aloysius-college, st-thomas-church]
 themes: [faith, education]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17 (citing the St. Thomas Church jubilee souvenir, 225 years)"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 17 (citing the St. Thomas Church jubilee souvenir, 225 years)"
 ---
 
 1941-ൽ അരണാട്ടുകരയിലെ ചിറയത്ത് കുടുംബത്തിലാണ് മാർ ആന്റണി ചിറയത്ത് ജനിച്ചത്. ഇടവകയിലെ പഴയ കുടുംബങ്ങളിലൊന്നാണ് ചിറയത്ത്. 1870-കളിലെ ഭിന്നതയുടെ കാലത്ത് റോമിനോട് വിശ്വസ്തത പുലർത്തിയ കുടുംബങ്ങളിലും, എൽത്തുരുത്ത് ആശ്രമത്തിനായി ചാവറയച്ചന് സഹായം വാഗ്ദാനം ചെയ്ത കുടുംബങ്ങളിലും പുസ്തകം ഈ കുടുംബത്തെ എണ്ണുന്നു.

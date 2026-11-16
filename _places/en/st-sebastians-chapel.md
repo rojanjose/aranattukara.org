@@ -2,12 +2,12 @@
 title: St. Sebastian's Chapel, Thekkekkara
 summary: A chapel at Thekkekkara (Vadookkara) that belonged to the West Church in the years of the divided parish, once reached by boat.
 type: chapel
+coords: [10.49969, 76.20570]
 themes: [faith, waterways]
-photos: [ph-st-sebastians-chapel]
+photos: [st-sebastians-chapel]
 sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 11"
-needs:
-  - { name: ph-st-sebastians-chapel, brief: "St. Sebastian's Chapel at Thekkekkara (Vadookkara) — front, daylight, landscape" }
+  - "Google Maps, “St Sebastian's chapel” (location; checked November 2026)"
 ---
 St. Sebastian's Chapel stands at Thekkekkara, also known as Vadookkara, across the water from old Aranattukara.
 
@@ -19,6 +19,12 @@ Getting there was part of the story. Before the bridge over the boat canal, peop
 
 Today a road links Aranattukara and Vadookkara, and the boat journey is a memory.
 
+## Finding it
+
+The chapel stands on Vadookara Road, south-east of Aranattukara. It is easy to spot: a pale blue front with a statue of St. Sebastian in a niche high above the door.
+
+- **Address:** Vadookara Road, Vadookkara, Thrissur 680007
+
 ## What we still need
 
-We have not given current Mass times, because the Sunday Mass described in the book belongs to the past. If you know how the chapel is used today, its feast day, or have memories of the boat trip to Sunday Mass, please share them with us.
+We have not given current Mass times, because the Sunday Mass described in the book belongs to the past. If you know how the chapel is used today, its feast day, or have memories of the boat trip to Sunday Mass, please [tell us]({{ '/en/contribute/' | relative_url }}).

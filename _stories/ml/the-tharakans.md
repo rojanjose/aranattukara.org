@@ -12,12 +12,9 @@ places: [tharakan-house, warehouse-landing, tharakans-school, st-thomas-church]
 people: [antony-tharakan, sakthan-thampuran]
 hero: tharakan-house
 hero_alt: ഓടിട്ട മേൽക്കൂരയും മുകൾനിലയിൽ വരാന്തയുമുള്ള ഇരുനില വീട്, വെളുത്ത മതിലിനും ഇരുമ്പുഗേറ്റിനും പിന്നിൽ, മരങ്ങൾക്കിടയിൽ.
-hero_caption: അരണാട്ടുകരയിലെ ചിറമേൽ തരകൻ കുടുംബവീട്.
+hero_caption: അരണാട്ടുകരയിലെ ചിറമ്മൽ തരകൻ കുടുംബവീട്.
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1 (the Tharakan title)"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3 (the influence of the Tharakan family)"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5 and ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17 (Chevalier Antony Tharakan; the antique collection and house chapel)"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1 (the Tharakan title), 3 (the influence of the Tharakan family), 5, 14, 17 (Chevalier Antony Tharakan; the antique collection and house chapel)"
 ---
 
 അരണാട്ടുകരയുടെ കഥയുമായി ഇത്രയേറെ ഇഴചേർന്ന മറ്റൊരു കുടുംബമില്ല — നൂറ്റാണ്ടുകളായി “തരകന്മാർ” എന്നു മാത്രം അറിയപ്പെടുന്ന ചിറമ്മൽ കുടുംബം. അവരുടെ വീട് പഴയ കടവിനടുത്താണ്. ഒരു സ്കൂളിലും ഒരങ്ങാടിയിലും കൊച്ചി രാജചരിത്രത്തിന്റെ ഒരധ്യായത്തിലും ആ പേരുണ്ട്. നാട്ടിലെ ക്രിസ്ത്യൻ കുടിയേറ്റത്തിന്റെ വലിയൊരു ഭാഗം വളർന്നതും അവരുടെ ഭൂമിയിലാണ്.

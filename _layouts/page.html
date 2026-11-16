@@ -7,9 +7,22 @@ layout: default
 {%- endcomment -%}
 <div class="page-head{% if page.wide %} wide{% endif %}">
   {%- if page.kicker %}<p class="kicker">{{ page.kicker }}</p>{% endif %}
+  {%- if page.head_aside %}
+  <div class="page-head-top">
+    <h1>{{ page.title }}</h1>
+    <div class="page-head-aside">{% include {{ page.head_aside }} %}</div>
+  </div>
+  {%- else %}
   <h1>{{ page.title }}</h1>
-  {%- if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+  {%- endif %}
+  {%- if page.summary %}<p class="lede">{{ page.summary }}{% if page.lede_link %} <a href="{{ page.lede_link.url | relative_url }}">{% include t.html key=page.lede_link.key %} →</a>{% endif %}</p>{% endif %}
 </div>
+{%- if page.hero %}
+<figure class="page-hero{% if page.wide %} wide{% else %} prose{% endif %}">
+  {% include img.html name=page.hero alt=page.hero_alt eager=true sizes="(min-width: 1200px) 1140px, 100vw" %}
+  <figcaption>{% if page.hero_caption %}{{ page.hero_caption | markdownify | remove: "<p>" | remove: "</p>" | strip }} {% endif %}{% include credit.html name=page.hero %}</figcaption>
+</figure>
+{%- endif %}
 <div class="{% if page.wide %}wide{% else %}prose{% endif %}">
 {{ content }}
 </div>

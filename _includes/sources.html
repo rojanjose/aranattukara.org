@@ -1,0 +1,7 @@
+{%- comment -%} Sources list from front matter `sources:` (markdown allowed). Used inside a .prose column on place, person and organisation pages. {%- endcomment -%}
+{%- if page.sources %}
+<section class="sources">
+  <h2>{% include t.html key="sources" %}</h2>
+  <ol>{% for s in page.sources %}<li>{{ s | markdownify | remove: "<p>" | remove: "</p>" }}</li>{% endfor %}</ol>
+</section>
+{%- endif %}

@@ -5,12 +5,9 @@ type: convent
 founded: "26 May 1947"
 coords: [10.51368, 76.19330]
 themes: [faith, education]
-photos: [ph-infant-jesus-convent]
+photos: [infant-jesus-convent]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-needs:
-  - { name: ph-infant-jesus-convent, brief: "Infant Jesus Convent — front and chapel, daylight, landscape (ask the sisters first)" }
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 10"
 ---
 The Infant Jesus Convent belongs to the Congregation of the Holy Family. It was set up with one clear purpose: to give the girls of Aranattukara a high school of their own.
 

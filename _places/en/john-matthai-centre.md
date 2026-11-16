@@ -7,10 +7,7 @@ themes: [education, arts, environment]
 people: [john-mathai]
 photos: [john-matthai-centre, john-matthai-centre-gate, school-of-drama, john-mathai-bust, school-of-drama-noticeboard]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 12, 14, 17"
 ---
 On the road from Lalur towards the *kol* (low-lying paddy wetlands) lies a quiet, green campus. This was the home of [John Mathai]({{ '/en/people/john-mathai/' | relative_url }}), independent India's first Railway Minister and later its Finance Minister. Today it is the Dr John Matthai Centre of the University of Calicut.
 

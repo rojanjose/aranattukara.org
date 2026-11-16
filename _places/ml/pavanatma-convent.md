@@ -4,7 +4,7 @@ summary: കുടുംബങ്ങളെ സന്ദർശിച്ച് ത
 type: convent
 founded: "23 December 1983"
 themes: [faith]
-photos: [ph-pavanatma-convent]
+photos: [pavanatma-convent, pavanatma-convent-gate]
 sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10"
 ---

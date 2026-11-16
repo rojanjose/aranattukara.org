@@ -8,10 +8,7 @@ consent: historical
 places: [tharakans-school, st-thomas-church]
 themes: [education, faith, politics]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3, 5, 14, 17"
 needs:
   - { name: ph-chakkoru-master-portrait, brief: "Chakkoru Master (J.C. Chiramel) — a photograph of a family or parish portrait, with permission; upright" }
 ---

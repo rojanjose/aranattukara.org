@@ -16,10 +16,7 @@ hero_caption: A pond at the edge of the kol fields near Aranattukara.
 needs:
   - { name: ph-john-matthai-centre-trees, brief: "Bamboo groves and old trees inside the Dr John Matthai Centre campus, Lalur (ask permission). Landscape, daylight; show the canopy and the scale of the trees." }
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1 (the desams of Aranattukara village)"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12 (ecological changes; PLANT)"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16 (the people's representatives)"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1 (the desams of Aranattukara village), 12 (ecological changes; PLANT), 14, 16 (the people's representatives)"
 ---
 
 Anyone who grew up in Aranattukara before the 1980s can tell you how much it has changed. Joy Chiramel's book is full of these memories: the croak of yellow frogs in the monsoon fields, washerwomen spreading white cloth on red laterite, families watching the sunset from the sand at the *kadavu* (boat landing). This last chapter looks at what has changed in the land, how Aranattukara became part of a city, and what remains.

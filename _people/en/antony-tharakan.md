@@ -3,18 +3,12 @@ title: Chevalier Antony Tharakan
 summary: Physician to the Cochin royal family and papal knight, the best-remembered member of Aranattukara's Tharakan family.
 years: "1880–1912"
 role: Ayurvedic physician to the Cochin royal family, papal knight and patron of Aranattukara's first English school
-photo: ph-antony-tharakan-portrait
+photo: antony-tharakan-portrait
 consent: historical
 places: [tharakan-house, tharakans-school, st-thomas-church]
 themes: [faith, education]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
-needs:
-  - { name: ph-antony-tharakan-portrait, brief: "Chevalier Antony Tharakan — a photograph of the family's portrait of him (ask the Tharakan family's permission), upright, no glare" }
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1, 3, 5, 12, 17"
 ---
 
 The Chiramel Tharakan family runs all through Aranattukara's story, from the boat landing they once controlled to the school that still carries their name. Of all its members, Antony Tharakan is the one the book praises most.

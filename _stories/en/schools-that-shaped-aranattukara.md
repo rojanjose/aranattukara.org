@@ -16,7 +16,7 @@ hero_caption: "Tharakan's High School, Aranattukara, which began as a free Engli
 needs:
   - { name: ph-tharakans-school-front, brief: "Tharakan's School — front of the new high-school building from the road, daylight, landscape; no children's faces" }
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5 and ch. 10"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 10"
   - "Fr. Antony Jees, *Swathanthra Vidyabhyasathinte Acharyan*, Part One (as cited in Chiramel, ch. 5)"
   - "C.T. Antony, *Oonnuvadikal* (as cited in Chiramel, ch. 5)"
   - "Cochin Legislative Council proceedings, 4 December 1930, question 96 (Kerala Legislative Assembly library archives)"
@@ -67,7 +67,7 @@ By 2000 the old building was falling behind. Renovation began in 2012 under the 
 
 ## Schools for girls, and others
 
-When Tharakan's became a high school, its girls were handed over to the Holy Family Sisters. Their convent opened on 26 May 1947 in a rented house at Padinjare Angadi, and in 1950 their classes became the [Infant Jesus Girls' High School]({{ '/en/places/infant-jesus-girls-high-school/' | relative_url }}). Its headmistress, Sister Ezhsala, received the National Teacher Award in 1971. To the north, the CMC sisters founded [St. Ann's Girls' High School]({{ '/en/places/st-annes-girls-high-school/' | relative_url }}), where Nirmala College for women now also works.
+When Tharakan's became a high school, its girls were handed over to the Holy Family Sisters. Their convent opened on 26 May 1947 in a rented house at Padinjare Angadi, and in 1950 their classes became the [Infant Jesus Girls' High School]({{ '/en/places/infant-jesus-girls-high-school/' | relative_url }}). Its headmistress, Sister Ezhsala, received the National Teacher Award in 1971. To the north, the CMC sisters founded [St. Anne's Girls' High School]({{ '/en/places/st-annes-girls-high-school/' | relative_url }}), where Nirmala College for women now also works.
 
 Other schools mattered too. A government Malayalam lower primary school at the northern end of Valiyangadi gave free schooling to poor children and still runs today; it is very likely today's [Government UP School]({{ '/en/places/gups-aranattukara/' | relative_url }}). A second government school at Poothole closed for lack of pupils; the Excise Academy now stands on its site. Chacko Memorial Middle School at Padinjarekotta, run under the Syrian Orthodox Church, was started by [John Mathai]({{ '/en/people/john-mathai/' | relative_url }}) in memory of a relative, and taught many Aranattukara children at half fees until it closed in the mid-twentieth century. After his death, Mathai's family gave his home for higher studies, and it is now the [Dr John Matthai Centre]({{ '/en/places/john-matthai-centre/' | relative_url }}) of the University of Calicut, with its economics department and School of Drama.
 

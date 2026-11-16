@@ -8,8 +8,7 @@ consent: historical
 places: [st-thomas-church, tharakans-school]
 themes: [faith, festivals]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 17"
   - "Archdiocese of Thrissur, *Glorified Souls* (trichurarchdiocese.org)"
 ---
 

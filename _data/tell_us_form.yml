@@ -1,0 +1,26 @@
+# The site's own "Tell us" form posts to this Google Form behind the scenes.
+# Field ids and option values must match the Google Form exactly (read them from the
+# form's public page: FB_PUBLIC_LOAD_DATA_). If you edit a question or option in
+# Google Forms, update it here too, or that answer will be dropped.
+action: "https://docs.google.com/forms/d/e/1FAIpQLSdrtR-o-fA0fpRerpHOJOO0euAVlcRZLsvSSjLxJRHaMpEgzQ/formResponse"
+
+kind:
+  entry: "entry.288693850"
+  options:
+    - { key: tu_kind_memory,     value: "A memory / ഓർമ്മ" }
+    - { key: tu_kind_correction, value: "A correction / തിരുത്തൽ" }
+    - { key: tu_kind_business,   value: "A business / സ്ഥാപനം" }
+    - { key: tu_kind_event,      value: "An event / പരിപാടി" }
+    - { key: tu_kind_other,      value: "Something else / മറ്റുള്ളവ" }
+page:    { entry: "entry.816495218" }
+message: { entry: "entry.2113616270" }
+name:    { entry: "entry.1415795712" }
+credit:
+  entry: "entry.444786455"
+  options:
+    - { key: tu_credit_name, value: "Use my name / എന്റെ പേര് ചേർക്കൂ" }
+    - { key: tu_credit_anon, value: "Keep me anonymous / പേര് വേണ്ട" }
+contact: { entry: "entry.2002001693" }
+consent:
+  entry: "entry.788307548"
+  value: "I'm happy for aranattukara.org to publish this, edited if needed / ആവശ്യമെങ്കിൽ തിരുത്തി, aranattukara.org-ൽ പ്രസിദ്ധീകരിക്കാൻ എനിക്ക് സമ്മതമാണ്"

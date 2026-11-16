@@ -119,8 +119,16 @@ layout: default
       <p>{% include t.html key="far_from_home_text" %}</p>
     </div>
     <div class="diaspora-actions">
-      <a class="btn btn-whatsapp" href="{% if site.whatsapp_channel != '' %}{{ site.whatsapp_channel }}{% else %}{{ _root | append: '/diaspora/' | relative_url }}{% endif %}">{% include t.html key="join_whatsapp" %}</a>
-      <a class="btn btn-ghost-light" href="{% if site.newsletter_url != '' %}{{ site.newsletter_url }}{% else %}{{ _root | append: '/diaspora/' | relative_url }}{% endif %}">{% include t.html key="subscribe" %}</a>
+      {%- if site.whatsapp_channel != '' %}
+      <a class="btn btn-whatsapp" href="{{ site.whatsapp_channel }}" target="_blank" rel="noopener">{% include t.html key="join_whatsapp" %}</a>
+      {%- else %}
+      <a class="btn btn-whatsapp" href="{{ _root | append: '/diaspora/' | relative_url }}">{% include t.html key="see_groups" %}</a>
+      {%- endif %}
+      {%- if site.newsletter_url != '' %}
+      <a class="btn btn-ghost-light" href="{{ site.newsletter_url }}" target="_blank" rel="noopener">{% include t.html key="subscribe" %}</a>
+      {%- elsif site.contact_email != '' %}
+      <a class="btn btn-ghost-light" href="mailto:{{ site.contact_email }}">{% include t.html key="email_us" %}</a>
+      {%- endif %}
     </div>
   </div>
 </section>

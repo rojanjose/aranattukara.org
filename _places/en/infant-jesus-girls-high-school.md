@@ -5,12 +5,9 @@ type: school
 founded: "1950"
 coords: [10.51388, 76.19355]
 themes: [education]
-photos: [ph-infant-jesus-girls-high-school]
+photos: [infant-jesus-girls-high-school, infant-jesus-lp-school]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10"
-needs:
-  - { name: ph-infant-jesus-girls-high-school, brief: "Infant Jesus Girls' High School — main building and gate, daylight, landscape (no close-up faces of pupils)" }
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 10"
 ---
 Until the late 1940s Aranattukara had no high school for girls. The Infant Jesus Girls' High School changed that.
 

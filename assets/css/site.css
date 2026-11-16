@@ -133,6 +133,9 @@ main { outline: none; padding-bottom: 48px; }
 .wide, .home-section, .page-head.wide { max-width: var(--wrap); margin-left: auto; margin-right: auto; padding-left: var(--gutter); padding-right: var(--gutter); }
 .page-head { max-width: calc(var(--measure) + 2 * var(--gutter)); margin: 0 auto; padding: 48px var(--gutter) 8px; }
 .page-head.wide { padding-top: 48px; }
+.page-head-top { display: flex; align-items: center; justify-content: space-between; gap: 16px 32px; flex-wrap: wrap; margin-bottom: .5em; }
+.page-head-top h1 { margin: 0; }
+.page-head-aside { flex: 0 1 440px; min-width: min(100%, 260px); }
 .prose { max-width: calc(var(--measure) + 2 * var(--gutter)); margin: 0 auto; padding: 0 var(--gutter); }
 .prose h2 { margin-top: 1.6em; }
 .prose h3 { margin-top: 1.4em; }
@@ -468,3 +471,42 @@ main { outline: none; padding-bottom: 48px; }
 }
 .prose .about-logo { display: block; float: right; width: 220px; height: auto; margin: 0 0 16px 24px; }
 @media (max-width: 640px) { .prose .about-logo { float: none; width: 180px; margin: 0 auto 20px; } }
+.biz .biz-note { color: var(--ink-2); font-size: .9rem; }
+.biz-search { display: flex; align-items: center; gap: 10px; padding: 0 14px; background: var(--card); border: 1px solid var(--line); border-radius: 999px; color: var(--muted); }
+.biz-search:focus-within { border-color: var(--green); box-shadow: 0 0 0 3px rgba(47,93,58,.15); }
+.biz-search input { flex: 1; min-width: 0; border: 0; background: none; font: inherit; font-size: 1rem; padding: 11px 0; color: var(--text); outline: none; }
+.biz-none { margin: 8px 0 0; }
+
+/* Photo banner under a page heading (front matter: hero, hero_alt, hero_caption) */
+.page-hero { margin-top: 8px; margin-bottom: 28px; }
+.page-hero img { display: block; width: 100%; height: auto; max-height: 420px; object-fit: cover; border-radius: var(--radius-sm); background: var(--paper-2); }
+.page-hero figcaption { font-size: .9rem; color: var(--muted); margin-top: .6em; line-height: 1.45; }
+.page-hero figcaption .credit { margin-left: .25em; }
+
+/* Community groups run by others (_data/groups.yml) */
+.groups { margin-top: 40px; }
+.groups-intro { color: var(--muted); margin: 0 0 14px; }
+.groups-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.group { display: flex; align-items: center; justify-content: space-between; gap: 12px 20px; flex-wrap: wrap; padding: 14px 16px; border: 1px solid var(--line, rgba(0,0,0,.12)); border-radius: var(--radius-sm); background: var(--paper-2); }
+.group-text { display: flex; flex-direction: column; gap: 2px; flex: 1 1 260px; min-width: 0; }
+.group-text span { color: var(--muted); font-size: .95rem; }
+
+.person-web { margin: .4em 0 0; font-weight: 600; }
+
+/* "Tell us" form */
+.tell-us, .tu-thanks { max-width: 640px; margin: 1.2em 0 2em; padding: clamp(18px, 3vw, 28px); background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); }
+.tu-field { border: 0; margin: 0 0 1.3em; padding: 0; min-width: 0; }
+.tu-field > label, .tu-field > legend { display: block; font-weight: 600; margin-bottom: .45em; padding: 0; }
+.tu-req { color: var(--accent); }
+.tell-us input[type=text], .tell-us textarea { width: 100%; padding: 10px 12px; border: 1.5px solid var(--line); border-radius: var(--radius-sm); background: var(--bg); color: var(--text); font: inherit; line-height: 1.5; }
+.tell-us textarea { resize: vertical; min-height: 9em; }
+.tell-us input[type=text]:focus, .tell-us textarea:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 3px rgba(47, 93, 58, .18); }
+.tu-choice { display: flex; align-items: flex-start; gap: 10px; margin: .35em 0; font-weight: 400; cursor: pointer; }
+.tu-choice input { width: 18px; height: 18px; margin-top: .22em; flex: none; accent-color: var(--green); }
+.tu-hint { margin: .4em 0 0; font-size: .9rem; color: var(--muted); }
+.tu-error { margin: .5em 0 0; color: var(--accent); font-weight: 600; }
+.tu-actions { margin: 0; }
+.tu-actions .btn[disabled] { opacity: .6; cursor: wait; transform: none; }
+.tu-thanks h3 { margin-top: 0; }
+.tu-thanks:focus { outline: none; }
+.tu-sink { display: none; }

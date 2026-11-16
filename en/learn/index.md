@@ -20,5 +20,5 @@ summary: Aranattukara in ten minutes, the words its history depends on, and proj
 
 ## For schools
 
-Interview an elder with our question sheet, then share the recording with us. *(Coming in phase 2.)*
+Interview an elder about the old days: the boats, the markets, the festivals, school. Then [send us]({{ '/en/contribute/' | relative_url }}) the recording or your notes, and we will add the best ones to the site, with the family's permission.
 

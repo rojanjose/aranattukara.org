@@ -7,10 +7,7 @@ themes: [education, arts, environment]
 people: [john-mathai]
 photos: [john-matthai-centre, john-matthai-centre-gate, school-of-drama, john-mathai-bust, school-of-drama-noticeboard]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 12, 14, 17"
 ---
 ലാലൂരിൽ നിന്ന് *കോൾ* നിലങ്ങളിലേക്കുള്ള (താഴ്ന്ന നെൽവയലുകൾ) വഴിയിൽ ശാന്തവും പച്ചപ്പു നിറഞ്ഞതുമായ ഒരു ക്യാമ്പസുണ്ട്. സ്വതന്ത്ര ഇന്ത്യയുടെ ആദ്യ റെയിൽവേ മന്ത്രിയും പിന്നീട് ധനമന്ത്രിയുമായ [ജോൺ മത്തായിയുടെ]({{ '/ml/people/john-mathai/' | relative_url }}) വീടായിരുന്നു ഇത്. ഇന്ന് കാലിക്കറ്റ് സർവകലാശാലയുടെ ഡോ. ജോൺ മത്തായി സെന്റർ.
 

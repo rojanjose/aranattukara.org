@@ -5,8 +5,7 @@ type: landmark
 themes: [environment, politics]
 photos: [lalur-trenching-ground-2010, lalur-waste-dump-2012, lalur-road-to-dump-2012]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12, 14"
 ---
 To the north-west of Aranattukara, near the Lalur cemetery and the Mathaipuram Colony, lies a stretch of government land of about 26¾ acres. For most of the twentieth century it was where the town of Thrissur sent its waste.
 

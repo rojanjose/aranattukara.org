@@ -16,10 +16,7 @@ hero_caption: The Chiramel Tharakan family house at Aranattukara.
 needs:
   - { name: ph-tharakan-house-exterior, brief: "Tharakan house, Aranattukara — front of the old house, daylight, landscape; ask the family's permission first" }
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1 (the Tharakan title)"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3 (the influence of the Tharakan family)"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5 and ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17 (Chevalier Antony Tharakan; the antique collection and house chapel)"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1 (the Tharakan title), 3 (the influence of the Tharakan family), 5, 14, 17 (Chevalier Antony Tharakan; the antique collection and house chapel)"
 ---
 
 No family is more closely tied to the story of Aranattukara than the Chiramel family, known for centuries simply as the Tharakans. Their house stands near the old boat landing. Their name is on a school, a market and a chapter of Cochin's royal history. And much of the Christian settlement of the place grew up on land they held.

@@ -5,10 +5,9 @@ type: school
 founded: "1950"
 coords: [10.51388, 76.19355]
 themes: [education]
-photos: [ph-infant-jesus-girls-high-school]
+photos: [infant-jesus-girls-high-school, infant-jesus-lp-school]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 10"
 ---
 1940-കളുടെ അവസാനം വരെ അരണാട്ടുകരയിൽ പെൺകുട്ടികൾക്ക് ഒരു ഹൈസ്കൂൾ ഉണ്ടായിരുന്നില്ല. ഇൻഫന്റ് ജീസസ് ഗേൾസ് ഹൈസ്കൂൾ അതിനു മാറ്റം വരുത്തി.
 

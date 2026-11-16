@@ -8,9 +8,7 @@ consent: historical
 places: [elthuruth-ashram, st-aloysius-college, st-thomas-church]
 themes: [faith, education]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 12, 17"
 ---
 
 1805-ൽ കുട്ടനാട്ടിലെ കൈനകരിയിൽ ജനിച്ച ചാവറ കുര്യാക്കോസ് ഏലിയാസ് കേരളത്തിലെ സുറിയാനി കത്തോലിക്കാ സഭയുടെ ഏറ്റവും വലിയ നവീകരണ നായകരിൽ ഒരാളായി. ഇന്ന് സി.എം.ഐ. എന്നറിയപ്പെടുന്ന കർമ്മലീത്താ വൈദിക സമൂഹത്തിന്റെ സ്ഥാപനത്തിൽ അദ്ദേഹം പങ്കുവഹിച്ചു. സി.എം.സി., സി.ടി.സി. എന്നീ സന്യാസിനീ സമൂഹങ്ങളുടെ തുടക്കവും പുസ്തകം അദ്ദേഹത്തോട് ചേർത്തുവയ്ക്കുന്നു. ഓരോ പള്ളിയോടും ചേർന്ന് ഒരു പള്ളിക്കൂടം വേണമെന്ന അദ്ദേഹത്തിന്റെ ആഹ്വാനം കേരളത്തിലെങ്ങുമുള്ള ക്രിസ്ത്യൻ സമൂഹങ്ങളെ സ്കൂളുകൾ തുടങ്ങാൻ പ്രേരിപ്പിച്ചു.

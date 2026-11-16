@@ -6,10 +6,7 @@ themes: [trade, faith]
 people: [antony-tharakan]
 photos: [tharakan-house]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1, 3, 12, 17"
 ---
 The Chiramel Tharakan family, the first Syrian Catholic family to settle in Aranattukara according to the book, lived close to the *kadavu* (boat landing). Their *tharavadu* (ancestral home) still stands as one of the most important landmarks of the area's past.
 

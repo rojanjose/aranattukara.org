@@ -8,9 +8,7 @@ themes: [education]
 people: [st-kuriakose-elias-chavara, bishop-antony-chirayath]
 photos: [st-aloysius-college]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 16, 17"
 ---
 അരണാട്ടുകരയുടെ പടിഞ്ഞാറേ അറ്റത്ത്, വിശുദ്ധ ചാവറ കുര്യാക്കോസ് ഏലിയാസ് സ്ഥാപിച്ച [എൽത്തുരുത്ത് ആശ്രമത്തിനരികിലാണ്]({{ '/ml/places/elthuruth-ashram/' | relative_url }}) സെന്റ് അലോഷ്യസ് കോളേജ്.
 

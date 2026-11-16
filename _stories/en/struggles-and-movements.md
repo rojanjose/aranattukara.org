@@ -14,8 +14,7 @@ hero: lalur-strike-2010
 hero_alt: A crowd of protesters gathered at Lalur during the "war against waste" strike, with banners raised.
 hero_caption: The Lalur "war against waste" strike, 2010.
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12 (Lalur, the Mathaipuram colony and the trenching ground)"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12 (Lalur, the Mathaipuram colony and the trenching ground), 14"
   - "Cochin Legislative Council, *Proceedings*, 11 December 1935, question 70, “Trenching Ground in Laloor” (Kerala Legislative Assembly archive, via the Internet Archive)"
   - "Cochin Legislative Council, *Proceedings*, 26 May 1942, question 298, “Dumping ground at Lalur — transfer of” (Kerala Legislative Assembly archive, via the Internet Archive)"
   - "Captain A.N. Menon, essay in *Golden Jubilee Souvenir, Thrissur Municipality* (1972), p. 189, as cited in Chiramel, ch. 14"

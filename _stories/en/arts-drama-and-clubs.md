@@ -10,15 +10,11 @@ era: [1805-1947, 1947-1980, 1980-2000]
 themes: [arts]
 places: [john-matthai-centre, calvary-ashram, st-thomas-church, st-aloysius-college, tharakans-school, netaji-ground]
 people: [chakkoru-master]
-hero: ph-open-air-stage
-hero_alt: An open-air stage in Aranattukara, with seating in front, of the kind where local drama troupes performed.
-hero_caption: For decades Aranattukara's plays were performed on open-air stages like this one.
-needs:
-  - { name: ph-open-air-stage, brief: "An open-air stage in Aranattukara: the St. Thomas Church open-air auditorium, or the School of Drama's open-air theatre at the Dr John Matthai Centre (ask permission). Landscape; ideally during a play or rehearsal, otherwise empty at golden hour." }
-  - { name: ph-netaji-ground, brief: "The Netaji Ground, Aranattukara, with a football game or practice in progress. Wide landscape, late afternoon; avoid close-up faces of children." }
+hero: school-of-drama-noticeboard
+hero_alt: Posters for plays pinned on the noticeboard of the School of Drama at the Dr John Matthai Centre, Aranattukara.
+hero_caption: Play posters on the noticeboard of the School of Drama, Dr John Matthai Centre. Aranattukara still lives with the stage.
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14 (drawing on information collected by Vincent Puthur and K.T. John)"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14 (drawing on information collected by Vincent Puthur and K.T. John), 16"
 ---
 
 Thrissur likes to call itself the cultural capital of Kerala, and Aranattukara has done its share to earn the name. Long before a university drama school opened at Lalur, the parish, the temples and the reading rooms of Aranattukara were putting on plays. Young men acted the women's parts, painters built the sets, and whole families bought tickets. This chapter collects what the book remembers of that stage life, of the painters, of a lively study circle, and of the playgrounds where the same young people spent their evenings.
@@ -57,7 +53,7 @@ The [Mathrubhumi Study Circle]({{ '/en/community/mathrubhumi-study-circle/' | re
 
 The parish built playgrounds for both the East Church and the West Church, and young people from both played tennis and basketball on them. During the years of the church dispute, [Chakkoru Master]({{ '/en/people/chakkoru-master/' | relative_url }}) bought land behind the East Church so that the parish's young people could play together and leave the quarrel behind. It was a tennis court for a while and later became the church school's playground, known locally as the *Pattapparambu*.
 
-{% include figure.html name="ph-netaji-ground" caption="The Netaji Ground, long the home of football in Aranattukara." %}
+{% include figure.html name="netaji-ground" caption="The Netaji Ground, long the home of football in Aranattukara." %}
 
 Football belonged to the **[Netaji Ground]({{ '/en/places/netaji-ground/' | relative_url }})**. The Netaji Sports Club, run from a shed at Thoppinmoola, organised tournaments there. The Cochin Malleables factory team once held Punjab Police to a draw and reached the pre-quarter-finals of the Chakkola Trophy. C.T. Raphael Chungath played under the name "Sakthan", and P.R. Antony went on to play for Bombay Caltex. The book lists many more players, including a long line from [Tharakan's School]({{ '/en/places/tharakans-school/' | relative_url }}), and notes that new names are still being added.
 

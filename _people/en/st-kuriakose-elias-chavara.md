@@ -8,9 +8,7 @@ consent: historical
 places: [elthuruth-ashram, st-aloysius-college, st-thomas-church]
 themes: [faith, education]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 12, 17"
 ---
 
 Kuriakose Elias Chavara was born at Kainakary in Kuttanad in 1805. He became one of the great reformers of the Syrian Catholic Church in Kerala. He helped found the congregation of Carmelite priests now known as the CMI. The book also credits him with starting the CMC and CTC congregations of sisters. His call for a school beside every church led Christian communities all over Kerala to open schools.

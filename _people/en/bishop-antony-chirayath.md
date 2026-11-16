@@ -8,8 +8,7 @@ consent: public
 places: [tharakans-school, st-aloysius-college, st-thomas-church]
 themes: [faith, education]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17 (citing the St. Thomas Church jubilee souvenir, 225 years)"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 17 (citing the St. Thomas Church jubilee souvenir, 225 years)"
 ---
 
 Mar Antony Chirayath was born in 1941 into the Chirayath family of Aranattukara. The family is an old one in the parish. The book lists it among the households that stayed loyal to Rome during the troubles of the 1870s, and among those that promised help to St. Chavara for the Elthuruth monastery.

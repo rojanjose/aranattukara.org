@@ -19,5 +19,8 @@
 <script src="{{ '/assets/vendor/leaflet/leaflet.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/map.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 {%- endif %}
+{%- if site.cf_analytics_token != "" and jekyll.environment == "production" %}
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cf_analytics_token }}"}'></script>
+{%- endif %}
 </body>
 </html>

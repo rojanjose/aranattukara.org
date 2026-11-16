@@ -199,6 +199,186 @@ mathrubhumi-study-circle-logo:
   source: ""
   note: ""
 
+sakthan-thampuran-portrait:
+  title: "Sakthan Thampuran, a modern painting"
+  author: "Dinesh R. Shenoy"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Artist's contact line cropped. Permission to be confirmed."
+
+lali-james-portrait:
+  title: "Lali James"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Cropped. Credit to be confirmed."
+
+lalur-karthyayani-temple:
+  title: "The sreekovil (shrine) of the Lalur Karthyayani Temple"
+  author: "Google Maps contributor (name unknown)"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Cropped. Permission to be confirmed."
+
+kizhakkeppuram-ayyappa-temple:
+  title: "Sree Ayyappa Temple, Kizhakkeppuram"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+village-office:
+  title: "The Aranattukara-Pullazhi Village Office from the road, behind its big shade tree"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+holy-trinity-ashram:
+  title: "Holy Trinity Ashram, Lalur: the main building and courtyard garden"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+holy-trinity-convent:
+  title: "Holy Trinity Convent of the Trinitarian Sisters, Lalur: the front, gate and name board"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+lalur-subrahmanya-temple:
+  title: "Laloor Sree Subramanya Swamy Temple: the front, with its painted panels"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+lalur-subrahmanya-temple-pond:
+  title: "Laloor Sree Subramanya Swamy Temple seen across its pond"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+nirmala-college:
+  title: "Nirmala College from Anchangadi Road at the Chungam junction"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+sacred-heart-chapel:
+  title: "Sacred Heart Chapel at Lalur Centre, with its name board"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+st-annes-girls-high-school:
+  title: "St. Anne's Convent Girls' High School: the gate and name boards"
+  author: "Google Maps contributor (name unknown)"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Cropped. Permission to be confirmed."
+
+st-antonys-chapel-poothole:
+  title: "St. Antony's Chapel, Poothole, from its gate"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+st-sebastians-chapel:
+  title: "St. Sebastian's Chapel, Thekkekkara (Vadookkara), from Vadookara Road"
+  author: "Google Street View"
+  date: "2020"
+  license: "Imagery © Google"
+  license_url: ""
+  source: ""
+  note: "Cropped. Permission to be confirmed."
+
+st-vincent-de-paul-chapel:
+  title: "St. Vincent de Paul Chapel at the entrance of Vincent de Paul Nagar"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+st-josephs-chapel:
+  title: "St. Joseph's Chapel, Padinjare Angadi, lit up in the evening, with the statue of St. Joseph and the Child Jesus"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+fr-davis-chiramel-portrait:
+  title: "Fr. Davis Chiramel"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Cropped. Credit to be confirmed."
+
+elthuruth-ashram:
+  title: "The church of St. Mary's CMI Monastery, Elthuruth"
+  author: "Photographer unknown"
+  date: ""
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: "Credit to be confirmed."
+
+tagore-centenary-hall:
+  title: "The new Tagore Centenary Hall under construction on Netaji Road"
+  author: "Google Street View"
+  date: "2026"
+  license: "Imagery © Google"
+  license_url: ""
+  source: ""
+  note: "Permission to be confirmed."
+
+antony-tharakan-portrait:
+  title: "Chevalier Chiramel Antony Tharakan, K.G.C.S.S. (1911), colourised"
+  author: "Photographer unknown"
+  date: "1911"
+  license: "Public domain"
+  license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
+  source: ""
+  note: "Colourised by aranattukara.org from an old printed photograph; the colours are a reconstruction."
+
 vincent-de-paul-portrait:
   title: "St. Vincent de Paul, portrait by Simon François de Tours"
   author: "Simon François de Tours (1606–1671)"
@@ -567,3 +747,291 @@ tharakan-house:
   license_url: ""
   source: ""
   note: ""
+
+co-op-bank-old-building:
+  title: "The old co-operative bank building, Aranattukara"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+co-op-bank-old-building-side:
+  title: "The old co-operative bank building from the corner"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+aranattukara-market:
+  title: "A market street in Aranattukara, between old shop buildings"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+aranattukara-market-row:
+  title: "A long two-storey row of shops in the Aranattukara market"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+aranattukara-market-shops:
+  title: "Shops along an Aranattukara market street"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+aranattukara-market-medicals:
+  title: "A medical shop and other shops in the Aranattukara market"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+valiyangadi-street:
+  title: "A quiet street in Valiyangadi, the Big Bazaar"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+st-thomas-church-all-souls:
+  title: "Lamps and flowers on the graves at St. Thomas Church on the eve of All Souls' Day"
+  author: "aranattukara.org"
+  date: "2026-11-01"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+crdac-sign:
+  title: "The name board of the C.R.D.A.C. and Urban Resource Centre, Thrissur"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+crdac-building:
+  title: "The C.R.D.A.C. building and its street"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+gups-aranattukara:
+  title: "Government UP School, Aranattukara: the school buildings and yard"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+gups-aranattukara-gate:
+  title: "The gate of the Government UP School, Aranattukara"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+gups-aranattukara-sign:
+  title: "The old name board of the Govt. U.P. School, Aranattukara"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+infant-jesus-convent:
+  title: "The entrance of the Infant Jesus Convent, Aranattukara"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+infant-jesus-girls-high-school:
+  title: "The entrance of Infant Jesus Girls' High School"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+infant-jesus-lp-school:
+  title: "Infant Jesus L.P. School, the lower primary section"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+netaji-ground:
+  title: "The Netaji Ground, Aranattukara"
+  author: "aranattukara.org"
+  date: "2026-11-03"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+netaji-ground-west:
+  title: "The Netaji Ground, looking across the pitch"
+  author: "aranattukara.org"
+  date: "2026-11-03"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+netaji-ground-stand:
+  title: "The Netaji Ground, with the floodlights and the stand"
+  author: "aranattukara.org"
+  date: "2026-11-03"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+netaji-ground-hall:
+  title: "The Netaji Ground, with the goalposts and the hall beyond"
+  author: "aranattukara.org"
+  date: "2026-11-03"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+netaji-ground-entrance:
+  title: "The Netaji Ground from the road"
+  author: "aranattukara.org"
+  date: "2026-11-03"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+pavanatma-convent:
+  title: "Pavanatma Convent, Aranattukara"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+pavanatma-convent-gate:
+  title: "The gate of Pavanatma Convent on Convent Road"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+st-marys-chapel:
+  title: "St. Mary's Chapel at Fatima Corner, Valiyangadi, from the road"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+st-marys-chapel-close:
+  title: "St. Mary's Chapel, Valiyangadi: the front with its cross and gilded gate"
+  author: "aranattukara.org"
+  date: "2026-11-05"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+thoppinmoola:
+  title: "Thoppinmoola junction in the evening"
+  author: "aranattukara.org"
+  date: "2026-11-03"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+vanchikulam:
+  title: "Vanchikulam: the old boat basin, with a mural on the end wall of the shed"
+  author: "aranattukara.org"
+  date: "2026-11-03"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+vanchikulam-road:
+  title: "The road past Vanchikulam and its old warehouses"
+  author: "aranattukara.org"
+  date: "2026-11-03"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+vanchikulam-warehouses:
+  title: "The long two-storey warehouses at Vanchikulam"
+  author: "aranattukara.org"
+  date: "2026-11-03"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+vanchikulam-warehouses-2:
+  title: "Warehouses at Vanchikulam, now shops"
+  author: "aranattukara.org"
+  date: "2026-11-03"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+vanchikulam-entrance:
+  title: "The entrance pavilion of Vanchikulam"
+  author: "aranattukara.org"
+  date: "2026-11-03"
+  license: "All rights reserved"
+  license_url: ""
+  source: ""
+  note: ""
+
+calvary-ashram:
+  title: "Calvary Ashram, Poothole"
+  author: "St. Thomas Capuchin Province"
+  date: "2022-11-12"
+  license: "All rights reserved"
+  license_url: ""
+  source: "https://santhomecaps.org/our-friaries/calvary-ashram-thrissur/"
+  note: "Permission to be confirmed."

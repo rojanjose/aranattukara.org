@@ -3,12 +3,12 @@ title: Holy Trinity Convent, Lalur
 summary: The Aranattukara house of the Trinitarian Sisters of Madrid, founded at Lalur in 2008, who help poor children with their education.
 type: convent
 founded: "2008"
+coords: [10.50576, 76.18836]
 themes: [faith, education]
-photos: [ph-holy-trinity-convent]
+photos: [holy-trinity-convent]
 sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10"
-needs:
-  - { name: ph-holy-trinity-convent, brief: "Holy Trinity Convent, Lalur — front, daylight, landscape (ask the sisters first)" }
+  - "Google Maps, “Holy Trinity Convent Arnattukara” (location; checked November 2026)"
 ---
 The Holy Trinity Convent at Lalur is the Aranattukara branch of a congregation that began in Spain, the Trinitarian Sisters of Madrid. The book describes their life as one of prayer and good works in honour of the Holy Trinity.
 
@@ -24,4 +24,10 @@ The Holy Trinity Convent at Lalur is the Aranattukara branch of a congregation t
 
 The convent is close to the [Holy Trinity Ashram]({{ '/en/places/holy-trinity-ashram/' | relative_url }}) of the Trinitarian priests.
 
-If you would like to add to this page, or share photographs of the convent's work, please contact us.
+## Finding it
+
+The convent is on Dr John Matthai Road at Lalur, where Kadavaram Road joins it, between the [Lalur Karthyayani Temple]({{ '/en/places/lalur-karthyayani-temple/' | relative_url }}) and the Holy Trinity Ashram.
+
+- **Address:** Dr John Matthai Road, Laloor, Aranattukara PO, Thrissur 680007
+
+If you would like to add to this page, or share photographs of the convent's work, please [tell us]({{ '/en/contribute/' | relative_url }}).

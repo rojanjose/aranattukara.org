@@ -5,5 +5,6 @@
   {% include card.html url=o.url image=o.photos.first alt=o.title kicker=o.founded title=o.title text=o.summary %}
   {%- endfor %}
   {%- capture _biz %}{% include t.html key="section_business" %}{% endcapture %}
-  {% include card.html url=page.business_url image="ph-aranattukara-bazaar-today" alt="" title=_biz text=page.business_text %}
+  {% include card.html url=page.business_url image="aranattukara-market-medicals" alt="" title=_biz text=page.business_text %}
 </div>
+{% include community-groups.html %}

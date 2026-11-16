@@ -6,7 +6,7 @@
   if (!window.L) return;
   var TILES = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
   var ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-  var COLORS = { church: "#B5532E", chapel: "#B5532E", convent: "#B5532E", temple: "#C99A2E", school: "#3D6A84", landmark: "#2F5D3A", "lost-place": "#6E695F" };
+  var COLORS = { church: "#B5532E", chapel: "#B5532E", convent: "#B5532E", temple: "#C99A2E", school: "#3D6A84", landmark: "#2F5D3A", "lost-place": "#6E695F", office: "#5B4A7A" };
   L.Icon.Default.imagePath = (window.AK ? AK.root : "/") + "assets/vendor/leaflet/images/";
 
   function pin(type) {

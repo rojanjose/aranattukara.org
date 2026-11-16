@@ -11,11 +11,14 @@ languages: [en, ml]
 default_lang: en
 timezone: Asia/Kolkata
 permalink: pretty
-sample_content: true      # draft mode: "first draft" banner + noindex on every page; set false at launch
+sample_content: false     # true = draft mode: "first draft" banner + noindex on every page
 author: aranattukara.org
 whatsapp_channel: ""        # e.g. https://whatsapp.com/channel/XXXX — the join button hides while empty
 newsletter_url: ""          # Buttondown / Mailchimp signup URL — the form hides while empty
-contribute_form: ""         # Google Form URL for memories, photos, corrections
+contribute_form: "https://docs.google.com/forms/d/e/1FAIpQLSdrtR-o-fA0fpRerpHOJOO0euAVlcRZLsvSSjLxJRHaMpEgzQ/viewform"         # Google Form link ending in /viewform — "Tell us" buttons open it once set
+contribute_form_page_entry: "entry.816495218"   # optional: the form's "Which page?" field id, e.g. "entry.123456789" — pre-fills the page the reader came from
+cf_analytics_token: "e1ba7d10da1444d7bf2d7a7c8262f556"        # Cloudflare Web Analytics site token — the visitor-count beacon loads once set
+contact_email: "hello@aranattukara.org"   # shown on the Contribute page and in the footer (Cloudflare Email Routing forwards it)
 
 markdown: kramdown
 kramdown:

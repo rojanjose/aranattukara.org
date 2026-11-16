@@ -25,10 +25,10 @@ Aranattukara is a neighbourhood in the west of Thrissur city, about **2.5 km sou
 |---|---|
 | **District** | Thrissur, Kerala |
 | **Taluk** | Thrissur |
-| **Revenue village** | Aranattukara (village office for land and revenue matters) |
+| **Revenue village** | Aranattukara ([Aranattukara-Pullazhi Village Office]({{ '/en/places/village-office/' | relative_url }}), for land and revenue matters) |
 | **Local body** | Thrissur Municipal Corporation, since 2000. Before that, part Thrissur Municipality and part Ayyanthole panchayat |
 | **Corporation wards** | Since December 2025: **48 Aranattukara** and **47 Laloor**. From 2010 to 2020 they were wards 51 and 50 |
-| **Councillors** (2025) | Vibhitha Vasu (Aranattukara) and Lali James (Laloor) — [all councillors]({{ '/en/people/councillors/' | relative_url }}) |
+| **Councillors** (2025) | Vibhitha Vasu (Aranattukara) and [Lali James]({{ '/en/people/lali-james/' | relative_url }}) (Laloor) — [all councillors]({{ '/en/people/councillors/' | relative_url }}) |
 | **Assembly constituency** | Thrissur (no. 67) |
 | **Lok Sabha constituency** | Thrissur |
 | **Post office** | Aranattukara, **PIN 680618**. Some streets near Elthuruth use Elthuruth, PIN 680611 |

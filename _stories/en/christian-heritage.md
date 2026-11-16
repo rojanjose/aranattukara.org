@@ -14,7 +14,7 @@ hero: st-thomas-church-feast-2025
 hero_alt: St. Thomas Church, Aranattukara, at night, its Gothic-style front of spires lit up with strings of lights for the feast.
 hero_caption: St. Thomas Church lit up for the feast, 2025.
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3, ch. 9 and ch. 11"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3, 9, 11"
   - "C.T. Antony, *Oonnuvadikal* (as cited in Chiramel, ch. 3 and ch. 9)"
   - "Fr. Antony Jees, *Swathanthra Vidyabhyasathinte Acharyan*, Part One (as cited in Chiramel, ch. 3)"
 ---

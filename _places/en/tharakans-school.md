@@ -9,9 +9,7 @@ themes: [education]
 people: [antony-tharakan, fr-antony-thachuparambil, chakkoru-master, therattil-j-antony, bishop-joseph-pastor-neelankavil, bishop-antony-chirayath]
 photos: [tharakans-school-front, tharakans-school-road, tharakans-school-building, tharakans-school-courtyard, tharakans-school-ground, tharakans-school-kindergarten, council-1943-tharakans-school]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3, 5, 10"
 ---
 Tharakan's School stands just north of [St. Thomas Church]({{ '/en/places/st-thomas-church/' | relative_url }}). Its story is the story of how Aranattukara learned to read and write.
 

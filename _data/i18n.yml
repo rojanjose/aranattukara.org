@@ -28,9 +28,18 @@ all_memories:         { en: "All memories",                    ml: "എല്ല
 map_teaser:           { en: "Find your way around Aranattukara", ml: "അരണാട്ടുകരയിലെ വഴികൾ" }
 open_map:             { en: "Open the map",                    ml: "ഭൂപടം തുറക്കുക" }
 far_from_home:        { en: "Far from home?",                  ml: "നാട്ടിൽ നിന്ന് ദൂരെയാണോ?" }
-far_from_home_text:   { en: "Get news, festival dates and stories from Aranattukara, wherever you are.", ml: "എവിടെയായിരുന്നാലും അരണാട്ടുകരയിലെ വാർത്തകളും പെരുന്നാൾ തീയതികളും കഥകളും അറിയാം." }
+far_from_home_text:   { en: "Stay in touch with Aranattukara, wherever you are: join a community group, or write to us.", ml: "എവിടെയായിരുന്നാലും അരണാട്ടുകരയുമായി ബന്ധം നിലനിർത്താം: ഒരു കൂട്ടായ്മയിൽ ചേരാം, അല്ലെങ്കിൽ ഞങ്ങൾക്ക് എഴുതാം." }
 join_whatsapp:        { en: "Join the WhatsApp channel",       ml: "വാട്ട്സ്ആപ്പ് ചാനലിൽ ചേരുക" }
+community_groups:     { en: "Community groups",                ml: "കൂട്ടായ്മകൾ" }
+community_groups_intro: { en: "Groups and pages about Aranattukara that other people run. This website does not run them.", ml: "മറ്റുള്ളവർ നടത്തുന്ന, അരണാട്ടുകരയെക്കുറിച്ചുള്ള കൂട്ടായ്മകളും പേജുകളും. ഇവ ഈ വെബ്സൈറ്റ് നടത്തുന്നവയല്ല." }
+group_approval:       { en: "An admin approves new members.",  ml: "പുതിയ അംഗങ്ങളെ അഡ്മിൻ അംഗീകരിക്കും." }
+group_join:           { en: "Ask to join",                     ml: "ചേരാൻ അപേക്ഷിക്കുക" }
+group_facebook:       { en: "Open on Facebook",                ml: "ഫേസ്ബുക്കിൽ തുറക്കുക" }
+group_open:           { en: "Open",                            ml: "തുറക്കുക" }
 subscribe:            { en: "Get the monthly newsletter",      ml: "പ്രതിമാസ വാർത്താക്കുറിപ്പ്" }
+see_groups:           { en: "Join a community group",          ml: "ഒരു കൂട്ടായ്മയിൽ ചേരുക" }
+email_us:             { en: "Email us",                        ml: "ഇമെയിൽ അയയ്ക്കുക" }
+open_form:            { en: "Open the form",                   ml: "ഫോം തുറക്കുക" }
 no_events:            { en: "No dated events listed yet.", ml: "തീയതിയുള്ള പരിപാടികൾ ഇതുവരെ ചേർത്തിട്ടില്ല." }
 
 # Sections
@@ -81,6 +90,7 @@ directions:           { en: "Directions",                      ml: "വഴി" }
 walk_stop:            { en: "Heritage walk stop",              ml: "പൈതൃക നടത്തത്തിലെ സ്റ്റോപ്പ്" }
 years:                { en: "Years",                           ml: "കാലം" }
 role:                 { en: "Known for",                       ml: "അറിയപ്പെടുന്നത്" }
+website:              { en: "Website",                         ml: "വെബ്സൈറ്റ്" }
 when:                 { en: "When",                            ml: "എപ്പോൾ" }
 where:                { en: "Where",                           ml: "എവിടെ" }
 organiser:            { en: "Organiser",                       ml: "സംഘാടകർ" }
@@ -100,6 +110,7 @@ type_temple:          { en: "Temple",                          ml: "ക്ഷേ
 type_convent:         { en: "Convent / Ashram",                ml: "മഠം / ആശ്രമം" }
 type_school:          { en: "School",                          ml: "വിദ്യാലയം" }
 type_landmark:        { en: "Landmark",                        ml: "അടയാളസ്ഥലം" }
+type_office:          { en: "Government office",               ml: "സർക്കാർ ഓഫീസ്" }
 type_lost-place:      { en: "Lost place",                      ml: "മറഞ്ഞ സ്ഥലം" }
 type_environment:     { en: "Environment group",               ml: "പരിസ്ഥിതി സംഘടന" }
 type_club:            { en: "Club",                            ml: "ക്ലബ്ബ്" }
@@ -111,9 +122,15 @@ type_religious:       { en: "Religious society",               ml: "മതസം
 # Business categories
 cat_bakery:           { en: "Bakeries",                        ml: "ബേക്കറികൾ" }
 cat_restaurant:       { en: "Restaurants",                     ml: "ഭക്ഷണശാലകൾ" }
-cat_shop:             { en: "Shops",                           ml: "കടകൾ" }
+cat_shop:             { en: "Groceries",                       ml: "പലചരക്ക്" }
 cat_services:         { en: "Services",                        ml: "സേവനങ്ങൾ" }
 cat_health:           { en: "Health",                          ml: "ആരോഗ്യം" }
+cat_finance:          { en: "Banks",                           ml: "ബാങ്കുകൾ" }
+cat_industry:         { en: "Industry",                        ml: "വ്യവസായം" }
+cat_clothing:         { en: "Clothing & tailoring",            ml: "വസ്ത്രങ്ങളും തയ്യലും" }
+cat_jewellery:        { en: "Jewellery",                       ml: "ആഭരണങ്ങൾ" }
+cat_hardware:         { en: "Hardware & electronics",          ml: "ഹാർഡ്‌വെയറും ഇലക്ട്രോണിക്സും" }
+cat_beauty:           { en: "Salons & beauty",                 ml: "സലൂണുകൾ" }
 
 # Footer
 footer_about:         { en: "A community website about Aranattukara — its history, people and everyday life. Run by volunteers; corrections welcome.", ml: "അരണാട്ടുകരയുടെ ചരിത്രവും ആളുകളും ദൈനംദിന ജീവിതവും — ഒരു സാമൂഹിക വെബ്സൈറ്റ്. തിരുത്തലുകൾ സ്വാഗതം." }
@@ -129,4 +146,63 @@ credits_source:       { en: "Source",                          ml: "ഉറവി
 type_explainer:       { en: "Explainer",                       ml: "ലഘുവിവരണം" }
 biz_empty:            { en: "The directory is being put together. Shops, bakeries, services and professionals in Aranattukara can be listed free of charge.", ml: "ഡയറക്ടറി തയ്യാറാക്കിക്കൊണ്ടിരിക്കുന്നു. അരണാട്ടുകരയിലെ കടകൾക്കും ബേക്കറികൾക്കും സേവനങ്ങൾക്കും സൗജന്യമായി ലിസ്റ്റ് ചെയ്യാം." }
 biz_add:              { en: "Add your business",               ml: "നിങ്ങളുടെ സ്ഥാപനം ചേർക്കൂ" }
+biz_search_placeholder: { en: "Search: bakery, bank, Chungam…", ml: "തിരയുക: ബേക്കറി, ബാങ്ക്, ചുങ്കം…" }
 in_english:           { en: "in English", ml: "ഇംഗ്ലീഷിൽ" }
+
+# Picture credit lines (_includes/credit.html, index-credits.html). Licence, author and
+# note texts from _data/credits.yml are looked up here by their English text; anything
+# not listed (people's names, CC licence names) is shown as it is.
+credit_photo:         { en: "Photo",                           ml: "ചിത്രം" }
+credit_public_domain: { en: "public domain",                   ml: "പൊതുസഞ്ചയം" }
+credit_source:        { en: "source",                          ml: "ഉറവിടം" }
+"All rights reserved":          { en: "All rights reserved",   ml: "എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം" }
+"Public domain":                { en: "Public domain",         ml: "പൊതുസഞ്ചയം" }
+"Trademark of Mathrubhumi":     { en: "Trademark of Mathrubhumi", ml: "മാതൃഭൂമിയുടെ വ്യാപാരമുദ്ര" }
+"Cropped.":                     { en: "Cropped.",              ml: "ഭാഗികമായി മുറിച്ചെടുത്തത്." }
+"Detail.":                      { en: "Detail.",               ml: "വിശദാംശം." }
+"Detail of sheet NC 43-7.":     { en: "Detail of sheet NC 43-7.", ml: "NC 43-7 ഷീറ്റിന്റെ വിശദാംശം." }
+"Cropped from the budget-day photograph.": { en: "Cropped from the budget-day photograph.", ml: "ബജറ്റ് ദിനത്തിലെ ഫോട്ടോയിൽ നിന്ന് മുറിച്ചെടുത്തത്." }
+"Cropped. Credit to be confirmed.": { en: "Cropped. Credit to be confirmed.", ml: "ഭാഗികമായി മുറിച്ചെടുത്തത്. കടപ്പാട് സ്ഥിരീകരിക്കാനുണ്ട്." }
+"Devotional painting; frame cropped. Credit to be confirmed.": { en: "Devotional painting; frame cropped. Credit to be confirmed.", ml: "ഭക്തിചിത്രം; ചട്ടക്കൂട് ഒഴിവാക്കി. കടപ്പാട് സ്ഥിരീകരിക്കാനുണ്ട്." }
+"Unknown author":               { en: "Unknown author",        ml: "അജ്ഞാതം" }
+"Owner unknown":                { en: "Owner unknown",         ml: "ഉടമ അജ്ഞാതം" }
+"Artist unknown":               { en: "Artist unknown",        ml: "ചിത്രകാരൻ അജ്ഞാതം" }
+"Photographer unknown":         { en: "Photographer unknown",  ml: "ഫോട്ടോഗ്രാഫർ അജ്ഞാതം" }
+"Credit to be confirmed.":      { en: "Credit to be confirmed.", ml: "കടപ്പാട് സ്ഥിരീകരിക്കാനുണ്ട്." }
+"Colourised by aranattukara.org from an old printed photograph; the colours are a reconstruction.": { en: "Colourised by aranattukara.org from an old printed photograph; the colours are a reconstruction.", ml: "പഴയ അച്ചടിച്ച ഫോട്ടോയിൽ നിന്ന് aranattukara.org നിറം നൽകിയത്; നിറങ്ങൾ പുനഃസൃഷ്ടിയാണ്." }
+"Cropped. Permission to be confirmed.": { en: "Cropped. Permission to be confirmed.", ml: "ഭാഗികമായി മുറിച്ചെടുത്തത്. അനുമതി സ്ഥിരീകരിക്കാനുണ്ട്." }
+"Google Street View":           { en: "Google Street View",    ml: "ഗൂഗിൾ സ്ട്രീറ്റ് വ്യൂ" }
+"Google Maps contributor (name unknown)": { en: "Google Maps contributor (name unknown)", ml: "ഗൂഗിൾ മാപ്പ്സിലെ ഒരു ഉപയോക്താവ് (പേര് അറിയില്ല)" }
+"Imagery © Google":             { en: "Imagery © Google",      ml: "ചിത്രം © ഗൂഗിൾ" }
+"Permission to be confirmed.":  { en: "Permission to be confirmed.", ml: "അനുമതി സ്ഥിരീകരിക്കാനുണ്ട്." }
+"St. Thomas Capuchin Province": { en: "St. Thomas Capuchin Province", ml: "സെന്റ് തോമസ് കപ്പൂച്ചിൻ പ്രൊവിൻസ്" }
+"Dinesh R. Shenoy":             { en: "Dinesh R. Shenoy",      ml: "ദിനേശ് ആർ. ഷേണായ്" }
+"Artist's contact line cropped. Permission to be confirmed.": { en: "Artist's contact line cropped. Permission to be confirmed.", ml: "ചിത്രകാരന്റെ ബന്ധപ്പെടാനുള്ള വിവരങ്ങൾ ഒഴിവാക്കി. അനുമതി സ്ഥിരീകരിക്കാനുണ്ട്." }
+"Syro-Malabar Church":          { en: "Syro-Malabar Church",   ml: "സീറോ മലബാർ സഭ" }
+"Mathrubhumi":                  { en: "Mathrubhumi",           ml: "മാതൃഭൂമി" }
+"India Post, Government of India": { en: "India Post, Government of India", ml: "ഇന്ത്യ പോസ്റ്റ്, ഭാരത സർക്കാർ" }
+"Ministry of Finance of India": { en: "Ministry of Finance of India", ml: "കേന്ദ്ര ധനകാര്യ മന്ത്രാലയം" }
+"Cochin Legislative Council (Kerala Legislative Assembly archive)": { en: "Cochin Legislative Council (Kerala Legislative Assembly archive)", ml: "കൊച്ചി നിയമസഭ (കേരള നിയമസഭാ ആർക്കൈവ്)" }
+
+# "Tell us" form (_includes/tell-us-form.html)
+tu_kind:              { en: "What would you like to share?",   ml: "എന്താണ് പങ്കുവയ്ക്കുന്നത്?" }
+tu_kind_memory:       { en: "A memory",                        ml: "ഒരു ഓർമ്മ" }
+tu_kind_correction:   { en: "A correction",                    ml: "ഒരു തിരുത്തൽ" }
+tu_kind_business:     { en: "A business",                      ml: "ഒരു സ്ഥാപനം" }
+tu_kind_event:        { en: "An event",                        ml: "ഒരു പരിപാടി" }
+tu_kind_other:        { en: "Something else",                  ml: "മറ്റെന്തെങ്കിലും" }
+tu_pick_one:          { en: "Please choose at least one.",     ml: "ഒന്നെങ്കിലും തിരഞ്ഞെടുക്കുക." }
+tu_page:              { en: "Which page or place is it about?", ml: "ഏതു പേജ് അല്ലെങ്കിൽ സ്ഥലം?" }
+tu_message:           { en: "Tell us",                         ml: "വിവരങ്ങൾ" }
+tu_name:              { en: "Your name",                       ml: "പേര്" }
+tu_credit:            { en: "How should we credit you?",       ml: "നിങ്ങളുടെ പേര് ചേർക്കണോ?" }
+tu_credit_name:       { en: "Use my name",                     ml: "എന്റെ പേര് ചേർക്കൂ" }
+tu_credit_anon:       { en: "Keep me anonymous",               ml: "പേര് വേണ്ട" }
+tu_contact:           { en: "Email or phone, so we can reply", ml: "മറുപടിക്കായി ഇമെയിൽ അല്ലെങ്കിൽ ഫോൺ" }
+tu_contact_hint:      { en: "Optional. We never publish it.",  ml: "നിർബന്ധമില്ല. ഇത് ഒരിക്കലും പ്രസിദ്ധീകരിക്കില്ല." }
+tu_consent:           { en: "I'm happy for aranattukara.org to publish this, edited if needed.", ml: "ആവശ്യമെങ്കിൽ തിരുത്തി, aranattukara.org-ൽ പ്രസിദ്ധീകരിക്കാൻ എനിക്ക് സമ്മതമാണ്." }
+tu_send:              { en: "Send",                            ml: "അയയ്ക്കുക" }
+tu_failed:            { en: "Sorry, that didn't go through. Please check your connection and try again, or email us.", ml: "ക്ഷമിക്കണം, അയയ്ക്കാനായില്ല. കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക, അല്ലെങ്കിൽ ഇമെയിൽ ചെയ്യുക." }
+tu_thanks_title:      { en: "Thank you!",                      ml: "നന്ദി!" }
+tu_thanks_text:       { en: "We have received it and will read it soon. If you left an email or phone number, we may get in touch.", ml: "ഞങ്ങൾക്കു കിട്ടി; ഉടൻ വായിക്കും. ഇമെയിലോ ഫോണോ നൽകിയിട്ടുണ്ടെങ്കിൽ ഞങ്ങൾ ബന്ധപ്പെട്ടേക്കാം." }
+tu_again:             { en: "Send something else",             ml: "മറ്റൊന്നു കൂടി അയയ്ക്കുക" }

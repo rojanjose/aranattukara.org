@@ -7,9 +7,7 @@ consent: public
 places: []
 themes: [politics]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14, 16, 17"
 ---
 
 2000-ൽ തൃശ്ശൂർ നഗരസഭ കോർപ്പറേഷനായി ഉയർന്നു. പഴയ നഗരസഭയോടൊപ്പം വിൽവട്ടം, അയ്യന്തോൾ, കൂർക്കഞ്ചേരി, ഒല്ലൂക്കര, ഒല്ലൂർ പഞ്ചായത്തുകളും നടത്തറ പഞ്ചായത്തിന്റെ ചില ഭാഗങ്ങളും ചേർത്തായിരുന്നു കോർപ്പറേഷൻ രൂപീകരിച്ചത്. പുതിയ നഗരത്തിന്റെ ആദ്യ മേയറായത് നാട്ടുകാരുടെ *ജോസേട്ടൻ* — അരണാട്ടുകരക്കാരനായ ജോസ് കാട്ടുക്കാരൻ.

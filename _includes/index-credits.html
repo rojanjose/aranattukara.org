@@ -6,9 +6,9 @@
     {% include img.html name=_name alt="" sizes="96px" %}
     <figcaption>
       <strong>{{ _c.title }}</strong>
-      {% include t.html key="credits_by" %}: {{ _c.author }}{% if _c.date != "" and _c.date != "Unknown date" %}, {{ _c.date }}{% endif %}<br>
-      {% include t.html key="credits_licence" %}: {% if _c.license_url != "" %}<a href="{{ _c.license_url }}" rel="license noopener" target="_blank">{{ _c.license }}</a>{% else %}{{ _c.license }}{% endif %}{% if _c.source != "" %} · <a href="{{ _c.source }}" target="_blank" rel="noopener">{% include t.html key="credits_source" %}</a>{% endif %}
-      {%- if _c.note != "" %}<br>{{ _c.note }}{% endif %}
+      {% include t.html key="credits_by" %}: {% include t.html key=_c.author %}{% if _c.date != "" and _c.date != "Unknown date" %}, {{ _c.date }}{% endif %}<br>
+      {% include t.html key="credits_licence" %}: {% if _c.license_url != "" %}<a href="{{ _c.license_url }}" rel="license noopener" target="_blank">{% include t.html key=_c.license %}</a>{% else %}{% include t.html key=_c.license %}{% endif %}{% if _c.source != "" %} · <a href="{{ _c.source }}" target="_blank" rel="noopener">{% include t.html key="credits_source" %}</a>{% endif %}
+      {%- if _c.note != "" %}<br>{% include t.html key=_c.note %}{% endif %}
     </figcaption>
   </figure>
   {%- endfor %}

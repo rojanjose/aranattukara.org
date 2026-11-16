@@ -3,16 +3,12 @@ title: Sakthan Thampuran
 summary: The Cochin ruler (1790–1805) who made Thrissur his capital and turned the Aranattukara landing into a centre of state trade.
 years: "1751–1805"
 role: Maharaja of Cochin (1790–1805), who made Thrissur his capital and its port at Aranattukara busy
-photo: ph-sakthan-thampuran-portrait
+photo: sakthan-thampuran-portrait
 consent: historical
 places: [warehouse-landing, st-thomas-church, lalur-karthyayani-temple]
 themes: [trade, waterways, faith]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-needs:
-  - { name: ph-sakthan-thampuran-portrait, brief: "A public-domain painting of Sakthan Thampuran, or a photo of a public statue of him in Thrissur — upright portrait crop, face clearly visible" }
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1, 3, 12"
 ---
 
 Rama Varma, better known as *Sakthan* ("the strong") Thampuran, ruled the kingdom of Cochin from 1790 until he died in 1805. He made Thrissur his seat. His palace at Vadakkechira still stands, and he is credited with giving the Thrissur Pooram its present form.

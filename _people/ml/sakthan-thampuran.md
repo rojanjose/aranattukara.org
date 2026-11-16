@@ -3,14 +3,12 @@ title: ശക്തൻ തമ്പുരാൻ
 summary: തൃശ്ശൂരിനെ ആസ്ഥാനമാക്കുകയും അരണാട്ടുകര കടവിനെ സർക്കാർ വ്യാപാരത്തിന്റെ കേന്ദ്രമാക്കുകയും ചെയ്ത കൊച്ചി രാജാവ് (1790–1805).
 years: "1751–1805"
 role: തൃശ്ശൂരിനെ ആസ്ഥാനമാക്കി അരണാട്ടുകര തുറമുഖത്തെ സജീവമാക്കിയ കൊച്ചി മഹാരാജാവ് (1790–1805)
-photo: ph-sakthan-thampuran-portrait
+photo: sakthan-thampuran-portrait
 consent: historical
 places: [warehouse-landing, st-thomas-church, lalur-karthyayani-temple]
 themes: [trade, waterways, faith]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1, 3, 12"
 ---
 
 ശക്തൻ തമ്പുരാൻ എന്ന പേരിൽ അറിയപ്പെടുന്ന രാമവർമ്മ 1790 മുതൽ 1805-ൽ അന്തരിക്കുന്നതുവരെ കൊച്ചി രാജ്യം ഭരിച്ചു. തൃശ്ശൂരായിരുന്നു അദ്ദേഹത്തിന്റെ ആസ്ഥാനം. വടക്കേച്ചിറയിലെ അദ്ദേഹത്തിന്റെ കൊട്ടാരം ഇന്നും നിലനിൽക്കുന്നു. തൃശ്ശൂർ പൂരത്തിന് ഇന്നത്തെ രൂപം നൽകിയതും അദ്ദേഹമാണെന്നാണ് പൊതുവെ കരുതപ്പെടുന്നത്.

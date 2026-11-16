@@ -1,6 +1,6 @@
 {%- comment -%} Business directory from _data/businesses.yml (one record, both languages). {%- endcomment -%}
 {%- assign _l = page.lang | default: site.default_lang -%}
-{%- assign _biz = site.data.businesses | sort: "since" -%}
+{%- assign _biz = site.data.businesses -%}
 {%- assign _cats = _biz | map: "category" | uniq -%}
 {%- if _biz.size == 0 %}
 <div class="know-more">
@@ -16,11 +16,13 @@
 </ul>
 <div class="biz-grid">
   {%- for b in _biz %}
-  <article class="biz" data-cat="{{ b.category }}">
+{%- assign _ck = "cat_" | append: b.category %}
+  <article class="biz" data-cat="{{ b.category }}" data-keywords="{{ b.name.en }} {{ b.name.ml }} {{ b.address.en }} {{ b.address.ml }} {{ b.note.en }} {{ b.note.ml }} {{ site.data.i18n[_ck].en }} {{ site.data.i18n[_ck].ml }} {{ b.category }} {{ b.keywords }}">
     {%- if b.since %}<span class="since">{% include t.html key="since" %} {{ b.since }}</span>{% endif %}
     <h3>{{ b.name[_l] | default: b.name.en }}</h3>
     <p>{{ b.address[_l] | default: b.address.en }}</p>
     {%- if b.hours %}<p>{{ b.hours[_l] | default: b.hours.en }}</p>{% endif %}
+    {%- if b.note %}<p class="biz-note">{{ b.note[_l] | default: b.note.en }}</p>{% endif %}
     <div class="biz-actions">
       {%- if b.phone %}<a class="btn btn-ghost" href="tel:{{ b.phone }}">{% include t.html key="call" %}</a>{% endif %}
       {%- if b.whatsapp %}<a class="btn btn-whatsapp" href="https://wa.me/{{ b.whatsapp | remove: '+' }}" target="_blank" rel="noopener">{% include t.html key="whatsapp" %}</a>{% endif %}
@@ -29,4 +31,5 @@
   </article>
   {%- endfor %}
 </div>
+<p class="biz-none muted" hidden>{% include t.html key="search_none" %}</p>
 {%- endif %}

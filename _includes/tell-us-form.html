@@ -1,0 +1,56 @@
+{%- comment -%}
+  The site's own contribution form. Answers go to the Google Form in _data/tell_us_form.yml
+  (posted into a hidden frame), so readers stay on the site.
+{%- endcomment -%}
+{%- assign f = site.data.tell_us_form -%}
+<form class="tell-us" id="tell-us" action="{{ f.action }}" method="post" target="tell-us-sink" accept-charset="UTF-8" data-tell-us>
+  <fieldset class="tu-field tu-kind">
+    <legend>{% include t.html key="tu_kind" %} <span class="tu-req" aria-hidden="true">*</span></legend>
+    {%- for o in f.kind.options %}
+    <label class="tu-choice"><input type="checkbox" name="{{ f.kind.entry }}" value="{{ o.value }}"> {% include t.html key=o.key %}</label>
+    {%- endfor %}
+    <p class="tu-error" data-error="kind" hidden>{% include t.html key="tu_pick_one" %}</p>
+  </fieldset>
+
+  <div class="tu-field">
+    <label for="tu-page">{% include t.html key="tu_page" %}</label>
+    <input id="tu-page" type="text" name="{{ f.page.entry }}" autocomplete="off">
+  </div>
+
+  <div class="tu-field">
+    <label for="tu-message">{% include t.html key="tu_message" %} <span class="tu-req" aria-hidden="true">*</span></label>
+    <textarea id="tu-message" name="{{ f.message.entry }}" rows="7" required></textarea>
+  </div>
+
+  <div class="tu-field">
+    <label for="tu-name">{% include t.html key="tu_name" %}</label>
+    <input id="tu-name" type="text" name="{{ f.name.entry }}" autocomplete="name">
+  </div>
+
+  <fieldset class="tu-field">
+    <legend>{% include t.html key="tu_credit" %} <span class="tu-req" aria-hidden="true">*</span></legend>
+    {%- for o in f.credit.options %}
+    <label class="tu-choice"><input type="radio" name="{{ f.credit.entry }}" value="{{ o.value }}" required> {% include t.html key=o.key %}</label>
+    {%- endfor %}
+  </fieldset>
+
+  <div class="tu-field">
+    <label for="tu-contact">{% include t.html key="tu_contact" %}</label>
+    <input id="tu-contact" type="text" name="{{ f.contact.entry }}" autocomplete="email">
+    <p class="tu-hint">{% include t.html key="tu_contact_hint" %}</p>
+  </div>
+
+  <div class="tu-field">
+    <label class="tu-choice"><input type="checkbox" name="{{ f.consent.entry }}" value="{{ f.consent.value }}" required> {% include t.html key="tu_consent" %} <span class="tu-req" aria-hidden="true">*</span></label>
+  </div>
+
+  <p class="tu-actions"><button type="submit" class="btn">{% include t.html key="tu_send" %}</button></p>
+  <p class="tu-error" data-error="send" hidden>{% include t.html key="tu_failed" %}</p>
+</form>
+<div class="tu-thanks" data-tell-us-thanks hidden tabindex="-1">
+  <h3>{% include t.html key="tu_thanks_title" %}</h3>
+  <p>{% include t.html key="tu_thanks_text" %}</p>
+  <p><button type="button" class="btn btn-ghost" data-tell-us-again>{% include t.html key="tu_again" %}</button></p>
+</div>
+<iframe name="tell-us-sink" class="tu-sink" title="" aria-hidden="true" tabindex="-1" hidden></iframe>
+<script src="{{ '/assets/js/tell-us.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

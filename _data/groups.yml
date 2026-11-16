@@ -1,0 +1,15 @@
+# Community groups run by other people (not by aranattukara.org). Shown on the Community
+# page and the Aranattukara Abroad page by _includes/community-groups.html.
+# Ask a group's admins before listing it. An entry with an empty url is not shown.
+# Fields: name {en, ml}, kind (whatsapp, facebook, other), text {en, ml}, url, approval (true if an admin must approve)
+
+- name: { en: "Aranattukara Chuttuvattom (ചുറ്റുവട്ടം) 1", ml: "അരണാട്ടുകര ചുറ്റുവട്ടം 1" }
+  kind: whatsapp
+  text: { en: "A WhatsApp group, part of the Aranattukara Chuttuvattom community, for people who live in or near Aranattukara. Members post what they need, their services and ads, and things to give away or sell, new or used; nothing else. Started in April 2020.", ml: "അരണാട്ടുകര ചുറ്റുവട്ടം കമ്മ്യൂണിറ്റിയുടെ ഭാഗമായ, അരണാട്ടുകരയിലും സമീപപ്രദേശങ്ങളിലും ഉള്ളവർക്കായുള്ള വാട്ട്സ്ആപ്പ് ഗ്രൂപ്പ്. ആവശ്യങ്ങൾ, സേവനങ്ങൾ, പരസ്യങ്ങൾ, സൗജന്യമായി കൊടുക്കാനോ വിൽക്കാനോ ഉള്ള സാധനങ്ങൾ (പുതിയതോ പഴയതോ) എന്നിവ മാത്രം. 2020 ഏപ്രിലിൽ തുടങ്ങി." }
+  url: "https://chat.whatsapp.com/C8cKi7CWeY16CYJtgf4fLx"   # from the group's own description (Nov 2026)
+  approval: true
+
+- name: { en: "Aranattukara on Facebook", ml: "ഫേസ്ബുക്കിൽ അരണാട്ടുകര" }
+  kind: facebook
+  text: { en: "The Aranattukara page on Facebook.", ml: "ഫേസ്ബുക്കിലെ അരണാട്ടുകര പേജ്." }
+  url: "https://www.facebook.com/pages/Aranattukara/109524502407721"

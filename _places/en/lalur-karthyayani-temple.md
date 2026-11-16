@@ -2,15 +2,14 @@
 title: Lalur Karthyayani Temple
 summary: An old kavu (sacred-grove) temple at Lalur whose goddess goes in procession to Vadakkunnathan as one of the small poorams of the Thrissur Pooram.
 type: temple
-coords: [10.50886, 76.18993]
+coords: [10.50884, 76.18992]
+timings: "Opens 6 am (please confirm before visiting)"
 walk_stop: 3
 themes: [faith, festivals]
-photos: [ph-lalur-karthyayani-temple]
+photos: [lalur-karthyayani-temple]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-needs:
-  - { name: ph-lalur-karthyayani-temple, brief: "Lalur Karthyayani Temple — gateway and front of the shrine, daylight, landscape (ask the temple office before photographing)" }
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3, 12"
+  - "Google Maps, “Sree Laloor Karthyayani Devi Temple” (address, opening time and location; checked November 2026)"
 ---
 The Karthyayani temple at Lalur is the oldest Hindu shrine of Aranattukara. It stands beside the road that leads from Lalur to the [Dr John Matthai Centre]({{ '/en/places/john-matthai-centre/' | relative_url }}) and on to the *kol* (low-lying paddy wetlands).
 
@@ -26,4 +25,9 @@ Lalur is one of the eight temples whose goddesses and gods hold the *cherupooram
 
 ## Visiting
 
-The map pin here comes from OpenStreetMap and is still to be confirmed on the ground. We have not listed *pooja* timings or the temple's own festival dates yet. If you can help us with these, or with the temple's history, please contact us.
+The temple's own name is **Sree Laloor Karthyayani Devi Temple**. It stands on Dr John Matthai Road, beside the Dr John Matthai Centre, with the *kol* fields just to the west.
+
+- **Address:** Dr John Matthai Road, Lalur, Aranattukara, Thrissur 680007
+- **Opens:** 6 am (please confirm before visiting)
+
+We have not listed the full *pooja* timings or the temple's own festival dates yet. If you can help us with these, or with the temple's history, please [tell us]({{ '/en/contribute/' | relative_url }}).

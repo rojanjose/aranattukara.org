@@ -17,9 +17,7 @@ needs:
   - { name: ph-old-factory-building, brief: "Remains of an old factory or foundry in Aranattukara, e.g. the former Cochin Malleables site at Kizhakkeppuram or a foundry near Poothole / Calvary Road. Outside only, daylight, landscape. If none survives, an old bakery oven (borma) at Valiyangadi will do." }
   - { name: ph-old-tiled-house, brief: "An old tiled house of two or three storeys in Aranattukara (e.g. Valiyangadi or Thoppinmoola), photographed from the street with the owners' permission. Landscape, daylight, showing the roof and woodwork." }
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 13"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 15 (drawing in part on C.T. Antony, *Oonnuvadikal*)"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16 (the Cochin Malleables football team)"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 13, 15 (drawing in part on C.T. Antony, *Oonnuvadikal*), 16 (the Cochin Malleables football team)"
 ---
 
 Aranattukara grew up as a place of buying and selling. Its markets, its *kadavu* (boat landing) and its closeness to Thrissur made it rich in trade long before it had anything that could be called a factory. When industry did arrive in the twentieth century, it came in a handful of workshops and foundries, most of them making heavy iron parts for the oil mills of the district. This chapter follows that working life: the factories, the bakeries, the merchants and banks, the farms and the houses they paid for.

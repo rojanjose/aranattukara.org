@@ -8,10 +8,7 @@ consent: historical
 places: [john-matthai-centre]
 themes: [politics, education, environment]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 12, 14, 17"
 ---
 
 John Mathai was born in Kozhikode in 1886 and became one of the best-known Indian economists of his day. He studied at Madras Christian College and the Madras Law College, and taught economics at Presidency College, Madras. But the home he chose was a quiet bungalow among the trees at Lalur, in Aranattukara.

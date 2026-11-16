@@ -3,16 +3,12 @@ title: ഷെവലിയർ ആന്റണി തരകൻ
 summary: കൊച്ചി രാജകുടുംബത്തിന്റെ വൈദ്യനും മാർപാപ്പയുടെ ഷെവലിയർ ബഹുമതി നേടിയ ആളുമായ, അരണാട്ടുകര തരകൻ കുടുംബത്തിലെ ഏറ്റവും ഓർമ്മിക്കപ്പെടുന്ന അംഗം.
 years: "1880–1912"
 role: കൊച്ചി രാജകുടുംബത്തിന്റെ ആയുർവേദ വൈദ്യൻ, മാർപാപ്പയുടെ നൈറ്റ് ബഹുമതി നേടിയ വ്യക്തി, അരണാട്ടുകരയിലെ ആദ്യ ഇംഗ്ലീഷ് സ്കൂളിന്റെ രക്ഷാധികാരി
-photo: ph-antony-tharakan-portrait
+photo: antony-tharakan-portrait
 consent: historical
 places: [tharakan-house, tharakans-school, st-thomas-church]
 themes: [faith, education]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1, 3, 5, 12, 17"
 ---
 
 ഒരിക്കൽ തങ്ങളുടെ നിയന്ത്രണത്തിലായിരുന്ന കടവു മുതൽ ഇന്നും തങ്ങളുടെ പേര് വഹിക്കുന്ന സ്കൂൾ വരെ, അരണാട്ടുകരയുടെ ചരിത്രത്തിലുടനീളം ചിറമ്മൽ തരകൻ കുടുംബമുണ്ട്. ആ കുടുംബാംഗങ്ങളിൽ പുസ്തകം ഏറ്റവുമധികം പ്രശംസിക്കുന്നത് ആന്റണി തരകനെയാണ്.

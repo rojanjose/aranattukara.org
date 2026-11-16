@@ -7,10 +7,7 @@ consent: historical
 places: [tharakans-school]
 themes: [politics]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10, 14, 16, 17"
 ---
 
 അരണാട്ടുകരക്കാർക്ക് തേറാട്ടിൽ ജെ. ആന്റണി വെറും *അന്തോണിച്ചേട്ടൻ* ആയിരുന്നു. ഒരു തലമുറക്കാലം ഇന്ത്യൻ നാഷണൽ കോൺഗ്രസിന്റെ നാട്ടിലെ മുഖമായിരുന്ന അദ്ദേഹത്തെ എല്ലാ പക്ഷത്തുള്ളവരും ബഹുമാനിച്ചിരുന്നു.

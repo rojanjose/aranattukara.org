@@ -5,8 +5,7 @@ type: landmark
 themes: [environment, politics]
 photos: [lalur-trenching-ground-2010, lalur-waste-dump-2012, lalur-road-to-dump-2012]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12, 14"
 ---
 അരണാട്ടുകരയുടെ വടക്കുപടിഞ്ഞാറ്, ലാലൂർ ശ്മശാനത്തിനും മത്തായിപുരം കോളനിക്കും അടുത്ത്, ഏകദേശം 26¾ ഏക്കർ വരുന്ന ഒരു സർക്കാർ ഭൂമിയുണ്ട്. ഇരുപതാം നൂറ്റാണ്ടിന്റെ ഏറിയ പങ്കും തൃശ്ശൂർ പട്ടണം മാലിന്യം കൊണ്ടുതള്ളിയത് ഇവിടെയാണ്.
 

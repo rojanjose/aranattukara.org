@@ -9,6 +9,8 @@
   <div><dt>{% include t.html key="role" %}</dt><dd>{{ page.role }}</dd></div>{% endif %}
   {%- if page.founded %}
   <div><dt>{% include t.html key="founded" %}</dt><dd>{{ page.founded }}</dd></div>{% endif %}
+  {%- if page.website %}
+  <div><dt>{% include t.html key="website" %}</dt><dd><a href="{{ page.website }}" target="_blank" rel="noopener">{{ page.website | remove: "https://" | remove: "http://" | remove: "www." | split: "/" | first }} ↗</a></dd></div>{% endif %}
   {%- if page.timings %}
   <div><dt>{% include t.html key="timings" %}</dt><dd>{{ page.timings }}</dd></div>{% endif %}
   {%- if page.festivals %}

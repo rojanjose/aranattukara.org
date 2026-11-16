@@ -4,10 +4,9 @@ summary: പാവപ്പെട്ട കുടുംബങ്ങളിലെ 
 type: school
 coords: [10.51387, 76.19530]
 themes: [education]
-photos: [ph-gups-aranattukara]
+photos: [gups-aranattukara, gups-aranattukara-gate, gups-aranattukara-sign]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 14"
   - "OpenStreetMap, “Government Upper Primary School Aranattukara” (location)"
 ---
 അരണാട്ടുകരയിലെ ആദ്യകാല വിദ്യാലയങ്ങളിൽ മിക്കതും ഇടവകയോ തരകൻ കുടുംബം പോലുള്ളവരോ തുടങ്ങിയവയായിരുന്നു. ഇത് സർക്കാർ തുടങ്ങിയതാണ്. പ്രദേശത്തെ പാവപ്പെട്ട കുടുംബങ്ങളിലെ കുട്ടികൾക്ക് സൗജന്യമായി പഠിക്കാൻ വിദ്യാഭ്യാസ വകുപ്പ് ആൺകുട്ടികൾക്കും പെൺകുട്ടികൾക്കും ഒരുമിച്ചുള്ള (മിക്സഡ്) സ്കൂളായി ഇതു തുടങ്ങി.

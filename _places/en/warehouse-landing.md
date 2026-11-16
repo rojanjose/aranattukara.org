@@ -5,13 +5,9 @@ type: lost-place
 walk_stop: 4
 themes: [waterways, trade]
 people: [sakthan-thampuran, antony-tharakan]
-photos: [gould-plan-1816-aranaat, ph-aranattukara-kadavu-today]
+photos: [gould-plan-1816-aranaat, vanchikulam-warehouses, vanchikulam]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-needs:
-  - { name: ph-aranattukara-kadavu-today, brief: "The site of the old kadavu south of St. Thomas Church today, including the walled public bathing pond, daylight, landscape" }
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 1, 3, 12"
 ---
 Walk south past [St. Thomas Church]({{ '/en/places/st-thomas-church/' | relative_url }}) and the old roads lead down to where the *kadavu* (boat landing) used to be. Very little is left to see, but for centuries this was the reason Aranattukara mattered.
 
@@ -27,4 +23,4 @@ On John Gould's 1816 plan of Trichur, a group of red-roofed buildings marked "Ar
 
 ## Fading away
 
-The railway, and a new canal that moved the boats to Vanchikkulam, took the trade away. The landing became a sandbank, then a place for evening walks, and later silted up. Today a walled public bathing pond, looked after by the Thrissur Corporation, is the main reminder of the old *kadavu*.
+The railway, and a new canal that moved the boats to [Vanchikkulam]({{ '/en/places/vanchikulam/' | relative_url }}), took the trade away. The landing became a sandbank, then a place for evening walks, and later silted up. Today a walled public bathing pond, looked after by the Thrissur Corporation, is the main reminder of the old *kadavu*.

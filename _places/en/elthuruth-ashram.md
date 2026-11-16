@@ -3,16 +3,13 @@ title: Elthuruth Ashram
 summary: The Carmelite monastery founded in 1858 by St. Kuriakose Elias Chavara on an islet at the western edge of Aranattukara parish.
 type: convent
 founded: "1858"
+coords: [10.49701, 76.18023]
 themes: [faith, education, waterways]
 people: [st-kuriakose-elias-chavara, adolph-medlycott, antony-tharakan]
-photos: [ph-elthuruth-ashram]
+photos: [elthuruth-ashram]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 9"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 12"
-needs:
-  - { name: ph-elthuruth-ashram, brief: "Elthuruth Ashram — the monastery and church seen from the bund path across the kol fields, daylight, landscape" }
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3, 5, 9, 12"
+  - "Google Maps, “St. Mary's CMI Monastery” (address, phone and location; checked November 2026)"
 ---
 Elthuruth lies at the western edge of Aranattukara, where the land meets the *kol* (low-lying paddy wetlands). Here, on what was then a lonely islet, St. Kuriakose Elias Chavara founded a house of his Carmelite congregation, today's CMI.
 
@@ -26,4 +23,9 @@ The book records two stories about the land: that it came from the Uzhuvathra Va
 
 When Adolph Medlycott was made the first Vicar Apostolic of Thrissur in 1887, the town's main church was in the hands of a breakaway group, so Elthuruth gave him a home. The book says the Tharakan's own horse carriage was sent to bring him there. Around 1889 an English school opened beside the monastery. It grew into [St. Aloysius College]({{ '/en/places/st-aloysius-college/' | relative_url }}).
 
-From Lalur you can still walk to Elthuruth along a footpath on the bund through the paddy fields.
+## Finding it
+
+The monastery is known today as **St. Mary's CMI Monastery**, Elthuruth. Its church stands at the top of a broad flight of steps, beside [St. Aloysius College]({{ '/en/places/st-aloysius-college/' | relative_url }}). From Lalur you can still walk to Elthuruth along a footpath on the bund through the paddy fields.
+
+- **Address:** St. Mary's CMI Monastery, Elthuruth, Thrissur 680611
+- **Phone:** [+91 487 236 0944](tel:+914872360944)

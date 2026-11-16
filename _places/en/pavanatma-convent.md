@@ -4,11 +4,9 @@ summary: A house of the Holy Family sisters on Convent Road, founded in 1983, wh
 type: convent
 founded: "23 December 1983"
 themes: [faith]
-photos: [ph-pavanatma-convent]
+photos: [pavanatma-convent, pavanatma-convent-gate]
 sources:
   - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10"
-needs:
-  - { name: ph-pavanatma-convent, brief: "Pavanatma Convent on Convent Road — front, daylight, landscape (ask the sisters first)" }
 ---
 Pavanatma Convent stands on Convent Road in Aranattukara, a little south of the [Infant Jesus Convent]({{ '/en/places/infant-jesus-convent/' | relative_url }}). Like its older neighbour, it belongs to the Holy Family sisters. *Pavanatma* means the Holy Spirit.
 

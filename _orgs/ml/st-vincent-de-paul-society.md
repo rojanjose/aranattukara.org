@@ -5,8 +5,7 @@ type: religious
 themes: [faith]
 photos: [vincent-de-paul-portrait, ph-st-vincent-de-paul-society]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 11"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 11, 17"
 ---
 അൽമായർ പാവങ്ങളെ സന്ദർശിച്ച് സഹായിക്കുന്ന ലോകവ്യാപകമായ കത്തോലിക്കാ ഉപവിസംഘടനയാണ് സെന്റ് വിൻസെന്റ് ഡി പോൾ സംഘം. അതിന്റെ അരണാട്ടുകര ശാഖയ്ക്ക് നീണ്ടതും ഹൃദ്യവുമായ ഒരു ചരിത്രമുണ്ട്.
 

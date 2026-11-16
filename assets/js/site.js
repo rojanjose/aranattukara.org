@@ -50,8 +50,32 @@
       if (!chip) return;
       group.querySelectorAll("button").forEach(function (b) { b.setAttribute("aria-pressed", b === chip ? "true" : "false"); });
       var v = chip.getAttribute("data-value");
-      items.forEach(function (it) { it.hidden = v !== "all" && (it.getAttribute("data-cat") || "").split(" ").indexOf(v) === -1; });
+      items.forEach(function (it) {
+        it.dataset.offCat = v !== "all" && (it.getAttribute("data-cat") || "").split(" ").indexOf(v) === -1 ? "1" : "";
+        showIfMatched(it);
+      });
       document.dispatchEvent(new CustomEvent("ak:filter", { detail: { value: v } }));
+      document.querySelectorAll("[data-search]").forEach(function (box) { box.dispatchEvent(new Event("input")); });
+    });
+  });
+
+  // Keyword search over cards: <input data-search="target-selector" data-none="no-results-selector">.
+  // Matches every word typed against the card's text and its data-keywords (both languages),
+  // and works together with the chip filters above.
+  function showIfMatched(it) { it.hidden = it.dataset.offCat === "1" || it.dataset.offText === "1"; }
+  function fold(s) { return (s || "").normalize("NFC").toLowerCase(); }
+  document.querySelectorAll("[data-search]").forEach(function (box) {
+    var items = document.querySelectorAll(box.getAttribute("data-search"));
+    var none = document.querySelector(box.getAttribute("data-none"));
+    items.forEach(function (it) { it.dataset.text = fold(it.textContent + " " + (it.getAttribute("data-keywords") || "")); });
+    box.addEventListener("input", function () {
+      var words = fold(box.value).split(/\s+/).filter(Boolean), shown = 0;
+      items.forEach(function (it) {
+        it.dataset.offText = words.every(function (w) { return it.dataset.text.indexOf(w) !== -1; }) ? "" : "1";
+        showIfMatched(it);
+        if (!it.hidden) shown++;
+      });
+      if (none) none.hidden = shown > 0;
     });
   });
 })();

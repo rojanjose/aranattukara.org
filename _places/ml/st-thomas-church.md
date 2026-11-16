@@ -8,11 +8,9 @@ festivals: [perunnal, nagari-kanikkal, christmas]
 walk_stop: 1
 themes: [faith, festivals]
 people: [sakthan-thampuran, fr-antony-thachuparambil, antony-tharakan, chakkoru-master]
-photos: [st-thomas-church-front, st-thomas-church-gate, st-thomas-church-interior, st-thomas-church-palms, st-thomas-church-side, st-thomas-church-bell-tower, st-thomas-church-flagpole, st-thomas-church-grotto, st-thomas-church-parish-hall, st-thomas-church-feast-2025]
+photos: [st-thomas-church-front, st-thomas-church-gate, st-thomas-church-interior, st-thomas-church-palms, st-thomas-church-side, st-thomas-church-bell-tower, st-thomas-church-flagpole, st-thomas-church-grotto, st-thomas-church-parish-hall, st-thomas-church-all-souls, st-thomas-church-feast-2025]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 11"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 3, 11, 17"
 ---
 അരണാട്ടുകരയ്ക്ക് സ്വന്തമായി പള്ളി ഇല്ലാതിരുന്ന കാലത്ത്, ഞായറാഴ്ചകളിൽ ഏതാനും വിശ്വാസികൾ വഞ്ചിയിൽ പഴുവിൽ പള്ളിയിൽ പോയി കുർബാന കണ്ട് ഉച്ചയോടെ *കടവിൽ* തിരിച്ചെത്തുമായിരുന്നു. അവരിൽ നിന്ന് *കൈസ്തുതി* സ്വീകരിക്കാൻ നാട്ടുകാർ കടവിൽ കാത്തുനിന്നു.
 

@@ -8,8 +8,7 @@ consent: historical
 places: [tharakans-school, st-thomas-church]
 themes: [faith, education]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 5, 17"
 ---
 
 വിശുദ്ധ യൗസേപ്പിന്റെ തിരുനാളായ 1930 മാർച്ച് 19-ന് അരണാട്ടുകരയിലാണ് ജോസഫ് നീലങ്കാവിൽ ജനിച്ചത്. നീലങ്കാവിൽ ലാസറിന്റെയും പാലത്തിങ്കൽ കുഞ്ഞന്നത്തിന്റെയും മൂത്ത മകനായിരുന്നു. 1856-ൽ എൽത്തുരുത്ത് ആശ്രമം സ്ഥാപിക്കാനെത്തിയ വിശുദ്ധ ചാവറയച്ചന് സഹായം വാഗ്ദാനം ചെയ്ത കുടുംബങ്ങളിൽ ഒന്നായിരുന്നു നീലങ്കാവിൽ കുടുംബം.

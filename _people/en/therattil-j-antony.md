@@ -7,10 +7,7 @@ consent: historical
 places: [tharakans-school]
 themes: [politics]
 sources:
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 14"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 16"
-  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 17"
+  - "Joy Chiramel, *Arranadu – Aranadu – Orunadu* (2024), ch. 10, 14, 16, 17"
 needs:
   - { name: ph-therattil-j-antony-portrait, brief: "Therattil J. Antony — a photograph of a family or municipal portrait, with permission; upright" }
 ---
